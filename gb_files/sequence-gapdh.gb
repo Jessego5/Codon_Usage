@@ -1,0 +1,690 @@
+LOCUS       NG_007073              10880 bp    DNA     linear   PRI 28-APR-2025
+DEFINITION  Homo sapiens glyceraldehyde-3-phosphate dehydrogenase (GAPDH),
+            RefSeqGene on chromosome 12.
+ACCESSION   NG_007073
+VERSION     NG_007073.2
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 10880)
+  AUTHORS   Wagener,J., Schneider,J.J., Baxmann,S., Kalbacher,H., Borelli,C.,
+            Nuding,S., Kuchler,R., Wehkamp,J., Kaeser,M.D.,
+            Mailander-Sanchez,D., Braunsdorf,C., Hube,B., Schild,L.,
+            Forssmann,W.G., Korting,H.C., Liepke,C. and Schaller,M.
+  TITLE     A peptide derived from the highly conserved protein GAPDH is
+            involved in tissue protection by different antifungal strategies
+            and epithelial immunomodulation
+  JOURNAL   J Invest Dermatol 133 (1), 144-153 (2013)
+   PUBMED   22832495
+REFERENCE   2  (bases 1 to 10880)
+  AUTHORS   Tristan,C., Shahani,N., Sedlak,T.W. and Sawa,A.
+  TITLE     The diverse functions of GAPDH: views from different subcellular
+            compartments
+  JOURNAL   Cell Signal 23 (2), 317-323 (2011)
+   PUBMED   20727968
+  REMARK    Review article
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC006064.10.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On Dec 28, 2007 this sequence version replaced NG_007073.1.
+            
+            Summary: This gene encodes a member of the
+            glyceraldehyde-3-phosphate dehydrogenase protein family. The
+            encoded protein has been identified as a moonlighting protein based
+            on its ability to perform mechanistically distinct functions. The
+            product of this gene catalyzes an important energy-yielding step in
+            carbohydrate metabolism, the reversible oxidative phosphorylation
+            of glyceraldehyde-3-phosphate in the presence of inorganic
+            phosphate and nicotinamide adenine dinucleotide (NAD). The encoded
+            protein has additionally been identified to have uracil DNA
+            glycosylase activity in the nucleus. Also, this protein contains a
+            peptide that has antimicrobial activity against E. coli, P.
+            aeruginosa, and C. albicans. Studies of a similar protein in mouse
+            have assigned a variety of additional functions including
+            nitrosylation of nuclear proteins, the regulation of mRNA
+            stability, and acting as a transferrin receptor on the cell surface
+            of macrophage. Many pseudogenes similar to this locus are present
+            in the human genome. Alternative splicing results in multiple
+            transcript variants. [provided by RefSeq, Nov 2014].
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-10880             AC006064.10        86572-97451
+FEATURES             Location/Qualifiers
+     source          1..10880
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="12"
+                     /map="12p13.31"
+     gene            <1..2465
+                     /gene="NCAPD2"
+                     /gene_synonym="CAP-D2; CNAP1; hCAP-D2; MCPH21"
+                     /note="non-SMC condensin I complex subunit D2"
+                     /db_xref="GeneID:9918"
+                     /db_xref="HGNC:HGNC:24305"
+                     /db_xref="MIM:615638"
+     mRNA            join(<23..103,285..468,1201..1327,1431..1586,1837..2465)
+                     /gene="NCAPD2"
+                     /gene_synonym="CAP-D2; CNAP1; hCAP-D2; MCPH21"
+                     /product="non-SMC condensin I complex subunit D2"
+                     /inference="similar to RNA sequence, mRNA (same
+                     species):RefSeq:NM_014865.4"
+                     /exception="annotated by transcript or proteomic data"
+                     /transcript_id="NM_014865.4"
+                     /db_xref="GeneID:9918"
+                     /db_xref="HGNC:HGNC:24305"
+                     /db_xref="MIM:615638"
+     CDS             join(<23..103,285..468,1201..1327,1431..1586,1837..1922)
+                     /gene="NCAPD2"
+                     /gene_synonym="CAP-D2; CNAP1; hCAP-D2; MCPH21"
+                     /inference="similar to AA sequence (same
+                     species):RefSeq:NP_055680.3"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="chromosome condensation-related SMC-associated
+                     protein 1; XCAP-D2 homolog; chromosome-associated protein
+                     D2"
+                     /codon_start=2
+                     /product="condensin complex subunit 1"
+                     /protein_id="NP_055680.3"
+                     /db_xref="CCDS:CCDS8548.1"
+                     /db_xref="GeneID:9918"
+                     /db_xref="HGNC:HGNC:24305"
+                     /db_xref="MIM:615638"
+                     /translation="MAPQMYEFHLPLSPEELLKSGGVNQYVVQEVLSIKHLPPQLRAF
+                     QAAFRAQGPLAMLQHFDTIYSILHHFRSIDPGLKEDTLQFLIKVVSRHSQELPAILDD
+                     TTLSGSDRNAHLNALKMNCYALIRLLESFETMASQTNLVDLDLGGKGKKARTKAAHGF
+                     DWEEERQPILQLLTQLLQLDIRHLWNHSIIEEEFVSLVTGCCYRLLENPTINHQKNRP
+                     TREAITHLLGVALTRYNHMLSATVKIIQMLQHFEHLAPVLVAAVSLWATDYGMKSIVG
+                     EIVREIGQKCPQELSRDPSGTKGFAAFLTELAERVPAILMSSMCILLDHLDGENYMMR
+                     NAVLAAMAEMVLQVLSGDQLEAAARDTRDQFLDTLQAHGHDVNSFVRSRVLQLFTRIV
+                     QQKALPLTRFQAVVALAVGRLADKSVLVCKNAIQLLASFLANNPFSCKLSDADLAGPL
+                     QKETQKLQEMRAQRRTAAASAVLDPEEEWEAMLPELKSTLQQLLQLPQGEEEIPEQIA
+                     NTETTEDVKGRIYQLLAKASYKKAIILTREATGHFQESEPFSHIDPEESEETRLLNIL
+                     GLIFKGPAASTQEKNPRESTGNMVTGQTVCKNKPNMSDPEESRGNDELVKQEMLVQYL
+                     QDAYSFSRKITEAIGIISKMMYENTTTVVQEVIEFFVMVFQFGVPQALFGVRRMLPLI
+                     WSKEPGVREAVLNAYRQLYLNPKGDSARAKAQALIQNLSLLLVDASVGTIQCLEEILC
+                     EFVQKDELKPAVTQLLWERATEKVACCPLERCSSVMLLGMMARGKPEIVGSNLDTLVS
+                     IGLDEKFPQDYRLAQQVCHAIANISDRRKPSLGKRHPPFRLPQEHRLFERLRETVTKG
+                     FVHPDPLWIPFKEVAVTLIYQLAEGPEVICAQILQGCAKQALEKLEEKRTSQEDPKES
+                     PAMLPTFLLMNLLSLAGDVALQQLVHLEQAVSGELCRRRVLREEQEHKTKDPKEKNTS
+                     SETTMEEELGLVGATADDTEAELIRGICEMELLDGKQTLAAFVPLLLKVCNNPGLYSN
+                     PDLSAAASLALGKFCMISATFCDSQLRLLFTMLEKSPLPIVRSNLMVATGDLAIRFPN
+                     LVDPWTPHLYARLRDPAQQVRKTAGLVMTHLILKDMVKVKGQVSEMAVLLIDPEPQIA
+                     ALAKNFFNELSHKGNAIYNLLPDIISRLSDPELGVEEEPFHTIMKQLLSYITKDKQTE
+                     SLVEKLCQRFRTSRTERQQRDLAYCVSQLPLTERGLRKMLDNFDCFGDKLSDESIFSA
+                     FLSVVGKLRRGAKPEGKAIIDEFEQKLRACHTRGLDGIKELEIGQAGSQRAPSAKKPS
+                     TGSRYQPLASTASDNDFVTPEPRRTTRRHPNTQQRASKKKPKVVFSSDESSEEDLSAE
+                     MTEDETPKKTTPILRASARRHRS"
+     misc_feature    join(24..103,285..468,1201..1327,1431..1586,1837..1922)
+                     /gene="NCAPD2"
+                     /gene_synonym="CAP-D2; CNAP1; hCAP-D2; MCPH21"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q15021.3);
+                     Region: Interactions with SMC2 and SMC4"
+     misc_feature    81..83
+                     /gene="NCAPD2"
+                     /gene_synonym="CAP-D2; CNAP1; hCAP-D2; MCPH21"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:20068231; propagated from
+                     UniProtKB/Swiss-Prot (Q15021.3); phosphorylation site"
+     gene            5027..8881
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="glyceraldehyde-3-phosphate dehydrogenase"
+                     /db_xref="GeneID:2597"
+                     /db_xref="HGNC:HGNC:4141"
+                     /db_xref="MIM:138400"
+     mRNA            join(5027..5079,5320..5371,7004..7103,7194..7300,
+                     7430..7520,7611..7726,7819..7900,8094..8506,8611..8881)
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /product="glyceraldehyde-3-phosphate dehydrogenase,
+                     transcript variant 1"
+                     /transcript_id="NM_002046.7"
+                     /db_xref="GeneID:2597"
+                     /db_xref="HGNC:HGNC:4141"
+                     /db_xref="MIM:138400"
+     exon            5027..5079
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=1
+     exon            5320..5371
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=2
+     CDS             join(5343..5371,7004..7103,7194..7300,7430..7520,
+                     7611..7726,7819..7900,8094..8506,8611..8680)
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /EC_number="1.2.1.12"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     aging-associated gene 9 protein; OCAS, p38 component;
+                     peptidyl-cysteine S-nitrosylase GAPDH; epididymis
+                     secretory sperm binding protein Li 162eP; Oct1 coactivator
+                     in S phase, 38 Kd component"
+                     /codon_start=1
+                     /product="glyceraldehyde-3-phosphate dehydrogenase isoform
+                     1"
+                     /protein_id="NP_002037.2"
+                     /db_xref="CCDS:CCDS8549.1"
+                     /db_xref="GeneID:2597"
+                     /db_xref="HGNC:HGNC:4141"
+                     /db_xref="MIM:138400"
+                     /translation="MGKVKVGVNGFGRIGRLVTRAAFNSGKVDIVAINDPFIDLNYMV
+                     YMFQYDSTHGKFHGTVKAENGKLVINGNPITIFQERDPSKIKWGDAGAEYVVESTGVF
+                     TTMEKAGAHLQGGAKRVIISAPSADAPMFVMGVNHEKYDNSLKIISNASCTTNCLAPL
+                     AKVIHDNFGIVEGLMTTVHAITATQKTVDGPSGKLWRDGRGALQNIIPASTGAAKAVG
+                     KVIPELNGKLTGMAFRVPTANVSVVDLTCRLEKPAKYDDIKKVVKQASEGPLKGILGY
+                     TEHQVVSSDFNSDTHSSTFDAGAGIALNDHFVKLISWYDNEFGYSNRVVDLMAHMASK
+                     E"
+     misc_feature    join(5346..5371,7004..7103,7194..7300,7430..7520,
+                     7611..7726,7819)
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="propagated from UniProtKB/Swiss-Prot (P04406.3);
+                     Region: Interaction with WARS1.
+                     /evidence=ECO:0000269|PubMed:15628863"
+     mat_peptide     join(5346..5371,7004..7070)
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /product="hGAPDH (2-32)"
+                     /experiment="DESCRIPTION:antimicrobial
+                     peptide[PMID:22832495]"
+     misc_feature    5355..5357
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6,N6-dimethyllysine.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); methylation site"
+     misc_feature    7098..7100
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0007744|PubMed:15592455; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    7245..7247
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); acetylation site"
+     misc_feature    7260..7262
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6,N6-dimethyllysine.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); methylation site"
+     misc_feature    7287..7289
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:18183946,
+                     ECO:0007744|PubMed:20068231; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    7440..7442
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:17081983,
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163;
+                     propagated from UniProtKB/Swiss-Prot (P04406.3);
+                     phosphorylation site"
+     misc_feature    7647..7649
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    join(7725..7726,7819)
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    7826..7828
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    7832..7834
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8097..8099
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8103..8105
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Activates thiol group during catalysis.
+                     /evidence=ECO:0000305|PubMed:16239728,
+                     ECO:0000305|PubMed:16510976; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); other site"
+     misc_feature    8112..8114
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8118..8120
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8148..8150
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); methylation site"
+     misc_feature    8148..8150
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); acetylation site"
+     misc_feature    8157..8159
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="(Microbial infection) N-beta-linked (GlcNAc)
+                     arginine. /evidence=ECO:0000269|PubMed:28522607;
+                     propagated from UniProtKB/Swiss-Prot (P04406.3);
+                     glycosylation site"
+     misc_feature    8166..8168
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="(Microbial infection) N-beta-linked (GlcNAc)
+                     arginine. /evidence=ECO:0000269|PubMed:28522607;
+                     propagated from UniProtKB/Swiss-Prot (P04406.3);
+                     glycosylation site"
+     misc_feature    8199..8201
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:19690332; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8211..8213
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); methylation site"
+     misc_feature    8223..8225
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); acetylation site"
+     misc_feature    8247..8249
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); methylation site"
+     misc_feature    8247..8249
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); acetylation site"
+     misc_feature    8253..8255
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:18183946,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8277..8279
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8289..8291
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8301..8318
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="propagated from UniProtKB/Swiss-Prot (P04406.3);
+                     Region: [IL]-x-C-x-x-[DE] motif.
+                     /evidence=ECO:0000305|PubMed:25417112"
+     misc_feature    8328..8330
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); acetylation site"
+     misc_feature    8346..8348
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6,N6-dimethyllysine.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); methylation site"
+     misc_feature    8355..8357
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6,N6-dimethyllysine.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); methylation site"
+     misc_feature    8502..8504
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:18183946,
+                     ECO:0007744|PubMed:19690332; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8669..8671
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); phosphorylation site"
+     misc_feature    8672..8674
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /note="N6,N6-dimethyllysine.
+                     /evidence=ECO:0000269|PubMed:18183946; propagated from
+                     UniProtKB/Swiss-Prot (P04406.3); methylation site"
+     exon            7004..7103
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=3
+     exon            7194..7300
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=4
+     exon            7430..7520
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=5
+     exon            7611..7726
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=6
+     exon            7819..7900
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=7
+     exon            8094..8506
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=8
+     exon            8611..8881
+                     /gene="GAPDH"
+                     /gene_synonym="G3PD; GAPD; HEL-S-162eP"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=9
+     gene            complement(9471..>10880)
+                     /gene="IFFO1"
+                     /gene_synonym="HOM-TES-103; IFFO"
+                     /note="intermediate filament family orphan 1"
+                     /db_xref="GeneID:25900"
+                     /db_xref="HGNC:HGNC:24970"
+                     /db_xref="MIM:610495"
+     mRNA            complement(9471..>10880)
+                     /gene="IFFO1"
+                     /gene_synonym="HOM-TES-103; IFFO"
+                     /product="intermediate filament family orphan 1,
+                     transcript variant 2"
+                     /transcript_id="NM_080730.5"
+                     /db_xref="GeneID:25900"
+                     /db_xref="HGNC:HGNC:24970"
+                     /db_xref="MIM:610495"
+     mRNA            complement(9471..>10880)
+                     /gene="IFFO1"
+                     /gene_synonym="HOM-TES-103; IFFO"
+                     /product="intermediate filament family orphan 1,
+                     transcript variant 9"
+                     /transcript_id="NM_001330325.2"
+                     /db_xref="GeneID:25900"
+                     /db_xref="HGNC:HGNC:24970"
+                     /db_xref="MIM:610495"
+     mRNA            complement(9471..>10880)
+                     /gene="IFFO1"
+                     /gene_synonym="HOM-TES-103; IFFO"
+                     /product="intermediate filament family orphan 1,
+                     transcript variant 4"
+                     /transcript_id="NM_001039670.3"
+                     /db_xref="GeneID:25900"
+                     /db_xref="HGNC:HGNC:24970"
+                     /db_xref="MIM:610495"
+     mRNA            complement(9471..>10880)
+                     /gene="IFFO1"
+                     /gene_synonym="HOM-TES-103; IFFO"
+                     /product="intermediate filament family orphan 1,
+                     transcript variant 8"
+                     /transcript_id="NM_001330324.2"
+                     /db_xref="GeneID:25900"
+                     /db_xref="HGNC:HGNC:24970"
+                     /db_xref="MIM:610495"
+     misc_RNA        complement(9471..>10880)
+                     /gene="IFFO1"
+                     /gene_synonym="HOM-TES-103; IFFO"
+                     /product="intermediate filament family orphan 1,
+                     transcript variant 7"
+                     /inference="similar to RNA sequence (same
+                     species):RefSeq:NR_036467.2"
+                     /exception="annotated by transcript or proteomic data"
+                     /transcript_id="NR_036467.2"
+                     /db_xref="GeneID:25900"
+                     /db_xref="HGNC:HGNC:24970"
+                     /db_xref="MIM:610495"
+     mRNA            complement(10049..>10880)
+                     /gene="IFFO1"
+                     /gene_synonym="HOM-TES-103; IFFO"
+                     /product="intermediate filament family orphan 1,
+                     transcript variant 5"
+                     /transcript_id="NM_001193457.2"
+                     /db_xref="GeneID:25900"
+                     /db_xref="HGNC:HGNC:24970"
+                     /db_xref="MIM:610495"
+ORIGIN      
+        1 tcctcatctc cccttcctgc agacagctcc tctcctacat caccaaggac aagcagacag
+       61 agagcctggt ggaaaagctg tgtcagcggt tccgcacatc ccggtatgct gccctccctg
+      121 agggttcttt gtgctgagcg gggccctgca ggggagaaag gcccatccct caccccttca
+      181 atgcccccac tgtggcatcc ctgggactgg ggaggctgat ggggaaggtt gagcctttac
+      241 tagctggatc tcccagttcc tcacaaagcc cttcctatct gcagaactga gcggcagcag
+      301 cgagacctgg cctactgtgt gtcacagctg cccctcacag agcgaggcct ccgtaagatg
+      361 cttgacaatt ttgactgttt tggagacaaa ctgtcagatg agtccatctt cagtgctttt
+      421 ttgtcagttg taggcaagct gcgacgtggg gccaagcctg agggcaaggt gagcagcaca
+      481 ggacacttca atgcctgttg ggttctgggc tggctaagac atctgccggc cctgggcagc
+      541 atacggctct tgcagtcacc ttcccgtcct ccttatcccc agctgggttg caaccaaatt
+      601 gccagagtga cctaagacca gatctttgtc tccagttctt tttttattac tccaaaaaca
+      661 caaccaaagc agcatctcat ccaattcttg tttgtttgtt tttaatagtt tttatttttc
+      721 agagcagttt taggttcaaa gcaaaattga gcagaaagta cagggagttc ccttctaccc
+      781 cttgccccta cacatcacag ccttccccac cttcaacatc ctgcaccagg gtggcacatt
+      841 tgttacagct gaacctacac ttacacatca tctcctaaag tcatggttta ccttggagtt
+      901 cactgcacgt aatgacatgt acccaccatt gcagtatcat acagaagagt ttcactgcct
+      961 tacaaatccc ctgcactcca cctatttatc cctctctccc cacaacccct gatcttttta
+     1021 ctgttgccat cactttgtct tttccagaat gtatcattgg aatgatccgg tatggagcct
+     1081 tctcaccttg gcttcttagt aatgtgcgtt taaggcctcc atgtcttcca tggccttgtt
+     1141 tctttttaat cagaagtaac tgttttcagg cctgctctga atctcctttt ctccctccag
+     1201 gctataatag atgaatttga gcagaagctt cgggcctgtc ataccagagg tttggatgga
+     1261 atcaaggagc ttgagattgg ccaagcaggt agccagagag cgccatcagc caagaaacca
+     1321 tccactggta cgtaaggcag cctgtgcggg cgagaccaga ctgggccctc ccctcctgca
+     1381 gtgatttgtt tcttcttctt ttttaaatca cgttttcctg ccttttctag gttctaggta
+     1441 ccagcctctg gcttctacag cctcagacaa tgactttgtc acaccagagc cccgccgtac
+     1501 tacccgtcgg catccaaaca cccagcagcg agcttccaaa aagaaaccca aagttgtctt
+     1561 ctcaagtgat gagtccagtg aggaaggtat gatgctcccg cctgttcccg gccgagaagg
+     1621 cacacagcta gggtgcagag ggctggtttc cataggacct gctgcggggg cctgagtgta
+     1681 gatgctctgc cccactgccg cagaagggcc tctcctgtac agcttggatt ttatttcttc
+     1741 tgtgcggtgt gggattgtct cacttgttct ctgatatcta ttttttcacc atctttgtga
+     1801 ctcagctttt tcttattcct ttaattcttt gcatagatct ttcagcagag atgacagaag
+     1861 acgagacacc caagaaaaca actcccattc tcagagcatc ggctcgcagg cacagatcct
+     1921 aggaagtctg ttcctgtcct ccctgtgcag ggtatcctgt agggtgacct ggaattcgaa
+     1981 ttctgtttcc cttgtaaaat atttgtctgt ctcttttttt taaaaaaaaa aaaggccggg
+     2041 cactgtggct cacgcctgta atcccagcac tttgcgatac caaggcgggt ggataacctg
+     2101 aggtagggag ttcgagacca gcctgaccaa catggagaaa ccccatctct actaaaaata
+     2161 aaaaattagc cgggcgtatt ggcgtgcgcc tgtaatccca gctactcaag aggctgaggc
+     2221 aggagaatcg cctgaaccca gaggcggagg ttgtagtgag ccgaaatcac accattgcac
+     2281 tccagcttgg gcaacaatag cgaacctcca tctcaaatta aaaaaaaaat gcctacacgc
+     2341 tctttaaaat gcaaggcttt ctcttaaatt agcctaactg aactgcgttg agctgcttca
+     2401 actttggaat atatgtttgc caatctcctt gttttctaat gaataaatgt ttttatatac
+     2461 ttttagacat tttttcctaa gcttgtcttt gtttcatctt tcacattagc ccagtttcat
+     2521 gcagcagaga gagggttatc agtgcagaga gagatgagtg agcccagagt cctagggcct
+     2581 gtcccgggat ggcagatgag cttcctgccc cgtcactgcc acctttcccc tctcaacctc
+     2641 tggaccctgc acagtgacca gacagcctct ctggggagaa ttatgcagtg cctaggctcc
+     2701 agatcagtgc ttctgaaccg ggggcaattt tgtctgccag aggacatctg acaacacctg
+     2761 gggcctgttt tgttgtcata gcctataggg gaagaatgct accagcattt gtgggaagag
+     2821 gccagggatg tggctcaaca tcctgcagtg cacaggatgg cccctcaaca aagaatcaca
+     2881 cggcccacaa tgtcaatagc gtcacagttg agaaaacctg ctctagacca agggttgctt
+     2941 tctgccgtgt gcctcacccc acccccactc gtgttcccta atcccatctc caaaggttgg
+     3001 cagcagaccg gcccaggctc gtggaagttc agatcatgat cccctccagc tctgcaggag
+     3061 acaagacctg tctcccagca ttcctcattg ttcccgggtc tgcagagggc gtgagctatg
+     3121 ctgcaggcgg gctgccccct gaagcctgcg cacccctctc cagctcctca agtcttctct
+     3181 gctgagtcac cttcgaaccg gaggctgtga gctggctgtc gtgaccacac tggtgcctct
+     3241 gctgtcatga caacagcaca ctacgtcagt agtgctccct gggcactgag ctccctcttt
+     3301 gcggggagaa gacagtaatg aaaaatgaca agcatgaggc agaggggaag atcacgcttg
+     3361 ggtggtgcag gagcatggag gtgctcttaa tgctctcaat gagaaagggt taacggtcct
+     3421 ggttgcagga atagctgagt cagaggtggg gcttcctcca ctcccccacc ccaccccttt
+     3481 caccattagg gaccttcttg ccttgctctt gctactctgc tctgggtggt cattgtgaaa
+     3541 agcccgcacc aaccatgcca gtggcagcca gacgaggaca cagcctggct ctgggtccca
+     3601 gcaggaaagg caatcccaga aaggcagggt cagggactgg agtcctgtgg gtgcttttta
+     3661 agcaaagatt atcaccaggc aggctaaact tagcaaccgg cttttagcta gaagggcagg
+     3721 gggctggtgt caggttatgc tgggccagca aagaggcccg ggatccccct cccatgcacc
+     3781 tgctgatggg ccaaggccac cccaccccac ccccttcctt acaagtgttc agcaccctcc
+     3841 catcccacac tcacaaacct ggccctctgc cctcctacca gaagaatgga tcccctgtgg
+     3901 gagggggcag gggacctgtt cccaccgtgt gcccaagacc tcttttccca ctttttccct
+     3961 cttcttgact caccctgccc tcaatatccc ccggcgcagc cagtgaaagg gagtccctgg
+     4021 ctcctggctc gcctgcacgt cccagggcgg ggagggactt ccgccctcac gtcccgctct
+     4081 tcgccccagg ctggatggaa tgaaaggcac actgtctctc tccctaggca gcacagccca
+     4141 caggtttcca ggagtgcctt tgtgggaggc ctctgggccc ccaccagcca tcctgtcctc
+     4201 cgcctggggc cccagcccgg agagagccgc tggtgcacac agggccggga ttgtctgccc
+     4261 taattatcag gtccaggcta cagggctgca ggacatcgtg accttccgtg cagaaacctc
+     4321 cccctccccc tcaagccgcc tcccgagcct ccttcctctc caggccccca gtgcccagtg
+     4381 cccagtgccc agcccaggcc tcggtcccag agatgccagg agccaggaga tggggagggg
+     4441 gaagtggggg ctgggaagga accacgggcc cccgcccgag gcccatgggc ccctcctagg
+     4501 cctttgcctg agcagtccgg tgtcactacc gcagagcctc gaggagaagt tccccaactt
+     4561 tcccgcctct cagcctttga aagaaagaaa ggggaggggg caggccgcgt gcagccgcga
+     4621 gcggtgctgg gctccggctc caattcccca tctcagtcgt tcccaaagtc ctcctgtttc
+     4681 atccaagcgt gtaagggtcc ccgtccttga ctccctagtg tcctgctgcc cacagtccag
+     4741 tcctgggaac cagcaccgat cacctcccat cgggccaatc tcagtccctt cccccctacg
+     4801 tcggggccca cacgctcggt gcgtgcccag ttgaaccagg cggctgcgga aaaaaaaaag
+     4861 cggggagaaa gtagggcccg gctactagcg gttttacggg cgcacgtagc tcaggcctca
+     4921 agaccttggg ctgggactgg ctgagcctgg cgggaggcgg ggtccgagtc accgcctgcc
+     4981 gccgcgcccc cggtttctat aaattgagcc cgcagcctcc cgcttcgctc tctgctcctc
+     5041 ctgttcgaca gtcagccgca tcttcttttg cgtcgccagg tgaagacggg cggagagaaa
+     5101 cccgggaggc tagggacggc ctgaaggcgg caggggcggg cgcaggccgg atgtgttcgc
+     5161 gccgctgcgg ggtgggcccg ggcggcctcc gcattgcagg ggcgggcgga ggacgtgatg
+     5221 cggcgcgggc tgggcatgga ggcctggtgg gggaggggag gggaggcgtg tgtgtcggcc
+     5281 ggggccacta ggcgctcact gttctctccc tccgcgcagc cgagccacat cgctcagaca
+     5341 ccatggggaa ggtgaaggtc ggagtcaacg ggtgagttcg cgggtggctg gggggccctg
+     5401 ggctgcgacc gcccccgaac cgcgtctacg agccttgcgg gctccgggtc tttgcagtcg
+     5461 tatgggggca gggtagctgt tccccgcaag gagagctcaa ggtcagcgct cggacctggc
+     5521 ggagccccgc acccaggctg tggcgccctg tgcagctccg cccttgcggc gccatctgcc
+     5581 cggagcctcc ttcccctagt ccccagaaac aggaggtccc tactcccgcc cgagatcccg
+     5641 acccggaccc ctaggtgggg gacgctttct ttcctttcgc gctctgcggg gtcacgtgtc
+     5701 gcagaggagc ccctccccca cggcctccgg caccgcaggc cccgggatgc tagtgcgcag
+     5761 cgggtgcatc cctgtccgga tgctgcgcct gcggtagagc ggccgccatg ttgcaaccgg
+     5821 gaaggaaatg aatgggcagc cgttaggaaa gcctgccggt gactaaccct gcgctcctgc
+     5881 ctcgatgggt ggagtcgcgt gtggcgggga agtcaggtgg agcgaggcta gctggcccga
+     5941 tttctcctcc gggtgatgct tttcctagat tattctctgg taaatcaaag aagtgggttt
+     6001 atggaggtcc tcttgtgtcc cctccccgca gaggtgtggt ggctgtggca tggtgccaag
+     6061 ccgggagaag ctgagtcatg ggtagttgga aaaggacatt tccaccgcaa aatggcccct
+     6121 ctggtggtgg ccccttcctg cagcgccggc tcacctcacg gccccgccct tcccctgcca
+     6181 gcctagcgtt gacccgaccc caaaggccag gctgtaaatg tcaccgggag gattgggtgt
+     6241 ctgggcgcct cggggaacct gcccttctcc ccattccgtc ttccggaaac cagatctccc
+     6301 accgcaccct ggtctgaggt taaatatagc tgctgacctt tctgtagctg ggggcctggg
+     6361 ctggggctct ctcccatccc ttctccccac acacatgcac ttacctgtgc tcccactcct
+     6421 gatttctgga aaagagctag gaaggacagg caacttggca aatcaaagcc ctgggactag
+     6481 ggggttaaaa tacagcttcc cctcttccca cccgccccag tctctgtccc ttttgtagga
+     6541 gggacttaga gaaggggtgg gcttgccctg tccagttaat ttctgacctt tactcctgcc
+     6601 ctttgagttt gatgatgctg agtgtacaag cgttttctcc ctaaagggtg cagctgagct
+     6661 aggcagcagc aagcattcct ggggtggcat agtggggtgg tgaataccat gtacaaagct
+     6721 tgtgcccaga ctgtgggtgg cagtgcccca catggccgct tctcctggaa gggcttcgta
+     6781 tgactggggg tgttgggcag ccctggagcc ttcagttgca gccatgcctt aagccaggcc
+     6841 agcctggcag ggaagctcaa gggagataaa attcaacctc ttgggccctc ctgggggtaa
+     6901 ggagatgctg cattcgccct cttaatgggg aggtggccta gggctgctca catattctgg
+     6961 aggagcctcc cctcctcatg ccttcttgcc tcttgtctct tagatttggt cgtattgggc
+     7021 gcctggtcac cagggctgct tttaactctg gtaaagtgga tattgttgcc atcaatgacc
+     7081 ccttcattga cctcaactac atggtgagtg ctacatggtg agccccaaag ctggtgtggg
+     7141 aggagccacc tggctgatgg gcagcccctt cataccctca cgtattcccc caggtttaca
+     7201 tgttccaata tgattccacc catggcaaat tccatggcac cgtcaaggct gagaacggga
+     7261 agcttgtcat caatggaaat cccatcacca tcttccagga gtgagtggaa gacagaatgg
+     7321 aagaaatgtg ctttggggag gcaactagga tggtgtggct cccttgggta tatggtaacc
+     7381 ttgtgtccct caatatggtc ctgtccccat ctccccccca cccccatagg cgagatccct
+     7441 ccaaaatcaa gtggggcgat gctggcgctg agtacgtcgt ggagtccact ggcgtcttca
+     7501 ccaccatgga gaaggctggg gtgagtgcag gagggcccgc gggaggggaa gctgactcag
+     7561 ccctgcaaag gcaggacccg ggttcataac tgtctgcttc tctgctgtag gctcatttgc
+     7621 aggggggagc caaaagggtc atcatctctg ccccctctgc tgatgccccc atgttcgtca
+     7681 tgggtgtgaa ccatgagaag tatgacaaca gcctcaagat catcaggtga ggaaggcagg
+     7741 gcccgtggag aagcggccag cctggcaccc tatggacacg ctcccctgac ttgcgccccg
+     7801 ctccctcttt ctttgcagca atgcctcctg caccaccaac tgcttagcac ccctggccaa
+     7861 ggtcatccat gacaactttg gtatcgtgga aggactcatg gtatgagagc tggggaatgg
+     7921 gactgaggct cccacctttc tcatccaaga ctggctcctc cctgccgggg ctgcgtgcaa
+     7981 ccctggggtt gggggttctg gggactggct ttcccataat ttcctttcaa ggtggggagg
+     8041 gaggtagagg ggtgatgtgg ggagtacgct gcagggcctc actccttttg cagaccacag
+     8101 tccatgccat cactgccacc cagaagactg tggatggccc ctccgggaaa ctgtggcgtg
+     8161 atggccgcgg ggctctccag aacatcatcc ctgcctctac tggcgctgcc aaggctgtgg
+     8221 gcaaggtcat ccctgagctg aacgggaagc tcactggcat ggccttccgt gtccccactg
+     8281 ccaacgtgtc agtggtggac ctgacctgcc gtctagaaaa acctgccaaa tatgatgaca
+     8341 tcaagaaggt ggtgaagcag gcgtcggagg gccccctcaa gggcatcctg ggctacactg
+     8401 agcaccaggt ggtctcctct gacttcaaca gcgacaccca ctcctccacc tttgacgctg
+     8461 gggctggcat tgccctcaac gaccactttg tcaagctcat ttcctggtat gtggctgggg
+     8521 ccagagactg gctcttaaaa agtgcagggt ctggcgccct ctggtggctg gctcagaaaa
+     8581 agggccctga caactctttt catcttctag gtatgacaac gaatttggct acagcaacag
+     8641 ggtggtggac ctcatggccc acatggcctc caaggagtaa gacccctgga ccaccagccc
+     8701 cagcaagagc acaagaggaa gagagagacc ctcactgctg gggagtccct gccacactca
+     8761 gtcccccacc acactgaatc tcccctcctc acagttgcca tgtagacccc ttgaagaggg
+     8821 gaggggccta gggagccgca ccttgtcatg taccatcaat aaagtaccct gtgctcaacc
+     8881 agttacttgt cctgtcttat tctagggtct ggggcagagg ggagggaagc tgggcttgtg
+     8941 tcaaggtgag acattcttgc tggggaggga cctggtatgt tctcctcaga ctgagggtag
+     9001 ggcctccaaa cagccttgct tgcttcgaga accatttgct tcccgctcag acgtcttgag
+     9061 tgctacagga agctggcacc actacttcag agaacaaggc cttttcctct cctcgctcca
+     9121 gtcctaggct atctgctgtt ggccaaacat ggaagaagct attctgtggg cagccccagg
+     9181 gaggctgaca ggtggaggaa gtcagggctc gcactgggct ctgacgctga ctggttagtg
+     9241 gagctcagcc tggagctgag ctgcagcggg caattccagc ttggcctccg cagctgtgag
+     9301 gtcttgagca cgtgctctat tgctttctgt gccctcgtgt cttatctgag gacatcgtgg
+     9361 ccagccccta aggtcttcaa gcaggattca tctaggtaaa ccaagtacct aaaaccatgc
+     9421 ccaaggcggt aaggactata taatgtttaa aaatcggtaa aaatgcccac ctcgcatagt
+     9481 tttgaggaag atgaactgag atgtgtcagg gtgacttatt tccatcatcg tccttagggg
+     9541 aacttgggta ggggcaaggc gtgtagctgg gacctaggtc cagacccctg gctctgccac
+     9601 tgaacggctc agttgctttg ggcagttact cccgggcctc actttgcacg tgtgcttacc
+     9661 tagtggagac aaaagtacat acctcggtag agcgcgcacg cctgtaaccc cagcactttg
+     9721 ggaggccaag gtgggtgtat cacctgaggt caggagtttg agaccagcct ggccaacatg
+     9781 gtgaaactcc gtctctacta aaattacaaa aatcagccag gcttcatggc acatgcctat
+     9841 agtcccagct acaggcatgc tgaagcagga gaatcgcttg caccccggag gcagaggctg
+     9901 cagtgagctg agaccacacc actgcactcc agcctaggca acagagtatg agactccatc
+     9961 tcaaaaaaaa aaaaagtacc tacctcagag ttcaaactag tgaatattag gaagtgcttg
+    10021 agacagtgac accaaagtgc acaataaata ctcgccagtt tcattattat taaagaatcc
+    10081 atttgaatgt cagctcaaca cagcctccta taccgaggca ttgtgaaccg catctcccca
+    10141 gcttctccag gcttttccaa gaatcaggga cactgtagcc tgttggtctc agtgtatgac
+    10201 agacacggag gaagcacatc tttagctgat acttaaacag agaccctgag cgcacataca
+    10261 cccgcgcaca catgcatgga gcttcacctt ctctgtcatt ctgcagtgac caggagagca
+    10321 agagctccca cctcccttca aaacactgtg cccatcccgg gcactaaggc ctctttaaag
+    10381 cacggcacct ccacgaggga gggccacagc cacatacact ccacctggca ggtggacagc
+    10441 gtgagcacgt ggaccatagc agggacaagg tgccccggcc agccccaacg ccctctgccg
+    10501 ctgacaggga cagaagccct ctccagctgc gtgtgctgca gaggccatgc gtagcctcca
+    10561 gctgcattct attccactcc agtgcctggg ccagttagca ccagtgtgga agacagtgag
+    10621 ctggctccgg acaacaggga tggaggaaag gtcccacatt cacattcctg atacgtggac
+    10681 aaggtgaggg gccgcaatcg ctctggcagc attttaaaga tggggaagta gcagacaccc
+    10741 acgcgtgaag gcaggagagc cccaactgtg gtggaaatgg ccccagaatg gtagggccaa
+    10801 gcctagctcc agacacccca gagccctgga gaagccaaga ctgagggaga aagcctgagg
+    10861 gaggagcgcc ccagtcccca
+//
+

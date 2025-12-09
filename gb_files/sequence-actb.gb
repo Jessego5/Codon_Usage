@@ -1,0 +1,354 @@
+LOCUS       NG_007992              10454 bp    DNA     linear   PRI 28-MAY-2025
+DEFINITION  Homo sapiens actin beta (ACTB), RefSeqGene (LRG_132) on chromosome
+            7.
+ACCESSION   NG_007992
+VERSION     NG_007992.1
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 10454)
+  AUTHORS   Yates,T.M., Turner,C.L., Firth,H.V., Berg,J. and Pilz,D.T.
+  TITLE     Baraitser-Winter cerebrofrontofacial syndrome
+  JOURNAL   Clin Genet 92 (1), 3-9 (2017)
+   PUBMED   27625340
+  REMARK    Review article
+REFERENCE   2  (bases 1 to 10454)
+  AUTHORS   Verloes,A., Drunat,S., Pilz,D. and Di Donato,N.
+  TITLE     Baraitser-Winter Cerebrofrontofacial Syndrome
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE and
+            Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   26583190
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff in
+            collaboration with Sujatha Mohan. The reference sequence was
+            derived from AC006483.3.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            Summary: This gene encodes one of six different actin proteins.
+            Actins are highly conserved proteins that are involved in cell
+            motility, structure, integrity, and intercellular signaling. The
+            encoded protein is a major constituent of the contractile apparatus
+            and one of the two nonmuscle cytoskeletal actins that are
+            ubiquitously expressed. Mutations in this gene cause
+            Baraitser-Winter syndrome 1, which is characterized by intellectual
+            disability with a distinctive facial appearance in human patients.
+            Numerous pseudogenes of this gene have been identified throughout
+            the human genome. [provided by RefSeq, Aug 2017].
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-10454             AC006483.3         164958-175411
+FEATURES             Location/Qualifiers
+     source          1..10454
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="7"
+                     /map="7p22.1"
+     gene            5001..8454
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /note="actin beta"
+                     /db_xref="GeneID:60"
+                     /db_xref="HGNC:HGNC:132"
+                     /db_xref="MIM:102630"
+     mRNA            join(5001..5078,5939..6067,6202..6441,6883..7321,
+                     7417..7598,7711..8454)
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /product="actin beta"
+                     /transcript_id="NM_001101.3"
+                     /db_xref="GeneID:60"
+                     /db_xref="LRG:t1"
+                     /db_xref="HGNC:HGNC:132"
+                     /db_xref="MIM:102630"
+     exon            5001..5078
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=1
+     exon            5939..6067
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=2
+     CDS             join(5945..6067,6202..6441,6883..7321,7417..7598,
+                     7711..7854)
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /note="beta cytoskeletal actin; PS1TP5-binding protein 1;
+                     I(2)-actin"
+                     /codon_start=1
+                     /product="actin, cytoplasmic 1"
+                     /protein_id="NP_001092.1"
+                     /db_xref="CCDS:CCDS5341.1"
+                     /db_xref="GeneID:60"
+                     /db_xref="LRG:p1"
+                     /db_xref="HGNC:HGNC:132"
+                     /db_xref="MIM:102630"
+                     /translation="MDDDIAALVVDNGSGMCKAGFAGDDAPRAVFPSIVGRPRHQGVM
+                     VGMGQKDSYVGDEAQSKRGILTLKYPIEHGIVTNWDDMEKIWHHTFYNELRVAPEEHP
+                     VLLTEAPLNPKANREKMTQIMFETFNTPAMYVAIQAVLSLYASGRTTGIVMDSGDGVT
+                     HTVPIYEGYALPHAILRLDLAGRDLTDYLMKILTERGYSFTTTAEREIVRDIKEKLCY
+                     VALDFEQEMATAASSSSLEKSYELPDGQVITIGNERFRCPEALFQPSFLGMESCGIHE
+                     TTFNSIMKCDVDIRKDLYANTVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPE
+                     RKYSVWIGGSILASLSTFQQMWISKQEYDESGPSIVHRKCF"
+     misc_feature    5945..5947
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /note="N-acetylmethionine.
+                     /evidence=ECO:0000269|PubMed:36173861,
+                     ECO:0007744|PubMed:22814378; propagated from
+                     UniProtKB/Swiss-Prot (P60709.1); acetylation site"
+     misc_feature    5948..5950
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /note="N-acetylaspartate, in Actin, cytoplasmic 1,
+                     N-terminally processed.
+                     /evidence=ECO:0000269|PubMed:29581253,
+                     ECO:0000269|PubMed:30028079, ECO:0000269|Ref.8,
+                     ECO:0007744|PubMed:19413330, ECO:0007744|PubMed:22223895,
+                     ECO:0007744|PubMed:22814378, ECO:0007744|PubMed:25944712;
+                     propagated from UniProtKB/Swiss-Prot (P60709.1);
+                     acetylation site"
+     misc_feature    6295..6297
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /note="Tele-methylhistidine.
+                     /evidence=ECO:0000269|PubMed:30526847,
+                     ECO:0000269|PubMed:30626964, ECO:0000269|PubMed:30785395,
+                     ECO:0000269|PubMed:31388018, ECO:0000269|PubMed:32503840;
+                     propagated from UniProtKB/Swiss-Prot (P60709.1);
+                     methylation site"
+     misc_feature    6328..6330
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /note="N6-methyllysine.
+                     /evidence=ECO:0000269|PubMed:23673617; propagated from
+                     UniProtKB/Swiss-Prot (P60709.1); methylation site"
+     exon            6202..6441
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=3
+     exon            6883..7321
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=4
+     exon            7417..7598
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=5
+     exon            7711..8454
+                     /gene="ACTB"
+                     /gene_synonym="BKRNS; BNS; BRWS1; CSMH; DDS1; PS1TP5BP1;
+                     THC8"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=6
+     gene            complement(10057..>10454)
+                     /gene="LOC221946"
+                     /note="uncharacterized LOC221946"
+                     /db_xref="GeneID:221946"
+     ncRNA           complement(10057..>10454)
+                     /ncRNA_class="lncRNA"
+                     /gene="LOC221946"
+                     /product="uncharacterized LOC221946"
+                     /inference="similar to RNA sequence (same
+                     species):RefSeq:NR_126168.1"
+                     /exception="annotated by transcript or proteomic data"
+                     /transcript_id="NR_126168.1"
+                     /db_xref="GeneID:221946"
+ORIGIN      
+        1 cgggaggcag aggttgcagt gagctgagat tgtgccactg cagtccagcc tgggcgacag
+       61 agcaagactc catctcaaaa caacaacaac taaaaacgaa caacaacaac aacaaaaaac
+      121 tgaggccagg tgcagtggct cacacctcta atcccagcaa tttgggaggc tgaggtgaga
+      181 ggatcacttc agctcagcag ttcgagacca gcccaggcaa cacagggaga cagaccctgt
+      241 tatattgcag agagacccca tctccacaaa atataaaaat attagtcaga tgtggtggca
+      301 tccctgccgt cccagctact caggaggctg agacaggagg atcgcttgag cccaggaggt
+      361 caaggctgca gtgagctgtg atcatgccac tgcactccag cctgggccac agagctagac
+      421 cctgtctcta aaatttttag agaccttatc tctaaaaata aattaaataa ataaaccggg
+      481 agcacctact ttttcttttt cttttacttt tttttttttt ttttggagac agggtctcta
+      541 tcacccaggc tggagtgcgg tggcatgatc ttggttcact gcagcctcga cccctcaggc
+      601 tcaggcagtt ctcccacctt agcctcccca gtagctggga ctacaggcac atgccaccat
+      661 gcccggctaa ttttgtcttt tttttttttt ttggtagaga cagggtctca ccatgctcct
+      721 caaaactcct ggactcgaga gatcctcctg cctcggcctc ccaaaatgct gggattacgg
+      781 tgtgagccgc tgtgcccggc tattttattt ttaaatgaat aaaagctgga gcacccaact
+      841 tttttgttgt tgtttttctg agacagagtt ttgctcgtca cccaggctgg agtgcagcgg
+      901 cgcaatctcg gcccactgca acctctgcct cccgggttca agcgattctc ctgcctcagc
+      961 ctcctgagta gctgggatta caggcacgcg ccactatgcc cagctaatat tttgtatttt
+     1021 tagtagagac aaggtttcat catgtttgcc aggctgatct tgaatttttg acctcaggtg
+     1081 atccacccgc cttgacctcc caaagtgcag ggattacagg cgtgagccac cacgcccagc
+     1141 ctggagcacc taatttttaa atttaatttt tcttttcttt tttttttttt tttgagacag
+     1201 ggtcttcctc tgtcatccaa gctggaatgc agtgacttga tcatagctca ctataacctt
+     1261 gaccttccac gctgaagcaa tgctcctgcc ccagcctccc aattagctgg gagtacaggc
+     1321 acgtgccaca acacccagct gattttgtag agataggatc tcccgtgttg cccaagcttg
+     1381 tctccaactc ctgggctcga gcgatcttcc ctcctcggcc tcccaaaatg ctgggattac
+     1441 aggtacaagc catcacaccc cagtgggaga gaccccactt gctgccacgt gaccatgggc
+     1501 tgatggtgtc ctctctgggc ctcaggtgat aaattctgag gagggaggta gggcccagga
+     1561 attccgactt tcaaacagcc tttggactca ggccttgggg acattccagg ggacccttta
+     1621 ccagggaggg gcagtgtgag gcaggaggca gggctgccgc ctcagggacc ctgaggctag
+     1681 agtccttccc accgcatttg gggacttgag cacttcacca gtcctgactc agtttcctag
+     1741 tctgtgaatg ggggtgtgtc tcctggaatg ttgccccccc tcattcattc attctcctct
+     1801 cactgagcac ctaccgtgtt cagggtccct gtcctcctag agctaactca agtcttggag
+     1861 ggaagctctg tctcagttcc ttcctctaca aaatggagct tgaggacggg cacggtggct
+     1921 catgcctgta atcccaggac tttgggaggc tgaggtggga ggatcgcttg agccccccgg
+     1981 agctggagac cagcctgggc aacatggtga gaagccatac ctctacagat aatttaaaaa
+     2041 ttagccaggc ttggaagtgt gtgcctatag tcccagctac tcgtgaaggc tttgagccca
+     2101 ggaggtcgag gctgcagtga gctgtgatcg cactccagcc tgggcatcac agcaagacct
+     2161 tgtatcaaaa atagtaataa taataaaaag gaggttggat tccctcctgg caggataggg
+     2221 agggcgctgc agtgcccagg gcaaggtggc tgggtggttg ttttgcggga gggccaagga
+     2281 gtggtccctg ggtctgcgct gtaagagttg gttgcctgga ggccttgcag ggtgggggtg
+     2341 tcaccaaagc aaaggcttgg aggggaaaaa acaaaagtcc cagccaggca ggtggagtcc
+     2401 ccttggctga gttcaaccga gggttctccg ggggctgcgt gcgtgcccca gtgacagctc
+     2461 cgaaagctcc cttacagggc aaagttccca agcacagaag agaacctgtt cacttctccc
+     2521 ctgctcggcc cgccccctgg ccaggcacct ctacttcctc ttttcctgct ccgctgcttg
+     2581 ctttctctct tcagctcctc cctgcccctc accccaggct gctcggccac ctccaacctg
+     2641 ccacctgagg acacccaggc agtcactcat tcaacagcga ggagccctgg ggtgggtgta
+     2701 gtgggaagga gtgggggtga cggagaccct gggagggctc gcagcctggt ggctgaggcc
+     2761 cagttctaaa tgccagctgc aagccttggt ctgaggtagg gaggaaggcg tggctgcaga
+     2821 ggctaaaacg cttccccaaa gaggggcttt ctgggatggg acttgaaggg tgcataggag
+     2881 agcactagga agtggccgct gcagacagag ggaaccacaa gccaggagga caggccagga
+     2941 atgctgcagc ccggggcggg gtggggctgg agctcctgtc tcttggccag ctgaatggag
+     3001 gcccagtggc aacacaggtc ctgcctgggg atcaggtctg ctctgcaccc caccttgctg
+     3061 cctggagccg cccacctgac aacctctcat ccctgctctg cagatccggt cccatcccca
+     3121 ctgcccaccc caccccccca gcactccacc cagttcaacg ttccacgaac ccccagaacc
+     3181 agccctcatc aacaggcagc aagaagggcc ccccgcccat cgccccacaa cgccagccgg
+     3241 gtgaacgttg gcaggtcctg aggcagctgg caagacgcct gcagctgaaa gatacaaggc
+     3301 cagggacagg acagtcccat ccccaggagg cagggagtat acaggctggg gaagtttgcc
+     3361 cttgcgtggg gtggtgatgg aggaggctca gcaagtcttc tggactgtga acctgtgtct
+     3421 gccactgtgt gctgggtggt ggtcatcttt cccaccaggc tgtggcctct gcaaccttca
+     3481 agggaggagc aggtcccatt ggctgagcac agccttgtac cgtgaactgg aacaagcagc
+     3541 ctccttcctg gccacaggtt ccatgtcctt atatggactc atctttgcct attgcgacac
+     3601 acactcagtg aacacctact acgcgctgca aagagccccg caggcctgag gtgcccccac
+     3661 ctcaccactc ttcctatttt tgtgtaaaaa tccagcttct tgtcaccacc tccaaggagg
+     3721 gggaggagga ggaaggcagg ttcctctagg ctgagccgaa tgcccctctg tggtcccacg
+     3781 ccactgatcg ctgcatgccc accacctggg tacacacagt ctgtgattcc cggagcagaa
+     3841 cggaccctgc ccacccggtc ttgtgtgcta ctcagtggac agacccaagg caagaaaggg
+     3901 tgacaaggac agggtcttcc caggctggct ttgagttcct agcaccgccc cgcccccaat
+     3961 cctctgtggc acatggagtc ttggtcccca gagtccccca gcggcctcca gatggtctgg
+     4021 gagggcagtt cagctgtggc tgcgcatagc agacatacaa cggacggtgg gcccagaccc
+     4081 aggctgtgta gacccagccc ccccgccccg cagtgcctag gtcacccact aacgccccag
+     4141 gccttgtctt ggctgggcgt gactgttacc ctcaaaagca ggcagctcca gggtaaaagg
+     4201 tgccctgccc tgtagagccc accttccttc ccagggctgc ggctgggtag gtttgtagcc
+     4261 ttcatcacgg gccacctcca gccactggac cgctggcccc tgccctgtcc tggggagtgt
+     4321 ggtcctgcga cttctaagtg gccgcaagcc acctgactcc cccaacacca cactctacct
+     4381 ctcaagccca ggtctctccc tagtgaccca cccagcacat ttagctagct gagccccaca
+     4441 gccagaggtc ctcaggccct gctttcaggg cagttgctct gaagtcggca agggggagtg
+     4501 actgcctggc cactccatgc cctccaagag ctccttctgc aggagcgtac agaacccagg
+     4561 gccctggcac ccgtgcagac cctggcccac cccacctggg cgctcagtgc ccaagagatg
+     4621 tccacaccta ggatgtcccg cggtgggtgg ggggcccgag agacgggcag gccgggggca
+     4681 ggcctggcca tgcggggccg aaccgggcac tgcccagcgt ggggcgcggg ggccacggcg
+     4741 cgcgccccca gcccccgggc ccagcacccc aaggcggcca acgccaaaac tctccctcct
+     4801 cctcttcctc aatctcgctc tcgctctttt tttttttcgc aaaaggaggg gagagggggt
+     4861 aaaaaaatgc tgcactgtgc ggcgaagccg gtgagtgagc ggcgcggggc caatcagcgt
+     4921 gcgccgttcc gaaagttgcc ttttatggct cgagcggccg cggcggcgcc ctataaaacc
+     4981 cagcggcgcg acgcgccacc accgccgaga ccgcgtccgc cccgcgagca cagagcctcg
+     5041 cctttgccga tccgccgccc gtccacaccc gccgccaggt aagcccggcc agccgaccgg
+     5101 ggcaggcggc tcacggcccg gccgcaggcg gccgcggccc cttcgcccgt gcagagccgc
+     5161 cgtctgggcc gcagcggggg gcgcatgggg ggggaaccgg accgccgtgg ggggcgcggg
+     5221 agaagcccct gggcctccgg agatggggga caccccacgc cagttcggag gcgcgaggcc
+     5281 gcgctcggga ggcgcgctcc gggggtgccg ctctcggggc gggggcaacc ggcggggtct
+     5341 ttgtctgagc cgggctcttg ccaatgggga tcgcagggtg ggcgcggcgg agcccccgcc
+     5401 aggcccggtg ggggctgggg cgccattgcg cgtgcgcgct ggtcctttgg gcgctaactg
+     5461 cgtgcgcgct gggaattggc gctaattgcg cgtgcgcgct gggactcaag gcgctaactg
+     5521 cgcgtgcgtt ctggggcccg gggtgccgcg gcctgggctg gggcgaaggc gggctcggcc
+     5581 ggaaggggtg gggtcgccgc ggctcccggg cgcttgcgcg cacttcctgc ccgagccgct
+     5641 ggccgcccga gggtgtggcc gctgcgtgcg cgcgcgccga cccggcgctg tttgaaccgg
+     5701 gcggaggcgg ggctggcgcc cggttgggag ggggttgggg cctggcttcc tgccgcgcgc
+     5761 cgcggggacg cctccgacca gtgtttgcct tttatggtaa taacgcggcc ggcccggctt
+     5821 cctttgtccc caatctgggc gcgcgccggc gccccctggc ggcctaagga ctcggcgcgc
+     5881 cggaagtggc cagggcgggg gcgacctcgg ctcacagcgc gcccggctat tctcgcagct
+     5941 caccatggat gatgatatcg ccgcgctcgt cgtcgacaac ggctccggca tgtgcaaggc
+     6001 cggcttcgcg ggcgacgatg ccccccgggc cgtcttcccc tccatcgtgg ggcgccccag
+     6061 gcaccaggta ggggagctgg ctgggtgggg cagccccggg agcgggcggg aggcaagggc
+     6121 gctttctctg cacaggagcc tcccggtttc cggggtgggg gctgcgcccg tgctcagggc
+     6181 ttcttgtcct ttccttccca gggcgtgatg gtgggcatgg gtcagaagga ttcctatgtg
+     6241 ggcgacgagg cccagagcaa gagaggcatc ctcaccctga agtaccccat cgagcacggc
+     6301 atcgtcacca actgggacga catggagaaa atctggcacc acaccttcta caatgagctg
+     6361 cgtgtggctc ccgaggagca ccccgtgctg ctgaccgagg cccccctgaa ccccaaggcc
+     6421 aaccgcgaga agatgaccca ggtgagtggc ccgctacctc ttctggtggc cgcctccctc
+     6481 cttcctggcc tcccggagct gcgccctttc tcactggttc tctcttctgc cgttttccgt
+     6541 aggactctct tctctgacct gagtctcctt tggaactctg caggttctat ttgctttttc
+     6601 ccagatgagc tctttttctg gtgtttgtct ctctgactag gtgtctaaga cagtgttgtg
+     6661 ggtgtaggta ctaacactgg ctcgtgtgac aaggccatga ggctggtgta aagcggcctt
+     6721 ggagtgtgta ttaagtaggt gcacagtagg tctgaacaga ctccccatcc caagacccca
+     6781 gcacacttag ccgtgttctt tgcactttct gcatgtcccc cgtctggcct ggctgtcccc
+     6841 agtggcttcc ccagtgtgac atggtgtatc tctgccttac agatcatgtt tgagaccttc
+     6901 aacaccccag ccatgtacgt tgctatccag gctgtgctat ccctgtacgc ctctggccgt
+     6961 accactggca tcgtgatgga ctccggtgac ggggtcaccc acactgtgcc catctacgag
+     7021 gggtatgccc tcccccatgc catcctgcgt ctggacctgg ctggccggga cctgactgac
+     7081 tacctcatga agatcctcac cgagcgcggc tacagcttca ccaccacggc cgagcgggaa
+     7141 atcgtgcgtg acattaagga gaagctgtgc tacgtcgccc tggacttcga gcaagagatg
+     7201 gccacggctg cttccagctc ctccctggag aagagctacg agctgcctga cggccaggtc
+     7261 atcaccattg gcaatgagcg gttccgctgc cctgaggcac tcttccagcc ttccttcctg
+     7321 ggtgagtgga gactgtctcc cggctctgcc tgacatgagg gttacccctc ggggctgtgc
+     7381 tgtggaagct aagtcctgcc ctcatttccc tctcaggcat ggagtcctgt ggcatccacg
+     7441 aaactacctt caactccatc atgaagtgtg acgtggacat ccgcaaagac ctgtacgcca
+     7501 acacagtgct gtctggcggc accaccatgt accctggcat tgccgacagg atgcagaagg
+     7561 agatcactgc cctggcaccc agcacaatga agatcaaggt gggtgtcttt cctgcctgag
+     7621 ctgacctggg caggtcggct gtggggtcct gtggtgtgtg gggagctgtc acatccaggg
+     7681 tcctcactgc ctgtcccctt ccctcctcag atcattgctc ctcctgagcg caagtactcc
+     7741 gtgtggatcg gcggctccat cctggcctcg ctgtccacct tccagcagat gtggatcagc
+     7801 aagcaggagt atgacgagtc cggcccctcc atcgtccacc gcaaatgctt ctaggcggac
+     7861 tatgacttag ttgcgttaca ccctttcttg acaaaaccta acttgcgcag aaaacaagat
+     7921 gagattggca tggctttatt tgtttttttt gttttgtttt ggtttttttt ttttttttgg
+     7981 cttgactcag gatttaaaaa ctggaacggt gaaggtgaca gcagtcggtt ggagcgagca
+     8041 tcccccaaag ttcacaatgt ggccgaggac tttgattgca cattgttgtt tttttaatag
+     8101 tcattccaaa tatgagatgc gttgttacag gaagtccctt gccatcctaa aagccacccc
+     8161 acttctctct aaggagaatg gcccagtcct ctcccaagtc cacacagggg aggtgatagc
+     8221 attgctttcg tgtaaattat gtaatgcaaa atttttttaa tcttcgcctt aatacttttt
+     8281 tattttgttt tattttgaat gatgagcctt cgtgcccccc cttccccctt ttttgtcccc
+     8341 caacttgaga tgtatgaagg cttttggtct ccctgggagt gggtggaggc agccagggct
+     8401 tacctgtaca ctgacttgag accagttgaa taaaagtgca caccttaaaa atgaggccaa
+     8461 gtgtgacttt gtggtgtggc tgggttgggg gcagcagagg gtgaaccctg caggagggtg
+     8521 aaccctgcaa aagggtgggg cagtgggggc caacttgtcc ttacccagag tgcaggtgtg
+     8581 tggagatccc tcctgccttg acattgagca gccttagagg gtgggggagg ctcaggggtc
+     8641 aggtctctgt tcctgcttat tggggagttc ctggcctggc ccttctatgt ctccccaggt
+     8701 accccagttt ttctgggttc acccagagtg cagatgcttg aggaggtggg aagggactat
+     8761 ttgggggtgt ctggctcagg tgccatgcct cactggggct ggttggcacc tgcatttcct
+     8821 gggagtgggg ctgtctcagg gtagctgggc acggtgttcc cttgagtggg ggtgtagtgg
+     8881 gtgttcctag ctgccacgcc tttgccttca cctatgggat cgtggctgtc agccttgagg
+     8941 gtcagcctgg cccaggctcc cataggctta ggagaggccg caattcctac ctgttcatcc
+     9001 agacagaggg ggacctggaa tcaaagtcaa gttggggtag ggggtccatg gggccatatc
+     9061 tggcctgcag acagctctgg ttagctatgg gctgaggtct ggattctgcc ttgtgactgg
+     9121 agactgggcg ccatcccgtg gcctctgagg gcccagtttg ttcgtgaccc atgctgcaga
+     9181 gggagatacc caggctcctg gacctcaggg cctgcctggc actgcaggcc aggttctctt
+     9241 tttatttctg agacggggtc ttgtgttgcc caggctggag tgtaatggca caaccatggc
+     9301 tcactgcagc ctcaactttg ggctcaagca attctcctgc ctcagcctcc caagtagctg
+     9361 aaactacaca ggcatgcccc agcacgccca gctagttgca ggtcagattc tcattgttct
+     9421 acagggccct gagttaaata ctctcgcaag aagaaaccaa gcctggcctg ccttccctct
+     9481 gctagaagct gtgattgaca ccagcagaga atgaaggaag aaaagggggt gaggatccct
+     9541 tgcagggatg ccgtttaccc caaacaccac ctggtgcata gcagttgttc tggaaatgat
+     9601 ccggtccccc caggaggcct ggactctcaa ctgtgcacag tggcctactg gcagagagga
+     9661 aggtggtacc cttcctcctg tgttatcttg gaggtcccct gaagggctct ctggggtggt
+     9721 tctagctctt ttggtctgat ttctgcagtg gtgagccctg ggccaccttg ggccacttaa
+     9781 tcattcaacc cccattcatt gagtgaccac tctacggtgg gggaggctac tgagatgacc
+     9841 tggacaagga ccctgccctg gaggagctgt cagtctggaa gtgaggattt aattcatttg
+     9901 cccattcatt cattcattca ttcattcatt gaggacttaa ttcatttgct cattcattca
+     9961 ttcatttgct cattcatcca ttcattcatc catccatcca tccatccaat cactatttgt
+    10021 gccagatagt gcgggtatag aggagaacca accagatgtg ttccgtgtcc tcaccaggca
+    10081 cccagtttaa tggggaagac atcacaagca cgaaggcaaa caaatgagtg tacagtgaca
+    10141 tgctgtgatc ataggaagag agagcagaga ctttgatgaa cacgagcatc gggtgatgtt
+    10201 cattatgtcg attgtggtgg tggtcttgca ggtgtagaca tacttcaaac cttatctaat
+    10261 tgggcctgct gtggtgacgc atgcttgtaa tcccagcatt ttgggaagct gaggtgggag
+    10321 gatcacttga gcccaggagc tcaaggctgc agtgagctat gattgcacca ctgcactcca
+    10381 gcctgggtga cagaacaaga ccgtgactct taaaaattaa aataggccag gcaggcgtgg
+    10441 tggctcgcgc ctgt
+//
+

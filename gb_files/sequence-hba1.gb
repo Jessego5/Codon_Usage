@@ -1,0 +1,711 @@
+LOCUS       NG_059186               7872 bp    DNA     linear   PRI 28-APR-2025
+DEFINITION  Homo sapiens hemoglobin subunit alpha 1 (HBA1), RefSeqGene
+            (LRG_1225) on chromosome 16.
+ACCESSION   NG_059186
+VERSION     NG_059186.1
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 7872)
+  AUTHORS   Ghassemifar,R., Forster,L., Qadah,T. and Finlayson,J.
+  TITLE     Identification and characterization of two novel and differentially
+            expressed isoforms of human alpha2- and alpha1-globin genes
+  JOURNAL   Hemoglobin 36 (5), 421-432 (2012)
+   PUBMED   22738435
+REFERENCE   2  (bases 1 to 7872)
+  AUTHORS   Tamary,H. and Dgany,O.
+  TITLE     Alpha-Thalassemia
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE and
+            Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301608
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff in
+            collaboration with Patricia W. Mueller, Matthew Oakley, Barnaby
+            Clark. The reference sequence was derived from Z84721.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            Summary: The human alpha globin gene cluster located on chromosome
+            16 spans about 30 kb and includes seven loci: 5'- zeta - pseudozeta
+            - mu - pseudoalpha-1 - alpha-2 - alpha-1 - theta - 3'. The alpha-2
+            (HBA2) and alpha-1 (HBA1) coding sequences are identical. These
+            genes differ slightly over the 5' untranslated regions and the
+            introns, but they differ significantly over the 3' untranslated
+            regions. Two alpha chains plus two beta chains constitute HbA,
+            which in normal adult life comprises about 97% of the total
+            hemoglobin; alpha chains combine with delta chains to constitute
+            HbA-2, which with HbF (fetal hemoglobin) makes up the remaining 3%
+            of adult hemoglobin. Alpha thalassemias result from deletions of
+            each of the alpha genes as well as deletions of both HBA2 and HBA1;
+            some nondeletion alpha thalassemias have also been reported.
+            [provided by RefSeq, Jul 2008].
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-7872              Z84721.1           32514-40385
+FEATURES             Location/Qualifiers
+     source          1..7872
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="16"
+                     /map="16p13.3"
+     gene            1226..2060
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="hemoglobin subunit alpha 2"
+                     /db_xref="GeneID:3040"
+                     /db_xref="HGNC:HGNC:4824"
+                     /db_xref="MIM:141850"
+     mRNA            join(1226..1357,1475..1679,1822..2060)
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /product="hemoglobin subunit alpha 2"
+                     /transcript_id="NM_000517.6"
+                     /db_xref="GeneID:3040"
+                     /db_xref="HGNC:HGNC:4824"
+                     /db_xref="MIM:141850"
+     CDS             join(1263..1357,1475..1679,1822..1950)
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="alpha globin; alpha-2 globin; hemoglobin alpha
+                     chain; mutant hemoglobin alpha 2 globin chain; hemoglobin,
+                     alpha 2"
+                     /codon_start=1
+                     /product="hemoglobin subunit alpha"
+                     /protein_id="NP_000508.1"
+                     /db_xref="CCDS:CCDS10398.1"
+                     /db_xref="GeneID:3040"
+                     /db_xref="HGNC:HGNC:4824"
+                     /db_xref="MIM:141850"
+                     /translation="MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYF
+                     PHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLL
+                     SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR"
+     misc_feature    1272..1274
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1284..1286
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="N-linked (Glc) (glycation) lysine, alternate.
+                     /evidence=ECO:0000269|PubMed:7358733; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+     misc_feature    1287..1292
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1287..1289
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1296..1298
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    1302..1307
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1311..1313
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="N-linked (Glc) (glycation) lysine, alternate.
+                     /evidence=ECO:0000269|PubMed:7358733; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+     misc_feature    1311..1313
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); acetylation site"
+     misc_feature    1335..1340
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1335..1337
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1350..1355
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1485..1487
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1500..1502
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="N-linked (Glc) (glycation) lysine, alternate.
+                     /evidence=ECO:0000269|PubMed:7358733; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+     misc_feature    1515..1520
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1521..1526
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1527..1529
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1536..1541
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1545..1550
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1548..1550
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    1557..1562
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1560..1562
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    1563..1565
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="N-linked (Glc) (glycation) lysine.
+                     /evidence=ECO:0000269|PubMed:7358733; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+     misc_feature    1650..1652
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    1653..1658
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     mat_peptide     join(1665..1679,1822..1833)
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /product="Hemopressin.
+                     /evidence=ECO:0000305|PubMed:18077343. /id=PRO_0000455882"
+                     /note="propagated from UniProtKB/Swiss-Prot (P69905.2)"
+     misc_feature    1677..1679
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    1828..1830
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1840..1845
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1846..1851
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1846..1848
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1885..1890
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1894..1896
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1915..1917
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1921..1926
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    1924..1926
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1933..1935
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    1936..1938
+                     /gene="HBA2"
+                     /gene_synonym="ECYT7; HBA-T2; HBH"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     gene            5030..5872
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="hemoglobin subunit alpha 1"
+                     /db_xref="GeneID:3039"
+                     /db_xref="HGNC:HGNC:4823"
+                     /db_xref="MIM:141800"
+     mRNA            join(5030..5161,5279..5483,5633..5872)
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /product="hemoglobin subunit alpha 1"
+                     /transcript_id="NM_000558.5"
+                     /db_xref="GeneID:3039"
+                     /db_xref="LRG:t1"
+                     /db_xref="HGNC:HGNC:4823"
+                     /db_xref="MIM:141800"
+     exon            5030..5161
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=1
+     CDS             join(5067..5161,5279..5483,5633..5761)
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="alpha one globin; hemoglobin alpha 1 globin chain;
+                     delta globin; alpha-2 globin chain; hemoglobin, alpha 1;
+                     alpha globin chain"
+                     /codon_start=1
+                     /product="hemoglobin subunit alpha"
+                     /protein_id="NP_000549.1"
+                     /db_xref="CCDS:CCDS10399.1"
+                     /db_xref="GeneID:3039"
+                     /db_xref="LRG:p1"
+                     /db_xref="HGNC:HGNC:4823"
+                     /db_xref="MIM:141800"
+                     /translation="MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYF
+                     PHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLL
+                     SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR"
+     misc_feature    5076..5078
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5088..5090
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="N-linked (Glc) (glycation) lysine, alternate.
+                     /evidence=ECO:0000269|PubMed:7358733; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+     misc_feature    5091..5096
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5091..5093
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5100..5102
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    5106..5111
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5115..5117
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="N-linked (Glc) (glycation) lysine, alternate.
+                     /evidence=ECO:0000269|PubMed:7358733; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+     misc_feature    5115..5117
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); acetylation site"
+     misc_feature    5139..5144
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5139..5141
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5154..5159
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5289..5291
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5304..5306
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="N-linked (Glc) (glycation) lysine, alternate.
+                     /evidence=ECO:0000269|PubMed:7358733; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+     misc_feature    5319..5324
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5325..5330
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5331..5333
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5340..5345
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5349..5354
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5352..5354
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    5361..5366
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5364..5366
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    5367..5369
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="N-linked (Glc) (glycation) lysine.
+                     /evidence=ECO:0000269|PubMed:7358733; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); glycosylation site"
+     misc_feature    5454..5456
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    5457..5462
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     mat_peptide     join(5469..5483,5633..5644)
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /product="Hemopressin.
+                     /evidence=ECO:0000305|PubMed:18077343. /id=PRO_0000455882"
+                     /note="propagated from UniProtKB/Swiss-Prot (P69905.2)"
+     misc_feature    5481..5483
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Not glycated. /evidence=ECO:0000269|PubMed:7358733;
+                     propagated from UniProtKB/Swiss-Prot (P69905.2); other
+                     site"
+     misc_feature    5639..5641
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5651..5656
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5657..5662
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5657..5659
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5696..5701
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5705..5707
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5726..5728
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5732..5737
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="(Microbial infection) Cleavage, by N.americanus
+                     apr-2. /evidence=ECO:0000269|PubMed:12552433; propagated
+                     from UniProtKB/Swiss-Prot (P69905.2); other site"
+     misc_feature    5735..5737
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5744..5746
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     misc_feature    5747..5749
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P01942; propagated from
+                     UniProtKB/Swiss-Prot (P69905.2); phosphorylation site"
+     exon            5279..5483
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=2
+     exon            5633..5872
+                     /gene="HBA1"
+                     /gene_synonym="ECYT7; HBA-T3; HBH; METHBA"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=3
+ORIGIN      
+        1 tagctgggat tacaggcgtg caccaccaca cccagctaat ttttgtattt ttagtagaga
+       61 cggggtttct ccatgttggt cagcctggtc tcgaactccc gacctcagct gatccacccg
+      121 ccttggcctc ccaaagtgct gggattacag gcgtgagcca ccgagcctgg ccaaaccatc
+      181 acttttcatg agcagggatg cacccactgg cactcctgca cctcccaccc tccccctcgc
+      241 caagtccacc ccttccttcc tcaccccaca tcccctcacc tacattctgc aaccacaggg
+      301 gccttctctc ccctgtcctt tccctaccca gagccaagtt tgtttatctg tttacaacca
+      361 gtatttacct agcaagtctt ccatcagata gcatttggag agctgggggt gtcacagtga
+      421 accacgacct ctaggccagt gggagagtca gtcacacaaa ctgtgagtcc atgacttggg
+      481 gcttagccag cacccaccac cccacgcgcc accccacaac cccgggtaga ggagtctgaa
+      541 tctggagccg cccccagccc agccccgtgc tttttgcgtc ctggtgtttg ttccttcccg
+      601 gtgcctgtca ctcaagcaca ctagtgacta tcgccagagg gaaagggagc tgcaggaagc
+      661 gaggctggag agcaggaggg gctctgcgca gaaattcttt tgagttccta tgggccaggg
+      721 cgtccgggtg cgcgcattcc tctccgcccc aggattgggc gaagccctcc ggctcgcact
+      781 cgctcgcccg tgtgttcccc gatcccgctg gagtcgatgc gcgtccagcg cgtgccaggc
+      841 cggggcgggg gtgcgggctg actttctccc tcgctaggga cgctccggcg cccgaaagga
+      901 aagggtggcg ctgcgctccg gggtgcacga gccgacagcg cccgacccca acgggccggc
+      961 cccgccagcg ccgctaccgc cctgcccccg ggcgagcggg atgggcggga gtggagtggc
+     1021 gggtggaggg tggagacgtc ctggcccccg ccccgcgtgc acccccaggg gaggccgagc
+     1081 ccgccgcccg gccccgcgca ggccccgccc gggactcccc tgcggtccag gccgcgcccc
+     1141 gggctccgcg ccagccaatg agcgccgccc ggccgggcgt gcccccgcgc cccaagcata
+     1201 aaccctggcg cgctcgcggg ccggcactct tctggtcccc acagactcag agagaaccca
+     1261 ccatggtgct gtctcctgcc gacaagacca acgtcaaggc cgcctggggt aaggtcggcg
+     1321 cgcacgctgg cgagtatggt gcggaggccc tggagaggtg aggctccctc ccctgctccg
+     1381 acccgggctc ctcgcccgcc cggacccaca ggccaccctc aaccgtcctg gccccggacc
+     1441 caaaccccac ccctcactct gcttctcccc gcaggatgtt cctgtccttc cccaccacca
+     1501 agacctactt cccgcacttc gacctgagcc acggctctgc ccaggttaag ggccacggca
+     1561 agaaggtggc cgacgcgctg accaacgccg tggcgcacgt ggacgacatg cccaacgcgc
+     1621 tgtccgccct gagcgacctg cacgcgcaca agcttcgggt ggacccggtc aacttcaagg
+     1681 tgagcggcgg gccgggagcg atctgggtcg aggggcgaga tggcgccttc ctctcagggc
+     1741 agaggatcac gcgggttgcg ggaggtgtag cgcaggcggc ggctgcgggc ctgggccgca
+     1801 ctgaccctct tctctgcaca gctcctaagc cactgcctgc tggtgaccct ggccgcccac
+     1861 ctccccgccg agttcacccc tgcggtgcac gcctccctgg acaagttcct ggcttctgtg
+     1921 agcaccgtgc tgacctccaa ataccgttaa gctggagcct cggtagccgt tcctcctgcc
+     1981 cgctgggcct cccaacgggc cctcctcccc tccttgcacc ggcccttcct ggtctttgaa
+     2041 taaagtctga gtgggcagca gcctgtgtgt gcctgggttc tctctatccc ggaatgtgcc
+     2101 aacaatggag gtgtttacct gtctcagacc aaggacctct ctgcagctgc atggggctgg
+     2161 ggagggagaa ctgcagggag tatgggaggg gaagctgagg tgggcctgct caagagaagg
+     2221 tgctgaacca tcccctgtcc tgagaggtgc caggcctgca ggcagtggct cagaagctgg
+     2281 ggaggagaga ggcatccagg gttctactca gggagtccca gcatcgccac cctcctttga
+     2341 aatctccctg gttgaaccca gttaacatac gctctccatc aaaacaaaac gaaacaaaac
+     2401 aaactagcaa aataggctgt ccccagtgca agtgcaggtg ccagaacatt tctctcattc
+     2461 ccaccccttc ctgccagagg gtaggtggct ggagtgaggg tgctggccct actcacactt
+     2521 cctgtgtcac ggtgaccctc tgagagcagc ccagtcagtg gggaaggagg aaggggctgg
+     2581 gatgctcaca gccggcagcc cacacctggg gagactcttc agcagagcac cttgcggcct
+     2641 tactcctgca cgtctcctgc agtttgtaag gtgcattcag aactcactgt gtgcccagcc
+     2701 ctgagctccc agctaattgc cccacccagg gcctctggga cctcctggtc ttctgcttcc
+     2761 tgtgctgcca gcaacttctg gaaacgtccc tgtccccggt gctgaagtcc tggaatccat
+     2821 gctgggaagt tgcacagccc atctggctct cagccagcct aggaacatga gcagcacttc
+     2881 caacccagtc cctgccccac agcaagcctc cccctccaca ctcacagtac tggattgagc
+     2941 tttggggagg gtggagagga ccctgtcact gctttccttc tggacatgga cctctctgaa
+     3001 ttgttgggga gttccctccc ctctccacca cccgctcttc ctgcgcctca cagcccagag
+     3061 cattgttatt tcagcagaaa cactttaaaa aataaactaa aatccgacag gcacggtggc
+     3121 tcacgcctgt aatcccagca ctttgggagg ccgaggtggg aggatcacct gaggtcggga
+     3181 gtttgagacc accctgatca acatgtagaa accccatcta tactaaaaat acaaaatcag
+     3241 ccgggcatgg tggcccatgc ctgtaaaccc acctactccg gaggctgagg caggagaatc
+     3301 attttaacca aggaggcaga ggttgcagtg agctaagatc acaccattgc actccagcct
+     3361 ggaaaacaac agcgaaactc cgcctcaaaa aaaaaaaagc ccccacatct tatctttttt
+     3421 ttttccttca ggctgtgggc agagtcagaa gagggtggca gacagggagg ggaaatgaga
+     3481 agatccaacg ggggaagcat tgctaagctg gtcggagcta cttccttctc tgcccaaggc
+     3541 agcttaccct ggcttgctcc tggacaccca gggcagggcc tgagtaaggg cctggggaga
+     3601 cagggcaggg agcaggctga agggtgctga cctgatgcac tcctcaaagc aagatcttct
+     3661 gccagacccc caggaaatga cttatcagtg atttctcagg ctgttttctc ctcagtacca
+     3721 tccccccaaa aaacatcact tttcatgcac agggatgcac ccactggcac tcctgcacct
+     3781 cccacccttc cccagaagtc caccccttcc ttcctcaccc tgcaggagct ggccagcctc
+     3841 atcaccccaa catctcccca cctccattct ccaaccacag ggcccttgtc tcctctgtcc
+     3901 tttcccctcc ccgagccaag cctcctccct cctccacctc ctccacctaa tacatatcct
+     3961 taagtctcac ctcctccagg aagccctcag actaaccctg gtcaccttga atgcctcgtc
+     4021 cacacctcca gacttcctca gggcctgtga tgaggtctgc acctctgtgt gtacttgtgt
+     4081 gatggttaga ggactgccta cctcccagag gaggttgaat gctccagccg gttccagcta
+     4141 ttgctttgtt tacctgttta accagtattt acctagcaag tcttccatca gatagcattt
+     4201 ggagagctgg gggtgtcaca gtgaaccacg acctctaggc cagtgggaga gtcagtcaca
+     4261 caaactgtga gtccatgact tggggcttag ccagcaccca ccaccccacg cgccacccca
+     4321 caaccccggg tagaggagtc tgaatctgga gccgccccca gcccagcccc gtgctttttg
+     4381 cgtcctggtg tttattcctt cccggtgcct gtcactcaag cacactagtg actatcgcca
+     4441 gagggaaagg gagctgcagg aagcgaggct ggagagcagg aggggctctg cgcagaaatt
+     4501 cttttgagtt cctatgggcc agggcgtccg ggtgcgcgca ttcctctccg ccccaggatt
+     4561 gggcgaagcc tcccggctcg cactcgctcg cccgtgtgtt ccccgatccc gctggagtcg
+     4621 atgcgcgtcc agcgcgtgcc aggccggggc gggggtgcgg gctgactttc tccctcgcta
+     4681 gggacgctcc ggcgcccgaa aggaaagggt ggcgctgcgc tccggggtgc acgagccgac
+     4741 agcgcccgac cccaacgggc cggccccgcc agcgccgcta ccgccctgcc cccgggcgag
+     4801 cgggatgggc gggagtggag tggcgggtgg agggtggaga cgtcctggcc cccgccccgc
+     4861 gtgcaccccc aggggaggcc gagcccgccg cccggccccg cgcaggcccc gcccgggact
+     4921 cccctgcggt ccaggccgcg ccccgggctc cgcgccagcc aatgagcgcc gcccggccgg
+     4981 gcgtgccccc gcgccccaag cataaaccct ggcgcgctcg cggcccggca ctcttctggt
+     5041 ccccacagac tcagagagaa cccaccatgg tgctgtctcc tgccgacaag accaacgtca
+     5101 aggccgcctg gggtaaggtc ggcgcgcacg ctggcgagta tggtgcggag gccctggaga
+     5161 ggtgaggctc cctcccctgc tccgacccgg gctcctcgcc cgcccggacc cacaggccac
+     5221 cctcaaccgt cctggccccg gacccaaacc ccacccctca ctctgcttct ccccgcagga
+     5281 tgttcctgtc cttccccacc accaagacct acttcccgca cttcgacctg agccacggct
+     5341 ctgcccaggt taagggccac ggcaagaagg tggccgacgc gctgaccaac gccgtggcgc
+     5401 acgtggacga catgcccaac gcgctgtccg ccctgagcga cctgcacgcg cacaagcttc
+     5461 gggtggaccc ggtcaacttc aaggtgagcg gcgggccggg agcgatctgg gtcgaggggc
+     5521 gagatggcgc cttcctcgca gggcagagga tcacgcgggt tgcgggaggt gtagcgcagg
+     5581 cggcggctgc gggcctgggc cctcggcccc actgaccctc ttctctgcac agctcctaag
+     5641 ccactgcctg ctggtgaccc tggccgccca cctccccgcc gagttcaccc ctgcggtgca
+     5701 cgcctccctg gacaagttcc tggcttctgt gagcaccgtg ctgacctcca aataccgtta
+     5761 agctggagcc tcggtggcca tgcttcttgc cccttgggcc tccccccagc ccctcctccc
+     5821 cttcctgcac ccgtaccccc gtggtctttg aataaagtct gagtgggcgg cagcctgtgt
+     5881 gtgcctgagt tttttccctc agcaaacgtg ccaggcatgg gcgtggacag cagctgggac
+     5941 acacatggct agaacctctc tgcagctgga tagggtagga aaaggcaggg gcgggaggag
+     6001 gggatggagg agggaaagtg gagccaccgc gaagtccagc tggaaaaacg ctggacccta
+     6061 gagtgctttg aggatgcatt tgctctttcc cgagttttat tcccagactt ttcagattca
+     6121 atgcaggttt gctgaaataa tgaatttatc catctttacg tttctgggca ctcttgtgcc
+     6181 aagaactggc tggctttctg cctgggacgt cactggtttc ccagaggtcc tcccacatat
+     6241 gggtggtggg taggtcagag aagtcccact ccagcatggc tgcattgatc ccccatcgtt
+     6301 cccactagtc tccgtaaaac ctcccagata caggcacagt ctagatgaaa tcaggggtgc
+     6361 ggggtgcaac tgcaggcccc aggcaattca ataggggctc tactttcacc cccaggtcac
+     6421 cccagaatgc tcacacacca gacactgacg ccctggggct gtcaagatca ggcgtttgtc
+     6481 tctgggccca gctcagggcc cagctcagca cccactcagc tcccctgagg ctggggagcc
+     6541 tgtcccattg cgactggaga ggagagcggg gccacagagg cctggctaga aggtcccttc
+     6601 tccctggtgt gtgttttctc tctgctgagc aggcttgcag tgcctggggt atcagaggga
+     6661 gggttcccgg agctggtagc cataaagccc tggccctcaa ctgataggaa tatcttttat
+     6721 tccctgagcc catgaatcac ccttggtaaa cacctatggc aggccctctg cctgcgtttg
+     6781 tgatgtcctt cccgcagcct gtgggtacag tatcaactgt caggaagacg gtgtcttcgt
+     6841 tatttcatca ggaagaatgg aggtctgacc taaaggtaga aatatgtcaa atgtacagca
+     6901 gagggctggt tggagtgcag cgctttttac aattaattga tcagaaccag ttataaattt
+     6961 atcatttcct tctccactcc tgctgcttca gttgactaag cctaagaaaa aattataaaa
+     7021 attggccggg cgcggtggct cacacctgta attgcagcac tttgccaggc ttaggcaggt
+     7081 ggatcacctg aagtcagggg ttcgagacca gcctagccaa catagtgaaa ccctgtctct
+     7141 actaaaaaga caaaaattgt ccaggtgtga tgactcatgc ctgtaaacct ggcactttgg
+     7201 gaggcggagg ttgtagtgag tcaagatcgc gccatcgcac tccagcttgg gcaacaagag
+     7261 cgaaactctg tctcaaaaaa aaatttaatc taatttaatt taatttaaaa attagcacgg
+     7321 tggttgggca cagtggctca cgcctgtaat cccagcactt tgggaagcca aggtgggcag
+     7381 atcacaaggt caggaattcg agaccagcct ggccaatatg gggaaacccc atctctacta
+     7441 aaaatacaaa aaattagccg ggtgtggtgg cgcacgcctg taatcccagc tactcgggag
+     7501 gttgaggtag gagaatcact tgaacccagg aggcagaggt tgcagtgacc cgagatcaca
+     7561 ccattgcact ctagcctggg caacaagagc aaaactccat ctcaaaaaaa attataaaaa
+     7621 ttatacatca gtagatgaat gggtaaacaa aatgtggtgg tctatacaca caatggaata
+     7681 ttatttggcc acaaaaagaa atgaagcact gataggatgt agctgcaccc tgaaaatatt
+     7741 tgacaagtaa aagaagccgg acaccaaagg tcacaaactg catgacccca tctatatgca
+     7801 atatccgcta cagccaaatc catagggacc aaaagcggat tagtggctgc cggggccaga
+     7861 gttactgtta at
+//
+

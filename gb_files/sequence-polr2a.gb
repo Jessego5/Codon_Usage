@@ -1,0 +1,1532 @@
+LOCUS       NG_027747              37238 bp    DNA     linear   PRI 28-APR-2025
+DEFINITION  Homo sapiens RNA polymerase II subunit A (POLR2A), RefSeqGene on
+            chromosome 17.
+ACCESSION   NG_027747
+VERSION     NG_027747.2
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 37238)
+  AUTHORS   Acker,J., Mattei,M.G., Wintzerith,M., Roeckel,N., Depetris,D.,
+            Vigneron,M. and Kedinger,C.
+  TITLE     Chromosomal localization of human RNA polymerase II subunit genes
+  JOURNAL   Genomics 20 (3), 496-499 (1994)
+   PUBMED   8034326
+REFERENCE   2  (bases 1 to 37238)
+  AUTHORS   Wintzerith,M., Acker,J., Vicaire,S., Vigneron,M. and Kedinger,C.
+  TITLE     Complete sequence of the human RNA polymerase II largest subunit
+  JOURNAL   Nucleic Acids Res 20 (4), 910 (1992)
+   PUBMED   1542581
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC113189.11, KF459570.1,
+            KF459569.2 and AEKP01075050.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On May 21, 2019 this sequence version replaced NG_027747.1.
+            
+            Summary: This gene encodes the largest subunit of RNA polymerase
+            II, the polymerase responsible for synthesizing messenger RNA in
+            eukaryotes. The product of this gene contains a carboxy terminal
+            domain composed of heptapeptide repeats that are essential for
+            polymerase activity. These repeats contain serine and threonine
+            residues that are phosphorylated in actively transcribing RNA
+            polymerase. In addition, this subunit, in combination with several
+            other polymerase subunits, forms the DNA binding domain of the
+            polymerase, a groove in which the DNA template is transcribed into
+            RNA. [provided by RefSeq, Jul 2008].
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-17252             AC113189.11        129462-146713
+            17253-17612         KF459570.1         1-360               c
+            17613-21349         AC113189.11        147074-150810
+            21350-21442         KF459569.2         1-93
+            21443-33977         AC113189.11        150904-163438
+            33978-34398         AEKP01075050.1     4155-4575
+            34399-37238         AC113189.11        163860-166699
+FEATURES             Location/Qualifiers
+     source          1..37238
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17p13.1"
+     gene            complement(<1..4871)
+                     /gene="ZBTB4"
+                     /gene_synonym="KAISO-L1; ZNF903"
+                     /note="zinc finger and BTB domain containing 4"
+                     /db_xref="GeneID:57659"
+                     /db_xref="HGNC:HGNC:23847"
+                     /db_xref="MIM:612308"
+     mRNA            complement(<78..253)
+                     /gene="ZBTB4"
+                     /gene_synonym="KAISO-L1; ZNF903"
+                     /product="zinc finger and BTB domain containing 4,
+                     transcript variant 2"
+                     /transcript_id="NM_001128833.2"
+                     /db_xref="GeneID:57659"
+                     /db_xref="HGNC:HGNC:23847"
+                     /db_xref="MIM:612308"
+     gene            2068..4118
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="solute carrier family 35 member G6"
+                     /db_xref="GeneID:643664"
+                     /db_xref="HGNC:HGNC:31351"
+     mRNA            join(2068..2141,2610..4118)
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /product="solute carrier family 35 member G6"
+                     /transcript_id="NM_001102614.2"
+                     /db_xref="GeneID:643664"
+                     /db_xref="HGNC:HGNC:31351"
+     CDS             join(2139..2141,2610..3623)
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="protein AMAC1L3; transmembrane protein 21B;
+                     acyl-malonyl-condensing enzyme 1-like protein 3;
+                     acyl-malonyl condensing enzyme 1-like 3"
+                     /codon_start=1
+                     /product="solute carrier family 35 member G6"
+                     /protein_id="NP_001096084.1"
+                     /db_xref="CCDS:CCDS45603.1"
+                     /db_xref="GeneID:643664"
+                     /db_xref="HGNC:HGNC:31351"
+                     /translation="MAGSHPYLNPPDSTHPSPPSAPPSLRWHQCCQPSDATNGLLVAL
+                     LGGGLPAGFVGPLSHMAYQASNLPSLELLICRCLFHLPIALLLKLRGDPLLGPPDIRG
+                     RAYFYALLNVLSIGCAYSAVQVVPAGNAATVRKGSSTVCSAVLTLCLESQGLSGYDWC
+                     GLLGSILGLIIIVGPGLWTLQEGITGVYTALGYGQAFVGGLALSLGLLVYRSLHFPSC
+                     LPTVAFLSGLVGLLGSVPGLFVLQPPVLPSDLPSWSCVGAVGILALVSFTCVSYAVTK
+                     AHPALVCAVLHSEVVVALILQYYMLHETVAPSDIVGAGVVLGSIAIITAWNLSCEREG
+                     KVEE"
+     misc_feature    join(2139..2141,2610..2681)
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    2724..2786
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     transmembrane region"
+     misc_feature    2805..2867
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     transmembrane region"
+     misc_feature    2919..2981
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     transmembrane region"
+     misc_feature    3084..3146
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     transmembrane region"
+     misc_feature    3174..3236
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     transmembrane region"
+     misc_feature    3267..3329
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     transmembrane region"
+     misc_feature    3369..3431
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     transmembrane region"
+     misc_feature    3447..3509
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     transmembrane region"
+     misc_feature    3534..3596
+                     /gene="SLC35G6"
+                     /gene_synonym="AMAC1L3; TMEM21B"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0C7Q6.1);
+                     transmembrane region"
+     mRNA            complement(<4626..4871)
+                     /gene="ZBTB4"
+                     /gene_synonym="KAISO-L1; ZNF903"
+                     /product="zinc finger and BTB domain containing 4,
+                     transcript variant 1"
+                     /transcript_id="NM_020899.4"
+                     /db_xref="GeneID:57659"
+                     /db_xref="HGNC:HGNC:23847"
+                     /db_xref="MIM:612308"
+     gene            4988..35236
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="RNA polymerase II subunit A"
+                     /db_xref="GeneID:5430"
+                     /db_xref="HGNC:HGNC:9187"
+                     /db_xref="MIM:180660"
+     mRNA            join(4988..5479,16563..16695,16832..16968,17062..17235,
+                     17386..17667,17978..18139,18272..18492,18700..18832,
+                     19661..19785,19903..20113,21261..21470,21562..21730,
+                     21911..22005,22148..22351,22522..22744,23140..23323,
+                     23743..23914,24007..24112,24208..24413,28873..29097,
+                     29566..29812,30154..30254,31837..31941,32028..32210,
+                     32433..32636,32780..32966,33099..33212,33396..33545,
+                     33643..35236)
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /product="RNA polymerase II subunit A"
+                     /transcript_id="NM_000937.5"
+                     /db_xref="GeneID:5430"
+                     /db_xref="HGNC:HGNC:9187"
+                     /db_xref="MIM:180660"
+     exon            4988..5479
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=1
+     CDS             join(5387..5479,16563..16695,16832..16968,17062..17235,
+                     17386..17667,17978..18139,18272..18492,18700..18832,
+                     19661..19785,19903..20113,21261..21470,21562..21730,
+                     21911..22005,22148..22351,22522..22744,23140..23323,
+                     23743..23914,24007..24112,24208..24413,28873..29097,
+                     29566..29812,30154..30254,31837..31941,32028..32210,
+                     32433..32636,32780..32966,33099..33212,33396..33545,
+                     33643..34799)
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /EC_number="2.7.7.6"
+                     /EC_number="2.7.7.48"
+                     /note="3'-5' exoribonuclease; RNA-directed RNA polymerase
+                     II subunit RPB1; DNA-directed RNA polymerase II subunit A;
+                     DNA-directed RNA polymerase II largest subunit, RNA
+                     polymerase II 220 kd subunit; RNA polymerase II subunit
+                     B1; DNA-directed RNA polymerase III largest subunit;
+                     polymerase (RNA) II (DNA directed) polypeptide A, 220kDa;
+                     polymerase (RNA) II subunit A"
+                     /codon_start=1
+                     /product="DNA-directed RNA polymerase II subunit RPB1"
+                     /protein_id="NP_000928.1"
+                     /db_xref="GeneID:5430"
+                     /db_xref="HGNC:HGNC:9187"
+                     /db_xref="MIM:180660"
+                     /translation="MHGGGPPSGDSACPLRTIKRVQFGVLSPDELKRMSVTEGGIKYP
+                     ETTEGGRPKLGGLMDPRQGVIERTGRCQTCAGNMTECPGHFGHIELAKPVFHVGFLVK
+                     TMKVLRCVCFFCSKLLVDSNNPKIKDILAKSKGQPKKRLTHVYDLCKGKNICEGGEEM
+                     DNKFGVEQPEGDEDLTKEKGHGGCGRYQPRIRRSGLELYAEWKHVNEDSQEKKILLSP
+                     ERVHEIFKRISDEECFVLGMEPRYARPEWMIVTVLPVPPLSVRPAVVMQGSARNQDDL
+                     THKLADIVKINNQLRRNEQNGAAAHVIAEDVKLLQFHVATMVDNELPGLPRAMQKSGR
+                     PLKSLKQRLKGKEGRVRGNLMGKRVDFSARTVITPDPNLSIDQVGVPRSIAANMTFAE
+                     IVTPFNIDRLQELVRRGNSQYPGAKYIIRDNGDRIDLRFHPKPSDLHLQTGYKVERHM
+                     CDGDIVIFNRQPTLHKMSMMGHRVRILPWSTFRLNLSVTTPYNADFDGDEMNLHLPQS
+                     LETRAEIQELAMVPRMIVTPQSNRPVMGIVQDTLTAVRKFTKRDVFLERGEVMNLLMF
+                     LSTWDGKVPQPAILKPRPLWTGKQIFSLIIPGHINCIRTHSTHPDDEDSGPYKHISPG
+                     DTKVVVENGELIMGILCKKSLGTSAGSLVHISYLEMGHDITRLFYSNIQTVINNWLLI
+                     EGHTIGIGDSIADSKTYQDIQNTIKKAKQDVIEVIEKAHNNELEPTPGNTLRQTFENQ
+                     VNRILNDARDKTGSSAQKSLSEYNNFKSMVVSGAKGSKINISQVIAVVGQQNVEGKRI
+                     PFGFKHRTLPHFIKDDYGPESRGFVENSYLAGLTPTEFFFHAMGGREGLIDTAVKTAE
+                     TGYIQRRLIKSMESVMVKYDATVRNSINQVVQLRYGEDGLAGESVEFQNLATLKPSNK
+                     AFEKKFRFDYTNERALRRTLQEDLVKDVLSNAHIQNELEREFERMREDREVLRVIFPT
+                     GDSKVVLPCNLLRMIWNAQKIFHINPRLPSDLHPIKVVEGVKELSKKLVIVNGDDPLS
+                     RQAQENATLLFNIHLRSTLCSRRMAEEFRLSGEAFDWLLGEIESKFNQAIAHPGEMVG
+                     ALAAQSLGEPATQMTLNTFHYAGVSAKNVTLGVPRLKELINISKKPKTPSLTVFLLGQ
+                     SARDAERAKDILCRLEHTTLRKVTANTAIYYDPNPQSTVVAEDQEWVNVYYEMPDFDV
+                     ARISPWLLRVELDRKHMTDRKLTMEQIAEKINAGFGDDLNCIFNDDNAEKLVLRIRIM
+                     NSDENKMQEEEEVVDKMDDDVFLRCIESNMLTDMTLQGIEQISKVYMHLPQTDNKKKI
+                     IITEDGEFKALQEWILETDGVSLMRVLSEKDVDPVRTTSNDIVEIFTVLGIEAVRKAL
+                     ERELYHVISFDGSYVNYRHLALLCDTMTCRGHLMAITRHGVNRQDTGPLMKCSFEETV
+                     DVLMEAAAHGESDPMKGVSENIMLGQLAPAGTGCFDLLLDAEKCKYGMEIPTNIPGLG
+                     AAGPTGMFFGSAPSPMGGISPAMTPWNQGATPAYGAWSPSVGSGMTPGAAGFSPSAAS
+                     DASGFSPGYSPAWSPTPGSPGSPGPSSPYIPSPGGAMSPSYSPTSPAYEPRSPGGYTP
+                     QSPSYSPTSPSYSPTSPSYSPTSPNYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTS
+                     PSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPS
+                     YSPTSPSYSPTSPSYSPTSPNYSPTSPNYTPTSPSYSPTSPSYSPTSPNYTPTSPNYS
+                     PTSPSYSPTSPSYSPTSPSYSPSSPRYTPQSPTYTPSSPSYSPSSPSYSPTSPKYTPT
+                     SPSYSPSSPEYTPTSPKYSPTSPKYSPTSPKYSPTSPTYSPTTPKYSPTSPTYSPTSP
+                     VYTPTSPKYSPTSPTYSPTSPKYSPTSPTYSPTSPKGSTYSPTSPGYSPTSPTYSLTS
+                     PAISPDDSDEEN"
+     misc_feature    5387..5389
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N-acetylmethionine.
+                     /evidence=ECO:0007744|PubMed:19413330; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); acetylation site"
+     misc_feature    5465..5467
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    17497..17499
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    join(22666..22744,23140..23186)
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     Region: Bridging helix.
+                     /evidence=ECO:0000250|UniProtKB:G3MZY8"
+     misc_feature    28879..29004
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     Region: Trigger loop.
+                     /evidence=ECO:0000250|UniProtKB:G3MZY8"
+     misc_feature    join(33425..33545,33643..34796)
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    33663..34766
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     Region: C-terminal domain (CTD), 52 X 7 AA approximate
+                     tandem repeats of Y-[ST]-P-[STQ]-[ST]-P-[SRTEVKGN]"
+     misc_feature    33693..33695
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Omega-N-methylated arginine, by CARM1, in vitro.
+                     /evidence=ECO:0000269|PubMed:26700805; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); methylation site"
+     misc_feature    34314..34316
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Asymmetric dimethylarginine, alternate, by CARM1.
+                     /evidence=ECO:0000269|PubMed:21454787,
+                     ECO:0000269|PubMed:26700805; Symmetric dimethylarginine,
+                     alternate, by PRMT5.
+                     /evidence=ECO:0000269|PubMed:26700805; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); methylation site"
+     misc_feature    34398..34400
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000250|UniProtKB:P08775; N6-methyllysine,
+                     alternate. /evidence=ECO:0000250|UniProtKB:P08775;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     methylation site"
+     misc_feature    34404..34406
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34413..34415
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:19690332; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34419..34421
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34425..34427
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P08775; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34431..34433
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34434..34436
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34446..34448
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:19690332; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34455..34457
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34461..34463
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000269|PubMed:26566685; N6-methyllysine,
+                     alternate. /evidence=ECO:0000269|PubMed:26566685;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     methylation site"
+     misc_feature    34464..34466
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34467..34469
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34473..34475
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34476..34478
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34482..34484
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6,N6,N6-trimethyllysine, alternate.
+                     /evidence=ECO:0000269|PubMed:26566685;
+                     N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000269|PubMed:26566685; N6-methyllysine,
+                     alternate. /evidence=ECO:0000269|PubMed:26566685;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     methylation site"
+     misc_feature    34482..34484
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); acetylation site"
+     misc_feature    34485..34487
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34488..34490
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34494..34496
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34503..34505
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6,N6,N6-trimethyllysine, alternate.
+                     /evidence=ECO:0000269|PubMed:26566685;
+                     N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000250|UniProtKB:P08775; N6-methyllysine,
+                     alternate. /evidence=ECO:0000269|PubMed:26566685;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     methylation site"
+     misc_feature    34506..34508
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:24275569;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     phosphorylation site"
+     misc_feature    34509..34511
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34515..34517
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34518..34520
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:23186163;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     phosphorylation site"
+     misc_feature    34527..34529
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34530..34532
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:23186163;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     phosphorylation site"
+     misc_feature    34539..34541
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34545..34547
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000250|UniProtKB:P08775; N6-methyllysine,
+                     alternate. /evidence=ECO:0000269|PubMed:26566685;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     methylation site"
+     misc_feature    34545..34547
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); acetylation site"
+     misc_feature    34566..34568
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P08775; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34572..34574
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34581..34583
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:19690332,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34602..34604
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34608..34610
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6,N6-dimethyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P08775; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); methylation site"
+     misc_feature    34611..34613
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:16964243, ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34620..34622
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34623..34625
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:19690332,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34629..34631
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34632..34634
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34635..34637
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:21406692;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     phosphorylation site"
+     misc_feature    34641..34643
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34644..34646
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:19690332,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34650..34652
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000250|UniProtKB:P08775; N6-methyllysine,
+                     alternate. /evidence=ECO:0000305|PubMed:26566685;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     methylation site"
+     misc_feature    34650..34652
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0000305|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); acetylation site"
+     misc_feature    34653..34655
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:16964243, ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34662..34664
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34665..34667
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:19690332,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34671..34673
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34674..34676
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34677..34679
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:26566685,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:21406692;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     phosphorylation site"
+     misc_feature    34683..34685
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); phosphorylation site"
+     misc_feature    34686..34688
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:23186163;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     phosphorylation site"
+     misc_feature    34692..34694
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0000250|UniProtKB:P08775; N6-methyllysine,
+                     alternate. /evidence=ECO:0000305|PubMed:26566685;
+                     propagated from UniProtKB/Swiss-Prot (P24928.2);
+                     methylation site"
+     misc_feature    34692..34694
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0000305|PubMed:26566685; propagated from
+                     UniProtKB/Swiss-Prot (P24928.2); acetylation site"
+     exon            16563..16695
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=2
+     exon            16832..16968
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=3
+     exon            17062..17235
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=4
+     exon            17386..17667
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=5
+     exon            17978..18139
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=6
+     exon            18272..18492
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=7
+     exon            18700..18832
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=8
+     exon            19661..19785
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=9
+     exon            19903..20113
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=10
+     exon            21261..21470
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=11
+     exon            21562..21730
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=12
+     exon            21911..22005
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=13
+     exon            22148..22351
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=14
+     exon            22522..22744
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=15
+     exon            23140..23323
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=16
+     exon            23743..23914
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=17
+     exon            24007..24112
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=18
+     exon            24208..24413
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=19
+     exon            28873..29097
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=20
+     exon            29566..29812
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=21
+     exon            30154..30254
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=22
+     exon            31837..31941
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=23
+     exon            32028..32210
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=24
+     exon            32433..32636
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=25
+     exon            32780..32966
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=26
+     exon            33099..33212
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=27
+     exon            33396..33545
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=28
+     exon            33643..35236
+                     /gene="POLR2A"
+                     /gene_synonym="hRPB220; hsRPB1; NEDHIB; POLR2; POLRA;
+                     RPB1; RPBh1; RpIILS; RPO2; RPOL2"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=29
+ORIGIN      
+        1 gcgccgggca gcggagaggg ggcctggcag ttggctccgg tccgccctgg ccctgcccag
+       61 ttcgccccag ggcccacctg actgcgatgg cgccgcgtcc gccaggcccg gctcatcacc
+      121 gtggccgccc ccggccgctc cggttttgcc cgcctccagc tccggctccg gctccagctc
+      181 cggccctggc ccccccagcg cctggccccg gcccggcccc gctgccgccg ccgccgccgc
+      241 cgctgacatc atcggctccc cccgccccgg tcctaccccc acccccaccc ccggaaacag
+      301 tcccccccca gcgccgccgc cgccgccgcc gagaggaggc cggcgcagcg cagccgacac
+      361 cgacacaaag ctccgagcgc ccgacggcct tccccaggac tgacccccgc ggcatgacac
+      421 tgcgccgcgc tgggccaccg ggcgggtgga caccgagcgg ggcgcgggcc gggctgcagc
+      481 atcccggcag gggcgcaaga ccaccgaccc ccagggaaag ggctccctcc gcccttcctc
+      541 ctgcacgccc ttcactcagc ggtgcacact gcctgaaagc ataacacaca ggctctcagg
+      601 gtgcagacat gacatggcag actcataatc aggcccggtg ggactcacag acccagggtc
+      661 ggcacactca aagagggcca gccctggaca cacacacaca ccctctccag gaatgcgcag
+      721 gaaagctcag caggccgcgg aaaaagaagg ccctggccct gcatacgggg cacacacgaa
+      781 cgaccaccag cgcaaatgaa cacatgaagc tggctgggta ctttgtcccc accagcagat
+      841 agatccacat ctgtatactt gaacataaat gcagaggcct tggtgtcggc ctctggggac
+      901 agcatcaaca aaacaccagg tggaagcaca cacagaaaaa acacattcct gaaactccac
+      961 agggacaatc ccaagaactc ctccctggtg ctggaaaatt aaaaactaag gagatggagg
+     1021 agccagggtt cacagctcct tgccttaaaa cctctctgag gctgggcgcg gtggctcacg
+     1081 cctgtaatcc cagcactttg ggaggccgag gtgggcggat cacgaggtca ggagatcgag
+     1141 accatcctgg ctaacacggt gaaaccctgt ctctactaaa aatacaaaaa aattagccgg
+     1201 gcgtggtggc gggcgcctgt ggtcccagct actcgggagg ctgaggcagg agaatggcgt
+     1261 gaacctggga ggcggagctt gcagtgagcc gagatctcgc cactgcactc cagcctgggc
+     1321 gacagagaca gactccgtct caaaaaaaaa acaacaacaa aaaaacctct ctgaaaccat
+     1381 gcaagatata aataaacaaa ttaatgtaaa gccacagagc tagccataaa aagaataaaa
+     1441 gaatcagaca aactttggag tcatggagac ataaatagaa aagaagcaga gttgggctgg
+     1501 gcacggtggc tcatgcctgt aattccacca ctttgggagg cggggggtgg tggggtggat
+     1561 cacttgaggt aaggagttca agaccagcat ggccaacatg gagaaacccc atctctacga
+     1621 aaaataaaaa attagcgggg tgtggtggca catgcctgta atcccaggta cttgggagga
+     1681 tgaggtagga gaattgcttg aacccaggag gtggaggttg cggtgagccg agattgcacg
+     1741 caccactgca ctccagcctg ggcaagaaga gcaaaactcc gtcccaaaaa aaaaaaaaaa
+     1801 aattagccag gtgtagtggc acattcttgt aatcccagct acttgggagg ctgaggcagg
+     1861 agaatcgctt gaatctggga ggtggaggtt gcagtgagat gagatcacac cattgcactc
+     1921 cagcctggat aacaagagtg gaaacttcgt cgcaaacaaa aaaagaaaga aagaaagaaa
+     1981 agaagcagag ttggactcag cgggaaaata ggcgtgctac cacctcagga gagttccagg
+     2041 gaagaacccc acccccactc caaccatgtc acaatggctg gagctctgag gggcccaggc
+     2101 tccctgagcc aggaggagag gagaaagtcc aaggaaagat ggtgagtgtg ggggccaggg
+     2161 gcctagtact ccctccctat agctcctggt tgctccattt cccctccttt cctaaaactt
+     2221 agctgtctca gagataccca caaatagaat tcataatggt gtacccagat gtctctggaa
+     2281 cctgtggcat catacagatg catagcatct gaggcttcct ccccttcctc aatccgagag
+     2341 agcatcctgg gtcctttttc tcctcccagg aacaacttac ccagggaaac gatgctccag
+     2401 gactgctcac tccttgcttc ctgctccagg cccacattat aacatctcac tcatctttta
+     2461 ggccctttct agctccgaag agttcctcag caagatagcc caacactgta cagtcccaca
+     2521 gggtcccaga ccccatcctg gcatctgccc tgccccaggt cgcctgggct gcggctgctg
+     2581 tctaccctga gctcctttct ccctaacagg ctggcagtca cccctacttg aacccgcctg
+     2641 actccacaca cccatcgccg ccctccgctc cacccagcct ccgctggcac cagtgctgcc
+     2701 agccctctga tgccaccaat ggcctgctgg tggccctgct gggtgggggc ctgcctgctg
+     2761 gcttcgtggg ccccctttct catatggctt accaggcttc caacctgccc tcgctggagc
+     2821 tgctcatctg tcgatgcctc ttccacctcc ctattgccct gctacttaaa ctgcgtggcg
+     2881 acccccttct gggacctcct gacatccgag gccgggccta cttctatgcc ctgctcaacg
+     2941 tcctcagcat tggatgtgcc tacagtgcgg ttcaggtggt gcccgctggc aacgctgcca
+     3001 ctgttcgcaa aggttcttcc accgtctgct ccgccgtcct caccctctgc cttgagagcc
+     3061 agggtctcag tggctacgac tggtgtggac tgttgggcag catcctagga ctaatcatca
+     3121 ttgtgggacc tggactctgg acactacagg aggggatcac gggtgtctac accgccctgg
+     3181 gctatgggca ggctttcgtg ggaggactgg cgctgtccct ggggcttctg gtctatcgtt
+     3241 ctctgcactt tccctcctgc ctcccaacag tggccttcct atctggcttg gtggggctgc
+     3301 tgggctctgt gccaggcctc tttgtgctgc agccccccgt gttgcccagt gatctcccga
+     3361 gttggagttg tgtgggggca gtggggatcc tcgccttggt ctccttcaca tgtgtgagct
+     3421 atgcggtcac caaggcccac cctgccctgg tgtgcgctgt cctgcattcc gaggtggtgg
+     3481 tggcccttat actgcagtat tatatgctcc atgagactgt ggcaccttct gacatcgtgg
+     3541 gggcaggggt tgtgctgggc agcattgcca tcatcacagc ctggaacctc agctgtgaga
+     3601 gggaagggaa ggtggaggag tgagatagaa cttgggagcc cgggggttgg gagggacagg
+     3661 gataaataga ggcaaagact gaagacaaac atgggaggag aagtgactgg aaaagaactg
+     3721 gtgtgggaga gggatacctc tcagagtcaa gggtgacttg gggacttggt ggagagggac
+     3781 tacctggaag acctggggcc agcctgggac caagggatgt ggagaccagg ctgggtcctg
+     3841 gaatcagggc ataactaagg ggtaaagtct gaggagcaga tccaaacggc tgaggcaggg
+     3901 aggccgtggg ccacggggag gacttcactc agcagcaaag agaagagcat tggggctgga
+     3961 gtgttccggc aaagacagag ccagcagctg cggtggggga ggggagcgtg cctccccacc
+     4021 cctcccctca cggcaaaggt ttcctttcct cgtgcttgtg cccccccctt ggggtggtga
+     4081 cgtgacattg acatcaaaca aggattactc tgaatgtggc ttgcagtggt gtcgtctctg
+     4141 ctttggaggg agagtggaaa gtcctacgac cgttctcatt ggagaacccc ttgggatccc
+     4201 cgccccccat tttattcctg aaatattcta caaagtggag gatttcctaa tgttcagatg
+     4261 ccttgacccc aaatccccca ggactttcgt ggcccgcccc atggctaatc tgcttttctc
+     4321 ggattgtcgc ggtcccgtga tctctcccgg acagtggcca ccctccttcc agagcaggcc
+     4381 tcccagctga agtctcttcg agaggctcag gccatggatc taggatcatg gctcggtaca
+     4441 gcgcggcatt acaggccagg agatgcccac ccgtctccgg gggccgtttg acaaacatcg
+     4501 gctacttccg gacaagccac tggtcctgcc atcttggttt gttcatgcat attcagcaag
+     4561 agaactgcat attcatgagc aaccgccctt ccccgggagg acccgccccg ccccgccgcc
+     4621 attaccgatt cgcagagcag accattttcc agctgggggg ggctacgaat gagaggcttt
+     4681 tgctgaagat gaaaccgttg tccaaactag aatgaaagcg gcccaatttt accctcgagt
+     4741 cttcaaacct taagcctcag tgcaaaaggg agcagcgagg agaggcggtg ggattaaaga
+     4801 aaaaaattct tctctccctg tcacttcaaa aggtcgccca accagcgagc ggggggttta
+     4861 cccacgactc tggctcgcac cccttgcggg cctgcgcagg cggccccgta gcgcaaggga
+     4921 gggcgggaaa ggaaggggcg gggacgcgag ggcgaatcta taagaagcgt cgttcagcga
+     4981 gttcgctgct cagaagcgcc gagagcgcgg ccgggacggt tggagaagaa ggcggctccc
+     5041 ggaaggggga gagacaaact gccgtaacct ctgccgttca ggaacccggt tacttattta
+     5101 ttcgttaccc tttttcttct tcctccccca aaaacctttt ccttttccct tctttttttt
+     5161 tcctttttgg gagctgaaaa atttccggta agggaaagaa gggctccttt cgctccttat
+     5221 ttccccgcct ccttccctcc cccaccttcc cctcctccgg ctttttcctc ccaactcggg
+     5281 gaggtccttc ccggtggccg ccctgacgag gtctgagcac ctaggcggag gcggcgcagg
+     5341 ctttttgtag tgaggtttgc gcctgcgcag cgcgcctgcc tccgccatgc acgggggtgg
+     5401 ccccccctcg ggggacagcg catgcccgct gcgcaccatc aagagagtcc agttcggagt
+     5461 cctgagtccg gatgaactgg taagcggctc tgtcctcccc ttcccccctc ctcccctggc
+     5521 gggcggggcc ggacgggggc tgcggaaact tggcgctttc tcgctgctta tgggtgacgg
+     5581 gccaggagca tggctcagca gcgccaaggc cgtgtaggcg ccagtctcgg gcctcccaga
+     5641 gttatatttt gcaaagagtt gagcaggcgt agcgctttgt ccgagatggg gggctggctg
+     5701 gagggtgaga aggagggaga gaaggatgac tgatttcaca ctccagagtt accgacgtta
+     5761 aaggcgatcc gacgaatcct agggagtctt tacaagtttg gttaagaagc caaacccggg
+     5821 tagcttcctc ctcttctgta atacaaatgt taactgagca cctgctctgt tgaagacaca
+     5881 ggagactcgg gttacagagg tgaacacgac agaccaggac cctaccttca agagcactgt
+     5941 ctgtgggaaa gggcaagcag taaacatgaa tacaatgaat gaatgagata attcagttaa
+     6001 tggcatttgt ctcgaataga gtgaaaaggg gtaatcccat ggagagtcac tgagctgggg
+     6061 ctactttatt tttttatttt tattttattt tattttttga gacggagtct tgctctgtcg
+     6121 cccaggctgg agtgcaatgg cacgatctcg gctcactgca atctccgcct cccgggttca
+     6181 agcgattctc ctgccttagc ctcctgagta gctgggatta caggcatgcg ccaccatgcc
+     6241 ccgctaattt ttgtattttt agtagaggag gggttttgcc atgttggcca ggctggtctc
+     6301 gaacgcctgc cctgaggtga ttctcccccg tctttttttt tttttttttt tttttgagac
+     6361 ggagtttcgc tcttattccc caggccagag tgcaatggct gaactcctga cttcaggtga
+     6421 tccacccgcc tcggcctctc aaagtgctgg gattacaggc gtgagctacc gcgcccgtcg
+     6481 aggtggggct actttagatg ggatggcgtc agggtctggg aaggcctatc ttagaagaca
+     6541 ttacccaaat gatgagaggc agccagtcgt cgaagccata gtttggatgg cgagagcttt
+     6601 tccggcagag gaaatagcaa gtgcaaaggg cctgagggag aaatgaactt gggcttgtcc
+     6661 tacagggtga aaggcggccg gtgtggctga ggtttagtgg atgagagaag agtgttacag
+     6721 aaataggctg gagaagcatg ggatattgta tattatggta aggagtcagg acttaattcc
+     6781 attttcagta ggtagtcgtt gacaattata aacagagtga cagcacattt gaaaaaacta
+     6841 ctgctgtagt tgctctatga agaactgatg cgagaggagg agagaccaga gagaggaggg
+     6901 cagccctagg ggagagctat tggtgacttg gactttttcc cttgtggcgc taagtagagg
+     6961 agcccactgg ctggaaagaa tggagttaag tggctgtttg tggatagaga ccatttttgc
+     7021 tgggagaaag ttcagctatg tcaggagtca gaacgtcctg acctcacacc ataccacaga
+     7081 atcagttcca gatgaagtta agacttaaac ctaaaaaaac ccataaagca ctagaaaaaa
+     7141 aatagaaggc ttttgcaggg ctgataccag agacagaagt ccttaatagt agtgaattaa
+     7201 ttataggcaa attttatgga gtgcctaaaa tgagctaaac gttatatata aggaagacca
+     7261 aggcagattt cactacataa aaataagagc cacttctgtt tatagaggca ctgtggcaaa
+     7321 gctgaaaaac agatcaggaa acagtatttg caattacgca gacaaggtta aatttattga
+     7381 tgtacaagga acacaaatca gtaaggaaag tacctatcta ctagaaaaat gggtaaagga
+     7441 gatgaatagg cagttcacag aaatagtgca aatggccaac aaagagtaga ctttctaata
+     7501 aaaaaaatcc agattaaaat aaaatttttt ctcatctgat tttttttccc tgctggcaaa
+     7561 aatactggga aatagacgtg cttatacatt gttggtagaa agatagattg gtataacctt
+     7621 tttggaggat ggtctgacaa tttttttttt ttcgagatgg aatctcactc ttgttgccca
+     7681 gactggagtg cagtggcacg atcttggcac actgcaacct ccacctctcg ggttcaagcg
+     7741 attctcctgc cttagcctcc caagtagctg ggattacagg cgtgtgccac gatgcctggc
+     7801 tatttttgta ttttagtaga gatggggttt tgccgtgttg cccaggctgg tcttgaactc
+     7861 ctgacctcag aggacccgcc cgccttggcc tcccaaagtg ctgggattac aggcatgagc
+     7921 caccatgccc ggcctctggt ctaacaattt tatcaacctt ttaatatgta aatcatttga
+     7981 tcaagcatta ccacttataa aaattcatcc ttaggttaaa aaagcttaat tatcccctca
+     8041 atgatgcccc tttcccagtc ttgcatggtt cattaaatag tttctccatt catccatttg
+     8101 ctcaggccaa aaatctaaaa gccatctttg attctctttc tcacaatctc cacttagtcc
+     8161 atctgccaga gtgtcagtcc tacctttcaa aatatgcctg gaatccagcc atttatgacc
+     8221 atctccacca ccatgtccca ccatatccca ccctactgtc atctttcctg tggggtgcta
+     8281 tagagcccta attggtcttc ctacagtttg taagaacagc tagaacaggc tagagagatc
+     8341 tcttcatccc ttcccttcat agaatccttt ccagaggttt caggactcct tactctgacc
+     8401 tataaagtgc tgttttatct ggctcctgct tgcttctcca tctcattact agtctcctct
+     8461 ttgcttttct tgaaccacgc tgactgcttg ctcctctaac actgcaagct tattcccacc
+     8521 tcaaggactt tattattcac tattcctcct gcttggaaca acgttgctca gacctctgct
+     8581 ctgcatgcct gttcctttat gtctgtatgt tctgtgttga aatggcatat cttttttttt
+     8641 ttttggacac ggggtatccc tctgtccccc aggctggagt gcagtggctc gatcccagct
+     8701 cactgcagcc tcttgggctc aaaagatgct ccctggccag gctcaatcac gtctgtaatc
+     8761 ccagcacttt gggaggccaa ggtgggcaga taacgaggtc aggagtttga gaccagcctg
+     8821 gccaaaatag tgaaactctg tctttactaa aaatacaaaa attagctagg tgtggtggca
+     8881 cgcctctgta gtcccagcta ctagggaagc tgaggtagga gaatcagttt aacctgggag
+     8941 gtcgaggttg cattgagctg atactgtgcc attgcactcc agcctgcgtg acggagtgag
+     9001 actgtctcaa aaaaaaaaaa aaaaaggcca ggcgcggtgg ctcacacctg tagtcccagc
+     9061 actttgggag gctgaggcgg gcggatcacg aggtcaggag atcgagaccg tcctggctaa
+     9121 cacggtgaaa ccccgtctcc cctaaaaata caaaaaatta gcagggcgtg gtggcaggtg
+     9181 cctgtagtcc cagctacctg ggaggctgag gccggagaat ggcgtgaacc cgggaggtgg
+     9241 agcttgcagt gagccgagat tgcgctcctg cattccagcc tgggcaacag agcgagactc
+     9301 cgtctcaaaa aaaaaaaaaa aatgctccca cctcagacag acccccaacc cccacctcag
+     9361 tagctgggac aacaggctca taccaccatg cctaattttt aaatttgttg tagagatggg
+     9421 ttctcactat gttacctagg ctggtgaact gggctcaagc gatccccctc ctctgcctcc
+     9481 caaagtgctg ggattccagg catgagccac tgcgcctggc cgatgtcata tctttaggag
+     9541 cgcttccctg accactctgt ttaaatagca tcccccgccc ttcccttgtt ttctctgatc
+     9601 attctctgct atattttcct tcacagcctg tcactccaga aaggattagt ttttctgttt
+     9661 cttgcttcct tgctagagaa tgaatttcat gagggacttt gtctgtgtta ttcatgttcc
+     9721 cttagtatct caggtagtgc ctggcacatg atagacatgt aataaaaatt agttgaataa
+     9781 acaagtgaat gaaataattg ggcaaatatg catagataat gtagaaggac ttttattgca
+     9841 acattgtttg aaagtgacaa ttataaatta ctcggtattt actaatagga atcctgttga
+     9901 ataacttagg gtgtattctt acaatgtaat agaggaactt cccaataagg tcccacactg
+     9961 tgctgatgcc ctgagacact gtggcacacg gtgggcacag tgaggtattt taaatttcca
+    10021 agagaaacac aggtacattt gtcagatacc ctggaactcc tagttcctgg tagttctgtt
+    10081 tcaacattag atggtgccaa atccctttct ataatgtcat atttttgtga aactgggttt
+    10141 ttagcagttg ctaagtacag gcaaaaatca gtttgtagaa gaaataaagg tggtgctgtt
+    10201 tagtctgatt ccaaggtttg agaggtgcag tgcctaacag gcgccataag tgagtgagat
+    10261 ggttatttgg taaagaaata aaaatgttat tttgttttaa tatattaata gtattttcaa
+    10321 cttgtgtgta ttttctcaaa tggctagtaa gttcctagga cataaatgct taagttgttt
+    10381 gggtctaggt gcttaataaa ttgctgtctt ttcttggaaa gatggagtct tgctctgttg
+    10441 cctaggctgg aatgcagagg tgagatctca gctcactgta acctctgcct cctgggttca
+    10501 agctactctc ctccctcagc ctctcaagca gctgggatca caggcatccg ccaccatgcc
+    10561 cggcaatttt tgtatttttg gtagagacag ggtttcacca cattggccag accggtctca
+    10621 aacttctgac ctcaagtgat ctgcccacct tggcctcccc aagtgctggg attgcaggtg
+    10681 tgagccaccg cgctcggctg tggctctctt ttgacctagt aagtgctgtg agagttactg
+    10741 aaatggtaag ggcactgtgg gctgttgata atgttaggga atctatggat aaatgaaaaa
+    10801 gttactcaga agtatgcaga gtgaaggcct tatgttaaag tgggaacgta tttacggttt
+    10861 ttttaaagca tgaaaaaaaa tgcatgccgt ggctcatgcc tgtaatccca gcactttcgg
+    10921 agcctgaggc aggaggatca tttgaggcca ggagttcagg accagcctgg gcaacacagc
+    10981 aagaccctat ctcaatttaa aaataataat aacaaatggg ctgagcacgg tggctcactc
+    11041 ctgtaatccc agcacttcgg gaggccaagg tgggcaaatc cccgagggtc aagagttcaa
+    11101 gaccatcctg tccagcctag tgaaaccccg tctgtactaa aaatataaaa agcagctggg
+    11161 tgtagtcgtg ggtgcctgta atcccagcta cttgggaggc tgaggcatat gaaccacttg
+    11221 aacctggtag gcggaggttg tactgaccca agatggaata ataacaaata aaagtatggg
+    11281 acactgttga caaagctcta ccagagtcat ctctggggtg taggattgtt gggcttcgat
+    11341 agtgctctgc atgtcttgca gtttatacga tgtctgtatt ttgagggacc aacagacggt
+    11401 tcaattttgg gtagaaggat gggtgagggt gagtaaggtg cctcttgttg tgaaacaggt
+    11461 ggtattttag gctaaaatgt tttacagaag tcttaggggt cagagtgtat ggaggtacgg
+    11521 aggggtcttt gaattggctt tgagatagag ctgttgtcct tgctgttaga agatggattt
+    11581 agatgttgct aggtgagggg aaggttacaa ggcgggttgg tactagagct ttgtaccagc
+    11641 gtgtgcacaa aattttgggg aaagagggtg ctggatttcc ttcgcagtag ttgaccccta
+    11701 ttcattaaaa acaactgtct atcatggaat gcataactta tttataccct gacttattta
+    11761 aataaggatt taaagcagta atctgttctt tttttttttg atacggactc cagctctgtt
+    11821 gcccaggctg gagtatagtg gcacagtctg tgctcactgc aacctctgcc tcctggattc
+    11881 aagcgattct tctgcctcag cctcccgagt agcaggaact acaggagcac gccaccacac
+    11941 ccagctaatt tcttttttgt atttttagta gagacgggat tttactgtgt tgtccagact
+    12001 ggtctcgaac tcctgacctt gtgatccacc caccttggcc tcgcaaagtg ctgggattac
+    12061 aggcatgagc caccgcacct ggcctagttt ttgtattttt attagagaca gggttttacc
+    12121 atgttggcca ggctggtctc gaactcctga cctcaggtga tctgcctgca ttggcgtccc
+    12181 aaagtgctgg gattacaggc ttgagccact gcgcctggtc aataatgtat tcttttaggt
+    12241 agagtgtggg ctacattgat gagtgagaag atgatccttg ttttcaagtt acctataatc
+    12301 ttgtgaggga tttcctatgt atgcagcaaa tagttactga gcctcaacca tatgttggtt
+    12361 actgtgctag gtgctgagga tatgaagaga aaacatgacc cttgccctca aggattacag
+    12421 tccaatgaga gagacagatg tgtcaccaag taattaaaat tgggctgaga accttgctgg
+    12481 ggtgtgcata agactaggaa gagttagaga agacttcata aggaggtgac ctctgaactg
+    12541 ggtcttaaag aataaataga agtttactcc caagggggtg tgtgaagcaa aaggagattt
+    12601 gagaaatcta ttgtatttag aacataaatg tgggaggcgg gtaggagaat gtggtaccaa
+    12661 ataaagctgt aaaagcaact tgaagccaaa ttgtaataag gaccttgtta gctttgctaa
+    12721 agcagaggaa agaggacgag tatttactga gattcaatga cagccctttt gttattgtgg
+    12781 cctcaggggc agaacccaaa gagaacccag cctgactggc caccccctca agtgtttaac
+    12841 ctttatcctg taggcagtga gaaccattgt tggccgaagg gttgggggct aatttaaaat
+    12901 gacagtttga ggcctggtgc ggtggctcac gactgtaatc ccaacacttt gggaggctaa
+    12961 ggtgagtgga tcacttgagg ccaggagttt gagaccatcc tggccaacat ggtgaaaccc
+    13021 tgtctctact aaaaatacaa aaattagcca agtgtggtga gcacctgtaa ttccagctac
+    13081 ttgggaggct gaggcacaag aatcacttga acctgagagg cagaggtggc agtgagccga
+    13141 gattgtacca ctgcactcca gccggggtga cagcaagacc ctgtctcaaa aaaaaaaagt
+    13201 aaaataaaat aaaaaatgag agttcgtgaa cttggtgatg gagggatagc tcttctcatt
+    13261 aacaaggata tgcgtgtctg ctgtctagga caccccctga cccggtctca gaaagcctga
+    13321 aagcagaatt agtcattaga agggtggttg gcttggtcgg catagacttt gagcagaaag
+    13381 aggttgaaaa tgttgagcct gatttctctt aggcccctct gcagtgtctg ttgtggaggc
+    13441 cagatacgta actgcttccg ctttttttgg tctcattcaa ggtgagcaaa tccccttcat
+    13501 gtttctcacc agacaatgca gctgatgagg ttccagcttt gcaaatgtag tcatccatga
+    13561 ggactgtctt cctgagattt catcaggtca tgttgatgag agttttgaac ctgtctgagg
+    13621 ctgagaggtg tgcagaactt cttcagcttt gcatctgtag accattttgg tttctaccca
+    13681 gcagtggcca atcagaccta ttatgagggg attactggtt tgactgtcag agggtaacct
+    13741 ctctttttcc aagttttttg agggtacctc cctccagtgg agagtcctaa gcagtaggtc
+    13801 aatttaacag acatttgtta ggagcccacc atgtttcagg caggcacatg ggattcagga
+    13861 tggttgaggc attctgcctg cctgagaggt gcttatagtt atagggaaga cagaccccca
+    13921 taggtcattt tattgcattg ttgtatgtgc agtgatagag ggctgtggaa gcacagagga
+    13981 ggggtgcctg tctactttgg gcaggctgtg gaaaggcttc ctggaggaag cagtgcctga
+    14041 gccgagtctt gaaataggag ttttgcagtg ggaagagcat tccaagcaga gaggcactag
+    14101 catatagaaa accccggagg aacgcagcac gtgttgcgct ggatgtgata ggcgactcca
+    14161 gggaattgtt actgaggagt gaacaggaag gtgtggagca tcagggaaat gaaggttgag
+    14221 aacatcataa aatccttttg ggaagctgtc ctgctgagtt tggatgtcag tctgaggaca
+    14281 agagggtatg aatgattaca tttttagttt attattaatt tttattttat ttatttttag
+    14341 cacacatttt tattttagaa tgagcacccc agttgtaatg tagaaggatt ggagagagac
+    14401 aggctggtga cccataggaa cgctctgttg tagactacaa aggaagggcc tgaactaggg
+    14461 caatggtggt ggggatggag aagagaggca agattcaaga aacacttagg aggccaggcg
+    14521 tggtggctta tgtgtgtaaa cccagctgag attcccgcca ctgcactcca gcctgggtga
+    14581 cagagcaaga cttcttaaaa aaaaaaggga ggtaaaagtg accagtacct ggtgaatgac
+    14641 tgaataataa taatgtccat tcataaagcg ccaattacat cctggactta agcaagctaa
+    14701 ttaagtcctt aatggttaca tagttcataa gtaatatagg cagaattcca aagcaagggt
+    14761 gcccgacagc taagtccatg ttctttggac tgttttgtgc ttgaaggtaa ggaaaggtaa
+    14821 gcataggttt ctgaatctgg gatagagact aaaggaaaaa gagaagcttt tgtggaaaag
+    14881 agagtttgct tttaaacatg tttaatttga ttttttggtg tgatgtttgc agggggttca
+    14941 gtaggtagtc acatacgtga acccaaagtc cagaagaaaa gtaaggcctg gaattagaga
+    15001 gttgagaatg agtatccaag cataccttgg agatactgtg agtttggttc cagcccaccg
+    15061 caataaagca agtcacatgg agttttttgg ttgccattgt gcatgttaca ttagtactat
+    15121 gctgtagtct actaagtcta agtgtacaat agcattacaa tttttttttt tttttgagac
+    15181 ggagtcttgc tctgtcattc aggctgaagt gcagtggtgc gatctcagct cactgcaacc
+    15241 tccgcctcct gggttcaagt gattctcctg cctcagcctc ccgagtagct gggattacag
+    15301 gtacccatca ccacacccag ctaatttttt tgtattttta gtagagatgg ggtttcacta
+    15361 tgttggccag gctggtctca aactcctgac ctcaggtgat ccacccgtct cagcctccca
+    15421 aagtgcaggg attacgggtg tgagccaccg cacccggccc atctacttct gagttcttct
+    15481 gtttcctcct ttccttcatt gaaatgtccc catcaagtcc tggctcttcc tttcttggga
+    15541 ttccagctat tcacttttgc ttcaaatcat ttccaccaac ctgtttttct agcacctgtt
+    15601 tctccagtct tttaataaaa tctctggcct ggcgcggtgg ctcacgcctg taatcccagt
+    15661 actttgggag gccgaggcgg gtggaccatg aggtcaagag accatcctgg ccaacctggt
+    15721 gaaaccctgt ctctactaaa aatacaaaaa ttagctcgat gtggtggcgc tcacctgtag
+    15781 tcccagctac ttgggaggct gaggcaggag aatcacttga acccgggagg cagaggttgc
+    15841 agtgagctgc gattgcgcca ctgcactcca gcctggcgac agagcgagac tccatctcaa
+    15901 aacaaaacaa aaccaataat aaaatctcca tctggacacg aaagggttca agcagttcag
+    15961 gccttgagaa ggagggcatg acaaagatga gggaaaagaa acagggctgc atctctgagt
+    16021 gcctcgtttc ttatcagggg cttgagttgg cggggcatgt cttggtgcag aacacctggg
+    16081 ctgtcatggc gagggtacag gtacagagag gcttctgcca ggatctcaga ttcatgagct
+    16141 tgatttctgc ttgggaggaa caaataaagc attgttttgt ttttttgttt ttcctgaagc
+    16201 aactttgatt tctttttgtg gctaaatcct atggatgtca gagacctaga attcaaccca
+    16261 gatggaagtc tggggttcat gtcccagtag caggtgattt gtatggaacc caggatcgac
+    16321 cattatctag tgtgagtgct tttcctgcct cagtgactgg aataagcctc tgacttggga
+    16381 tattcaactt tggccttttc agaagtgtac acacaccaat cccccattcc cctcactcca
+    16441 ggctaaactt agttcttctg taagtagttc agggttttcc cagaccttag tccagagctc
+    16501 cccagccaca aaggctagaa actaggaacg ctgttcagtt gttggccttt ctttctttgc
+    16561 agaagcgaat gtctgtgacg gagggtggca tcaaataccc agagacgact gagggaggcc
+    16621 gccccaagct tggggggctg atggacccga ggcagggggt gattgagcgg actggccgct
+    16681 gccaaacatg tgcaggtaag tgctgggggg ccaggtggga tcccaaaggg gaggtgggtt
+    16741 gggtcctcaa aactagggct gacggttgac acctggaggc ctctgagatg agtgggagct
+    16801 gggaggaaag cactgggtgt gtgtcccaca ggaaacatga cagagtgtcc tggccacttt
+    16861 ggccacattg aactggccaa gcctgtgttt cacgtgggct tcctggtgaa gacaatgaaa
+    16921 gttttgcgct gtgtctgctt cttctgctcc aaactgcttg tggactctgt gagtggggaa
+    16981 caggctctgg tctgggagcg ggggtgcttg gtagggggca gggggacagc ttcaactgac
+    17041 cctgctctgc cctgtcccca gaacaaccca aagatcaagg atatcctggc taagtccaag
+    17101 ggacagccca agaagcggct cacacatgtc tacgaccttt gcaagggcaa aaacatatgc
+    17161 gagggtgggg aggagatgga caacaagttc ggtgtggaac aacctgaggg tgacgaggat
+    17221 ctgaccaaag aaaaggtggc tggggctggc ggagactttt gggaaggagg ggtcagaggc
+    17281 ctggagggag gaaactggaa gggaaggaaa caggaggggc tggcctggtg tggagggaaa
+    17341 tggcccaccc tctgggctct gatggcccct gtctctcctt ggaagggcca tggtggctgt
+    17401 gggcggtacc agcccaggat ccggcgttct ggcctagagc tgtatgcgga atggaagcac
+    17461 gttaatgagg actctcagga gaagaagatc ctgctgagtc cagagcgagt gcatgagatc
+    17521 ttcaaacgca tctcagatga ggagtgtttt gtgctgggca tggagccccg ctatgcacgg
+    17581 ccagagtgga tgattgtcac agtgctgcct gtgcccccgc tctccgtgcg gcctgctgtt
+    17641 gtgatgcagg gctctgcccg taaccaggtc agtggctcca gggctctgcc tcttagctgg
+    17701 agggcgaggt gtctaaaggg aggaagacct gtaggtgggg atgggtggat ggacctgggt
+    17761 ttgaaaattc ccctgctact tactagctgt atgatcttta atgagtcctt tcacatggtt
+    17821 aaaggccaca aacgtgtttc tgaatctata aatgatagtg ggcagtcctg cctcctgggg
+    17881 tggtgtgagg atgagagctg tgctgtgtgc ctggtacgtt cctgccgagc gctggcagtg
+    17941 gtggctggac catgatgatt ctgacttcct gcctcaggat gacctgactc acaaactggc
+    18001 tgacatcgtg aagatcaaca atcagctgcg gcgcaatgag cagaacggcg cagcggccca
+    18061 tgtcattgca gaggatgtga agctcctcca gttccatgtg gccaccatgg tggacaatga
+    18121 gctgcctggc ttgccccgtg tgagtcagca tgctccccac ccctctgtgt attggagcca
+    18181 gggtgggggc tagcatgagg cttcagagct ctggaagagg gcccagtgct gactttctgg
+    18241 attgccccca ccctgtgttt tttcctcaca ggccatgcag aagtctgggc gtcccctcaa
+    18301 gtccctgaag cagcggttga agggcaagga aggccgggtg cgagggaacc tgatgggcaa
+    18361 aagagtggac ttctcggccc gtactgtcat cacccccgac cccaacctct ccattgacca
+    18421 ggttggcgtg ccccgctcca ttgctgccaa catgaccttt gcggagattg tcaccccctt
+    18481 caacattgac aggtgtgcct ccgttggaaa gcccttcctg gaatggctag ggaagacatg
+    18541 gcctcagtgg caaggcttcg agagtctgct cctcctacct cgggcgtggg cttggagcaa
+    18601 ggaggaattg aagttctgaa gtttaacttc cactcaggga gggtggctgc aggggtattt
+    18661 taggaagcat tgagttcatt gcacctcttt ccttcctaga cttcaagaac tagtgcgcag
+    18721 ggggaacagc cagtacccag gcgccaagta catcatccga gacaatggtg atcgcattga
+    18781 cttgcgtttc caccccaagc ccagtgacct tcacctgcag accggctata aggcacgtag
+    18841 caggccaggg cctctctcag ccacctgagc agaaagcttt ccaagatagg gcaggctggg
+    18901 ttaggccatc tgagtctgtc tcgttcattg ggatccagac ttgactgtct tgttaaaggc
+    18961 tgttgctgcc caggtgtgca gggagctgtt ggtctctggc attcagggtg ggggtggtat
+    19021 aaacccgggg cagcttgcat atggcaggga agagggatcc gtggaggaac agtgcagaag
+    19081 gctttatgtt cagaatctct cttgcttttc ttctagactg agttccttga gattggtgaa
+    19141 tgctgtgtat tattcatccc tgataacctg gtgtttggcc cagggccttg tccagaggag
+    19201 tgtttaataa gtgtttcaag tgaattagca ccacgatgtc atctcttttc agtttacaaa
+    19261 ggactttttt tttttttttt ttttttttaa agaagacagt ctcgctctat cgcccaggct
+    19321 ggagtgtaga atgcagtgct gtgatcttgg ctcactgcaa cctctacctc ccaggctcaa
+    19381 gcgattcttc tgcctcagcc tcccgagtag ctaggattac aggcgcgcgc caccacacct
+    19441 agcttatttt tgtattttca gtagagatgg ggtttcacca tgttgaccag gctggtctca
+    19501 aactcctgag cttaagtgac gtgcccgcct cagcctccca aagtgcttgg attataggtg
+    19561 tgagccactg cactggactt gcaaaggact ttaggtccat tgtcctttta ttcttagata
+    19621 cctccttcac tgagaccttt tccttacctc acctctctag gtggaacggc acatgtgtga
+    19681 tggggacatt gttatcttca accggcagcc aactctgcac aaaatgtcca tgatggggca
+    19741 tcgggtccgc attctcccat ggtctacctt tcgcttgaat cttaggtcag tccctggctg
+    19801 agggaagcag gctggaattg gtgggaggcg ggcaggctgg gtggctcctc aaggtttcgc
+    19861 tgcagacatc ttcccaaccc tgacttttct ctttaactgt agtgtgacaa ctccgtacaa
+    19921 tgcagacttt gacggggatg agatgaactt gcacctgcca cagtctctgg agacgcgagc
+    19981 agagatccag gagctggcca tggttcctcg catgattgtc accccccaga gcaatcggcc
+    20041 tgtcatgggt attgtgcagg acacactcac agcagtgcgc aaattcacca agagagacgt
+    20101 cttcctggag cgggtgtgtg gtccaaatgg aaacctggct taagtgggca gtggggctct
+    20161 ggggtgcaag gtggaggcta gagaggaaga gctgtgtttt ttttcctgac ttacccagca
+    20221 gtggtctgtg agattgtctt ttctggtggg cgaacaaaaa gggggttagg aaaactcagg
+    20281 ccaaaaaggt gtaaggcgtt aattccccat ttaattcctt aaaatttcat gtaataccag
+    20341 gtattgcctg taaaggaaag ataaagggaa aaataagtaa gaccttgttc aaattttatt
+    20401 tttctatttt aaccttcact tatttcctaa ttattaaaag aaatttatgc ttattgttaa
+    20461 gaacaaaaac aaaaatttca gtattacaat gaatttttaa ttaaaagttt ttggggccgg
+    20521 gcgcagtggc tcacgcctgt aatcccagca ctttgggagg ccgaggcggg tggatcacga
+    20581 ggtcaggaga tcaagaccat cttggctaac acggtgaaac cccatctcta ctgaaaaata
+    20641 caaaaaatta gccgggcgta gtggcatgag cctgtagtcc cagctacttg ggaggctgag
+    20701 gcaggagaat ggcgtgaact cgggaggcag agcttgcagt gagccgagat cacaccactg
+    20761 cactccagcc tgggcgacag agcgagactc cgtctcaaaa aaaaaaaaaa aaaagttttt
+    20821 gggactgggc atggtgactc acacctgtaa ttctagcact ttgggaggcc gaggcaggca
+    20881 catcatttga ggccaggagt tggagacaac tctggccaac atagagaaac cccgtctcta
+    20941 ccaaaaatac aaaaattagc cggacatggt ggcaggtgcc tgtaatccca gctacttgag
+    21001 aggctgtggc aggagaattg cttgacccca ggaggcggag gttgcagtga gccctgattg
+    21061 caccattgca ctccagcctg ggtaaacagc aagaccctgt ctcaaaaaat taaaggttgg
+    21121 aaaaaacttt tcctgtcatc tttgcctcca aaatctggct ttctcccttg ggcagggaaa
+    21181 cctccccaac atttctctat catccctgag atgtggggcc tgcactctga cttctgtctg
+    21241 ccttactctt tgtcttacag ggtgaagtga tgaacctcct gatgttcctg tcgacgtggg
+    21301 atgggaaggt cccacagccg gccatcctaa agccccggcc cctgtggaca ggcaagcaaa
+    21361 tcttctccct catcatacct ggtcacatca attgtatccg tacccacagc acccatcccg
+    21421 atgatgaaga cagtggccct tacaagcaca tctctcctgg ggacaccaag gtagggcttg
+    21481 gcttctggat atgtgaggac agaatttgga cgtgggagcc aggaccagag caggggcctt
+    21541 gagtgggtgc tttgtcctta ggtggtggtg gagaatgggg agctgatcat gggcatcctg
+    21601 tgtaagaagt ctctgggcac gtcagctggc tccctggtcc acatctccta cctagagatg
+    21661 ggtcatgaca tcactcgcct cttctactcc aacattcaga ctgtcattaa caactggctc
+    21721 ctcatcgagg gtgagcatgg aggcgtggta ccaagacgtc tctgtgaatt ctctaacttc
+    21781 ttactgtcct tccatccctt tctttcctcc ttggatttgg tgccccctgc ttctactctc
+    21841 ttggctataa ttccattcca tgtttcttag aggtccaaag gggtttgctg atgtttttcc
+    21901 ctgtctctag gtcatactat tggcattggg gactccattg ctgattctaa gacttaccag
+    21961 gacattcaga acactattaa gaaggccaag caggacgtaa tagaggtaag aggggaggcc
+    22021 accagagacg gaataagggg tttccaggga cttcgaagtt agcatcatca agagcaaagg
+    22081 gagtgtaagg ttagagggaa ggggcagaga gtagggattg atgtctcacc gagaactctg
+    22141 cctccaggtc atcgagaagg cacacaacaa tgagctggag cccaccccag ggaacactct
+    22201 gcggcagacg tttgagaatc aggtgaaccg cattcttaac gatgcccgag acaagactgg
+    22261 ctcctctgct cagaaatccc tgtctgaata caataacttc aagtctatgg tcgtgtccgg
+    22321 agctaaaggt tccaagatta acatctccca ggtgagaagc cttgtttttc catatacggg
+    22381 gccgctgtga agtttgggag gaggaaggaa ggtgtttgta tgtattaggg tcaggagaat
+    22441 cacgggagtt gggggaaatt ttgggaactg ttattcttaa ggcagaggga attcagtata
+    22501 caccaccttt ctgtttccca ggtcattgct gtcgttggac agcagaacgt cgagggcaag
+    22561 cggattccat ttggcttcaa gcaccggact ctgcctcact tcatcaagga tgactacggg
+    22621 cctgagagcc gtggctttgt ggagaactcc tacctagccg gcctcacacc cactgagttc
+    22681 tttttccacg ccatgggggg tcgtgagggg ctcattgaca cggctgtcaa gactgctgag
+    22741 actggtgagg ctttcctcag gggtcttcct tgggctgtta gcagggactg ctgcaggctg
+    22801 agaaacccct aacaggtggg gagcggaaat gctcaggctc ctattcccag ggtataattc
+    22861 tggcccttgt ggaaagaata gagtctcaag agtaggcaaa cacccttgtt tggattgctg
+    22921 tgcagcattg cacagtgcag ggacagagct tccggggctc tgccggcctg tcccatggga
+    22981 gtggttcctg ctgggctttt tgtccgtcta gtggtagaca ctgagtttgc attcaaaggc
+    23041 ctcagacaca gagagtacta gctgactctt ctgacagtca ggtaggttaa ggccccagcc
+    23101 tgggtctttg ggctttatca tccccttact tccctccagg atacatccag cggcggctga
+    23161 tcaagtccat ggagtcagtg atggtgaagt acgacgcgac tgtgcggaac tccatcaacc
+    23221 aggtggtgca gctgcgctac ggcgaagacg gcctggcagg cgagagcgtt gagttccaga
+    23281 acctggctac gcttaagcct tccaacaagg cttttgagaa gaagtgagga ggcgggcagg
+    23341 cgggtggttc tcgcccctgg ggctcagggc ctgagtagta ggattcccat acctattcca
+    23401 gagagatagc ctggtatgtg tcttgcacta gagcttacct ttcagcatcc ttccccacct
+    23461 atctgaaaca gctgtgtgac atgggggagg tggtggatgg aggtggattt aagattggtc
+    23521 cccacatcgt ccctgctgat attataaagc agatgcagag gggtgggcct gtactcaggt
+    23581 cccagtggca gtccttgggc ctgaattttt ctctgtccag gattcttgcc tccaaaccac
+    23641 tgtacttggt cggctgtgca cctttgggaa ccttacagtg cgttttgtgg ggaccaaggt
+    23701 cccagagccc acctgtccac tagctacccc ttgcacttcc aggttccgct ttgattatac
+    23761 caatgagagg gccctgcggc gcactctgca ggaggacctg gtgaaggacg tgctgagcaa
+    23821 cgcacacatc cagaacgagt tggagcggga atttgagcgg atgcgggagg atcgggaggt
+    23881 gctcagggtc atcttcccaa ctggagacag caaggtgcgt gtgggtcgaa gtgctgatgc
+    23941 tagagatgtg cctccctgga tggctgtccc cagacacagc cctccctcca tttccccctc
+    24001 tctcaggtcg tcctcccctg taacctgctg cggatgatct ggaatgctca gaaaatcttc
+    24061 cacatcaacc cacgccttcc ctccgacctg caccccatca aagtggtgga gggtaagtac
+    24121 ctgcttaggg gtctccaagc caggctaggg gataggagac tgctgggccc tggtctaatg
+    24181 atctcctcac ctttaattgg tccccaggag tcaaggaatt gagcaagaag ctggtgattg
+    24241 tgaatgggga tgacccacta agtcgacagg cccaggaaaa tgccacgctg ctcttcaaca
+    24301 tccacctgcg gtccacgttg tgttcccgcc gcatggcaga ggagtttcgg ctcagtgggg
+    24361 aggccttcga ctggctgctt ggggagattg agtccaagtt caaccaagcc attgtgagtg
+    24421 ttgtgctctt cacagcagtc ttcttttcct ccttttacct gttgacttct gtggtttcca
+    24481 agagcagccc acttctgtcc acaacctaca gaataggttc tgtaggttct gtcccaccta
+    24541 ataatagctc tcattcatgg agagactgct tgtaccttac caagtcctgt gtttggccca
+    24601 ttatcgcttt ataccatcat ggctttaata cactcctagt aggggagggt ttgttagtcc
+    24661 catgttgcag agacaaaaac tgaggcttgg agagagtgac tggattgtgt gatggtcata
+    24721 taggaagtaa gtggcatgac tgggatatga cataggagaa ttgttctttt tttttttctc
+    24781 tacactctct gctgtgtgca gggtctaatt tagataaaga tagggaattg gggctaggtg
+    24841 gggtggctca cacctataat cccagcactt tgggaggccg aggcaggcag atcacaaggt
+    24901 caggagttcg agaccagcct gaccaacatg gtgaaacaag ggtgaaatac aaaaattagc
+    24961 cgggcgtggt ggcgtgtgcc tataatccca gctactcagg acgctgaggc aggagaatcg
+    25021 cttgaacaca ggaggcagag gttgcagtga gccaagagtg cgcctttgca ctccagcctg
+    25081 ggcaacagag caagactccg tctcaaaaag ggagttggag agagtaaata gaaaaaaaga
+    25141 tttatggcta ttggaatgtg ctttcactgg ctttaaggat tttataggat agtaagaggg
+    25201 taaagcactg ttacaggcgt acctctgaac ctgtttactg taagtcagtt tttataaatt
+    25261 aaataattaa aaatgtatta gggaacacca tagaacatgg ctgaaagaaa ttgtaaaaga
+    25321 cctaaatgag gccgggtgca gtggcttatg cctgtaatcc cagcactttg ggaggccgag
+    25381 gtgggcagat cacctgaggt caggagttca agaccagcct taccaacagg aagaaacccc
+    25441 acctttacta aaaatacaaa attagcaggg tatagtggca catgcctgta atcccagcta
+    25501 ctctggaggc tgagacagga gaatcacctg aacccgggga tggaggttgc ggtgacccga
+    25561 gattgcacca ttgcactcca gcctgggcaa caagagtgag actgtatcaa aaaaaaaaaa
+    25621 aaaaaaccct aaatgaaaga cctctcatat tcatggattg gaagacttaa tattgttgaa
+    25681 tattaatatt gttaatatac ttcccaaaat aagctataga tccaatataa tccctatcaa
+    25741 aattccaact ggctttttct cagaaattta ttaagctgat gttaaaattc atatggaaat
+    25801 gcaagggata tagaatagcc aaaacaatat ttaaaagtag caaaagtttg gagaactcac
+    25861 attcctgatt tcacaactta ctacagagct acagtaaaca agactgtgct tctgtcatga
+    25921 ggatacgtat aaagactgat agagtagaat tgagagtcca gaaataaacc ctcacattta
+    25981 tggtcacttg attttttgca agagtcccaa tttaattaaa tggggtgaga atactctttt
+    26041 tagcaaatgg tgctagggca actagatatc cacatgcaag agaatgaagt tggattccta
+    26101 cctcatacca tgtacaaaaa ctctcaaaat gcctaaattg aagagctaac actataaaac
+    26161 tcttataagg aaacttgaat aaatcttcat gactgtggct tagcagtgaa ttcttaggta
+    26221 tgacaccaaa agcataagca tccaaaggaa aaaatagatg aattggactt catcaaaatt
+    26281 taaaacttaa tgcttcgtag gacactatca agaaagtaaa aagataacac agagaatggg
+    26341 agaaaatatt tggaaatcat ctgataaggg ccatacataa agaatatata aaggactata
+    26401 acaataaaaa gtcaacaata aaaagtctca aaggatttca acaaatgttt cctggctggg
+    26461 cgtggtggct cacgcctgta atcctaacac tttgggaggc tgaggcgggt ggatcacctg
+    26521 aggttgggag tttgagacca gcctgatcaa catggagaaa ccccgtctgt actaaaaata
+    26581 caaaattagc cgggcatgtc ggcacatgcc tgtaatccca gttactcggg aggctgaggc
+    26641 aggagaatcg cttgaacctg ggaggtggag gttgcgatca gccgagatag tgccattgca
+    26701 ctccagcgtg ggcaacaaga gtgagactct gtctcaaaaa tagtaataaa ataaaaaaac
+    26761 aggctgggcg cagtggctca cgcctgtaat cccagcactt tgggaggccg aggcgggcag
+    26821 atcacgaggt caggagattg agaccatcct ggctaagacg gtgaaacccc gtctctacta
+    26881 aaaaatacat aaataaataa ataaataata aaaaaaacat gtttccccaa agaagagtac
+    26941 tattcatgta aatgatcagt aagtgcatga aaagatactc aacatcatta gccatcaggg
+    27001 aaatgcaaat gaaaccagag tgatgtgcca cttcacatgc actaggatga ctgtaatcca
+    27061 aaacacagat aataacaagt gttgacaagg atgtggaaaa attagaaccc tcatacattg
+    27121 ctagtagaaa aggtacaact gctttaggaa gttaaagcag ttaccatatg gcccagcagt
+    27181 ttcgttccta gagagattat acacacacac acgagagaac agaaaacata tggccacaca
+    27241 aacatttata cacaaatgtt cgtatcagtg ttacagtagc taagcagtga aaacaagtgt
+    27301 ccatccactg atgaatggat aggcaaaatg tgatatgtcc atatgaggga acatcattca
+    27361 gcaataaaaa gtaatgaaca ggctgggcct acgtggtggc tcacgcctgt aatcccagca
+    27421 ctttgggagg ccaaggcagg tagatgactt gagttccaga ccagcagcct gcccaacatg
+    27481 gtgaaacccc caactctacc aaaaatagaa aaattaagtg tggtgctaca tgcttgctat
+    27541 cccagctact tcggagggta aggcaggagg atcacttgaa cccaggcagc agaggttgca
+    27601 gtgagctgag actgcaccac cgcactccag cctgggcgac agagggagac catctcaaaa
+    27661 aaaaaaaagt aacggacagc caagcacagt ggctgatgtc tgtaatccta gcactttggg
+    27721 aggctgaggt gggaagattg cttgagccca gaagttcaag accacccttg ggcaacatga
+    27781 caaaacccca tctctacaaa aaatttagcc aggtgtggtg gagtgcacct gtaatcccag
+    27841 ctacttggga ggctgaggtg ggaggatacc tgaggccagg aggttgaagc tgcaatagtg
+    27901 agctgagatc atgctactgt acttcagcct gggcaacaga gtgagactct atctcaaaaa
+    27961 aaaaaaatct gtcaagccac aaaaagacag tgataagcca gatgcactgg ctcataactc
+    28021 taatctcaac actttgggag gccgaggcag gaggctcacg agagcccagg agtttgagac
+    28081 cagcctgggc agcataacga aattctgtct ttgccagtga tgaaccttaa atgtatactt
+    28141 gcttaatgga agaaattagt ctgaaaaagt tagatactgt gattccagtt aagtttaatt
+    28201 tcgtatgtga ctatctcata acacatacgg ggagcttcct atttagctaa ctgttataaa
+    28261 atgaatattt acggagtaat tttaacatag gtttagaaat ttggatcttg gccgggcgaa
+    28321 gaggcccaca cctgtaatcc cagcactttg ggaggccaag gcgggtggat cacctgaggt
+    28381 cgggagtttg agaccagcct aaccaacatg gtgaaacccc gtctctacta aagatacaaa
+    28441 aaaatattag ctgggtgtgg tggcacgcgt ctgtaattcc agctacttgg gaggctgagg
+    28501 caggagaatc gcttgaacct gggaggcaga agttgcagtg agccgagatc gtgccattgc
+    28561 actccagcct aggcgacggt gagactccgt ctcgaaaaaa tttggatctc agatggtata
+    28621 gtagctttct ttggatgtgc tgcataccag gtgccaaatg gcgtcctata aatggaagct
+    28681 cttgtgtgag gaaggggatg atcaaataag agttttgttt ttgttaagag tctgtctgcc
+    28741 ttttccgaac tcatctaccc atgtccttta agattacagt cctggccctg tgataagcca
+    28801 gatgcagatc cacatcgtac tcattcactg aaagagaggc gttggctttg tctgatgcta
+    28861 gctttttctt aggcgcatcc cggggaaatg gtgggggctc tggctgcgca gtcccttgga
+    28921 gaacctgcca cccagatgac cttgaatacc ttccactatg ctggtgtgtc tgccaagaat
+    28981 gtgacgctgg gtgtgccccg acttaaggag ctcatcaaca tttccaagaa gccaaagact
+    29041 ccttcgctta ctgtcttcct gttgggccag tccgctcgag atgctgagag agccaaggta
+    29101 gggatcagga ctgctgggct ttttggccgg aagaaaagaa ggagaactca actgggtatg
+    29161 gtggctcatg tctgtaatcc cagcactttg ggaggccaag gcaggtggat cacctgaggt
+    29221 caggagttca agactaacct ggccaaggtg gtgaaacccc atctctacta aaaatagaaa
+    29281 aattagccgg gcatggtcgt gtgtgcctgt aatcccagct gctagttggg gctgagacag
+    29341 gagaatcgct tgaacctggg gggcagaggt tgcagtgagc cgagattgtg ccactgcact
+    29401 ccagcctggg caacaagagc gagattccat ctgaaagaaa aaaagaaaaa aaaggagaac
+    29461 ttttcccctt gaataaaggg ttttggattc ccttgataag gagggttaga agagacgttt
+    29521 agagctactc agttccctgt gtcatggact tctgtctctt cccaggatat tctgtgccgt
+    29581 ctggagcata caacgttgag gaaggtgact gccaacacag ccatctacta tgaccccaac
+    29641 ccccagagca cggtggtggc agaggatcag gaatgggtga atgtctacta tgaaatgcct
+    29701 gactttgatg tggcccgaat ctccccctgg ctgttgcggg tggagctgga tcggaagcac
+    29761 atgactgacc ggaagctcac catggagcag attgctgaaa agatcaatgc tggtaagcct
+    29821 aggagggctg gcctggctca ggagccccgc tctctgggct accacctatc gtgttcaccg
+    29881 cacttgagcc cccaaagagc tacccaccct cacccccatg catgtaccag ttccgcccct
+    29941 ccgaggcatc ctccaactct ccaggtcccc tctgcactcc ctttctcttc tgaatgttct
+    30001 cccttcccct ttccaggggg ttctatgaaa agaaagtttc tgtgaggagc ggggagccaa
+    30061 aagagagcct tgctcagaga gagctgcgag tggacagtgg ctggggccag tccccttagc
+    30121 tgcagccttt ctcatggctc ctcaccccac caggttttgg tgacgacttg aactgcatct
+    30181 ttaatgatga caatgcagag aagctggtgc tccgtattcg catcatgaac agcgatgaga
+    30241 acaagatgca agaggtaatg ggggtcctag aagtcagcgt gtcacatgta taaaacgcat
+    30301 gaatcacgtt agagaccaaa gaaaagaaga tgcaatcaac attgaggggc ggccaggcgc
+    30361 ggtggctcac gcctgtaatc ccagcacttt gggaggctga ggcgggtgga tcacctgagc
+    30421 tcaggagttc gagaccagcc tgaccaacat ggagtaaccc cgtctctact aaaaataaaa
+    30481 attagccggg catggtggta tgtgcctgta atcctagcta cttgggaggc tgaggcaaca
+    30541 agagtgaaac tatctcaaaa aataaaaaaa acattgaggg gccagtcata cccacctaat
+    30601 ttagggatag ggaatggtga ttagcaacga ttttcaaaat ccacagcacc ggccgagtag
+    30661 ataaaacagg tggtgttgaa ataggagata ggagtgcctc cctgtcacgc tgtcacttgg
+    30721 ctctcctccc ccaaggctcc tgcagcttgc tttgcttagg gaatacaagc cccacccctg
+    30781 aggcaggggc cagacttggg ggcaggttgg gcagtaggca ttgctatgtc ctaggggaag
+    30841 tcgtgtgaca gccataacaa gacccatgaa aaggctggat cagtgacttc actcctgggc
+    30901 atggctcctg agatacttgt ttggcacatg ttggtacctg gtgctttagt aataaaaact
+    30961 gaagaactca ggctgggcat ggtggctcac acttgtaatc ccagcacttt gggaggccaa
+    31021 ggcgggcaga ttacctgagg tcgggagttc gagaccagcc tgaccgacat ggagaaaccc
+    31081 cgtctctact aaaaatacaa aatgagccgg gcgtggtggc gcatgcctgt aatctcagtt
+    31141 actcaggagg ctgaggcagg agaaatgctt gaacatggga ggcagaggtt gtggtgaggc
+    31201 aagatcacac cattgcactc cagcctgggc aataagcgaa actccatctc taaaaaaaca
+    31261 aaaacaaaaa actgaagaac tcactaactg ctgaactgct gtcagagaac agttataaaa
+    31321 gcattgatag gtcttgatgg aatacagtat atggccatta gaagtgatca ctgtcatgcc
+    31381 agcagcagcc tagatgaaca cacagtgaag tgccagagca gggaatggtg tgtgctcggg
+    31441 tacagcagtt gggaggatat gacatgtacg tggagcccgc ctctcgctag gcgcaggact
+    31501 gcacaagagt ggaagttgtg acggggtggt gggatttggg tgcctttcct taggcttctt
+    31561 ttaatattgt aaaatcagga ttaaaagtct cactggagaa ttgcaggaac atgggaggta
+    31621 gaggttgcag tgagctgaga tcgtggcatt gcactccagc ccaggctgat aacagcgaga
+    31681 ctccacctca aaaaaaaaaa aaaaaaagtc tcactggaac tgtgaggggc agagcctggt
+    31741 gactgactcg tttggccctc aaagaggctg tagttggagg cgagagctgg ggaagagacc
+    31801 agaggatgcc aagtgctgac ctcactctca ctgcaggagg aagaggtggt ggacaagatg
+    31861 gatgatgatg tcttcctgcg ctgcatcgag tccaacatgc tgacagatat gaccctgcag
+    31921 ggcatcgagc agatcagcaa ggtcagccat cccctctgcc accgccttcc tcctcccact
+    31981 cccacactcc cctccctgcc tactctgagc acgctgtctt cccacaggtg tacatgcact
+    32041 tgccacagac agacaacaag aagaagatca tcatcacgga ggatggggaa ttcaaggccc
+    32101 tgcaggagtg gatcctggag acggacggcg tgagcttgat gcgggtgctg agtgagaagg
+    32161 acgtggaccc cgtacgcacc acgtccaatg acattgtgga gatcttcacg gtgagcccgt
+    32221 gtgtgctgcc tagctgcctt tcgtggatct ctggctctca ggcccctcat tctgtgctgt
+    32281 ccactcagga ctttttctgc ctgattccat ttctgagtgt gggatatcct ggctcctgac
+    32341 accctccctg gatctgggtg gcgacagaag cagggaagag agcagagttg ctcagtcctg
+    32401 gccctcccct ccacttccct cccctgtgcc aggtgctggg cattgaagcc gtgcggaagg
+    32461 ccctggagcg ggagctgtac cacgtcatct cctttgatgg ctcctatgtc aattaccgac
+    32521 acttggctct cttgtgtgat accatgacct gtcgtggcca cttgatggcc atcacccgac
+    32581 acggagtcaa ccgccaggac acaggaccac tcatgaagtg ttcctttgag gaaacggtaa
+    32641 cagtggaatt tctgaatagg gcagaaggag ggagtagtgt gagaagaagg gcacacactt
+    32701 tgggcagctg ggctgtggtg atgggacagt caggtgctgt gtgtggaggg gtctcatggg
+    32761 gccggtctgc tctgttcagg tggacgtgct tatggaagca gccgcacacg gtgagagtga
+    32821 ccccatgaag ggggtctctg agaatatcat gctgggccag ctggctccgg ccggcactgg
+    32881 ctgctttgac ctcctgcttg atgcagagaa gtgcaagtat ggcatggaga tccccaccaa
+    32941 tatccccggc ctgggggctg ctggacgtga gtatgaggcc ccagctgcgg tacctgcttg
+    33001 cgtcggcgag gcgggggggc aggccatggg tgcaagggtg tcaccagtcc atgattgctg
+    33061 ttcttgctcc tcacgatttc ctgtgttcct ctttgcagcc accggcatgt tctttggttc
+    33121 agcacccagt cccatgggtg gaatctctcc tgccatgaca ccttggaacc agggtgcaac
+    33181 ccctgcctat ggcgcctggt cccccagtgt tggtgagtaa cctgatccag gaagagggcc
+    33241 ctccaggtgg ttcagaggtg gataagctgg gatcgtgaac ggtagccatt gttggaactc
+    33301 tgaaggccgc agagggctag tgaaaggtgg ggcagggaga attgggggcc tttggtctcc
+    33361 cgctctggcc ttaacttgct tctctcactc tatagggagt ggaatgaccc caggggcagc
+    33421 cggcttctct cccagtgctg cgtcagatgc cagcggcttc agcccaggtt actcccctgc
+    33481 ctggtctccc acaccgggct ccccggggtc cccaggtccc tcaagcccct acatcccttc
+    33541 accaggtgag ttgtcgccat ctgtcaggcc aggtttgttt cctccacagt tctgggtgag
+    33601 tctgtccatt gctcatctcc tttgttggct gcttccccac aggtggtgcc atgtctccca
+    33661 gctactcgcc aacgtcacct gcctacgagc cccgctctcc tgggggctac acaccccaga
+    33721 gtccctctta ttcccccact tcaccctcct actcccctac ctctccatcc tattctccaa
+    33781 ccagtcccaa ctatagtccc acatcaccca gctattcgcc aacgtcaccc agctactcac
+    33841 cgacctctcc cagctactca cccacctctc ccagctactc gcccacctct cccagctact
+    33901 cgcccacctc tcccagctac tcacccactt cccctagcta ctcgcccact tcccctagct
+    33961 actcgccaac gtctcccagc tactcgccga catctcccag ctactcgcca acttcaccca
+    34021 gctattctcc cacttctccc agctactcac ctacctctcc aagctattca cccacctccc
+    34081 ccagctactc acccacttcc ccaagttact cacccaccag cccgaactat tctccaacca
+    34141 gtcccaatta caccccaaca tcacccagct acagcccgac atcacccagc tattcaccta
+    34201 ctagtcccaa ctacacacct accagcccta actacagccc aacctctcca agctactctc
+    34261 caacatcacc cagctattcc ccgacctcac caagttactc cccttccagc ccacgataca
+    34321 caccacagtc tccaacctat accccaagct cacccagcta cagccccagc tcgcccagct
+    34381 acagcccaac ctcacccaag tacaccccaa ccagtccttc ttacagtccc agctccccag
+    34441 agtatacccc aacctctccc aagtactcac ctaccagtcc caaatattca cccacctctc
+    34501 ccaagtactc gcctaccagt cccacctatt cacccaccac cccaaaatac tccccaacat
+    34561 ctcctactta ttccccaacc tctccagtct acaccccaac ctctcccaag tactcaccta
+    34621 ctagccccac ttactcgccc acttccccca agtactcgcc caccagcccc acctactcgc
+    34681 ccacctcccc caaaggctca acctactctc ccacttcccc tggttactcg cccaccagcc
+    34741 ccacctacag tctcacaagc ccggctatca gcccggatga cagtgacgag gagaactgag
+    34801 ggcacgtggg gtgcggcagc gggctagggc ccagggcagc ttgcccgtgc tgctgtgcag
+    34861 ttcttgcctc cctcacgggg cgtcaccccc agcccagctc cgttgtacat aaatgccttg
+    34921 tggcagagct cccggtgaac ttctggatcc cgtttctgat gcagactctt gtcttgttct
+    34981 ccacttgtgc tgttagaact cactggccca gtggtgttct cactcctacc ccacccaccc
+    35041 cctgcctgtc cccaaattga agatccttcc ttgcctgtgg cttgatgcgg ggcgggtaaa
+    35101 gggtatttta acttaggggt agttcctgct gtgagtggtt acagctgatc ctcgggaaga
+    35161 acaaagctaa agctgccttt tgtctgttat tttatttttt tgaagtttaa ataaagttta
+    35221 ctaattttga ccaaaagtat gtacatcgag tgcttcattg gggttcagga gacccccagg
+    35281 cccctgcctc ctgcctgggc tgctgcttga tctgttaggg ggaggggacc aggaaaatgg
+    35341 gagggtacct tacagtcagc ccacacacag cccctgctct gtgccaggca ctgctctgta
+    35401 ctgagtttgt tatagtcaca acagatgcag ctcttgtcct ctattaaggt gatattgacc
+    35461 ataacagctt tttaacttgt tttactgatt gtcataaata atttggaaaa gtgtagaaaa
+    35521 gtataatgca gagggagaaa aatgatcacc cataatccca ccactaggag gcatactttc
+    35581 tttggtattt tttcctatac ttttcttgag tcactaacaa gtgaacaaaa atgtactttg
+    35641 attttggcct caaaccaaga atgaaaagat tatatagatg ttgtaataca gaagctgaag
+    35701 taaaaggact tgggggtaat acgctagttt tagccggcta tttttccccc tttcattagc
+    35761 accttaatgt ggtatcaatg ttctacatcc tctgcaagtc atttctgatt tacttgaggt
+    35821 atttttattt ttattttatt tttttgagac agtctcgctc tgttgcccag gctggagtgc
+    35881 agtggcgcag tctcggctca ctacaacctc tgcctcttgg gttcaagcaa ttctcactgc
+    35941 ctcagccttc caagtagctg cgattgcaga tgtccgtcac catgcccagc tactttggta
+    36001 tttttaatag agaagggatt tcacagtgtt ggccaggctg gtctcaaact cctgatttca
+    36061 ggtgatctgt ccactttggc ctcccaaagt gctgggatta caggcatgag ccactgcacc
+    36121 tggcctgtta tctagaaatg tctattttgc cttcattcct aaagaatatc tttgctagag
+    36181 ataggattct ggtgtgacag attcattttt tgtttttagc actttttttt ttttttttag
+    36241 gagcagaggt ttaatatgca aaagatagag aaaagagaac agctcgctct cttgtggggg
+    36301 agaggggctt ctgaaaggga agtccctaag atgtcctatc ttccggccct cacagtttct
+    36361 agtgagaagt tcacagtctt tgggatcata tttcttgtgt tatttttctc taaatgcttt
+    36421 caagattttc tttttatctc tggttctttg gtttttgaca gtttagcttt ggtgtgtata
+    36481 ttggagttct ccagagaagc agaaccattg ggagagatat atatcttcct gtgctaataa
+    36541 tcacattact tttatatgtg attatatata tacatatata tttttttcta tttacttgag
+    36601 cttccccaca gcaaaaatga ggggttttgt catgggaatt cgctcaaacg attacaggga
+    36661 ccaagaagtt tcacaatctg ccatctgtaa tctggagaac caggaagctg gtggtgtaat
+    36721 tcagtcttga gtccaaaggc ctgagaactg gaggtggggt ggtggtggca gtggtggcag
+    36781 tggtggcgct ggtgtaagtc ctggagtcta aagacccaag aattgggagc ttctaggtcc
+    36841 aaaggcagga gaagttggat gtctgagctc aaggagagga ctcacccttc ctctaccttt
+    36901 ttgttctttc caagccctca cttgattgga caatgcccac ctatggcggt gcaagagaac
+    36961 cttactcagt ctaccgatta aaatgccgac ctcttcaaga aacactctca ctgacacacc
+    37021 cagaaagaat gtttttccag ctctctgggc gttccttaac tcagtcaagt tgacgcgtac
+    37081 cattaaccac cactgtgtgc ccaggcatag ttttctcatt tatcccgttt gagtttccct
+    37141 gagatttttg attctgtaaa attgcctttt agcgtatttg ggaagttttt agactttttt
+    37201 tttttttttt aagatggcgt ctcggtctat cgcccagg
+//
+

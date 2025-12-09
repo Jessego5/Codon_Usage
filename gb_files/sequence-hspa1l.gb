@@ -1,0 +1,449 @@
+LOCUS       NG_011855              12440 bp    DNA     linear   PRI 15-MAY-2022
+DEFINITION  Homo sapiens heat shock protein family A (Hsp70) member 1 like
+            (HSPA1L), RefSeqGene on chromosome 6.
+ACCESSION   NG_011855
+VERSION     NG_011855.1
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AL671762.10.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            Summary: This gene encodes a 70kDa heat shock protein. In
+            conjunction with other heat shock proteins, this protein stabilizes
+            existing proteins against aggregation and mediates the folding of
+            newly translated proteins in the cytosol and in organelles. The
+            gene is located in the major histocompatibility complex class III
+            region, in a cluster with two closely related genes which also
+            encode isoforms of the 70kDa heat shock protein. [provided by
+            RefSeq, Jul 2008].
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-12440             AL671762.10        15467-27906         c
+FEATURES             Location/Qualifiers
+     source          1..12440
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="6"
+                     /map="6p21.33"
+     gene            complement(2117..4516)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="heat shock protein family A (Hsp70) member 1A"
+                     /db_xref="GeneID:3303"
+                     /db_xref="HGNC:HGNC:5232"
+                     /db_xref="MIM:140550"
+     mRNA            complement(2117..4516)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /product="heat shock protein family A (Hsp70) member 1A"
+                     /transcript_id="NM_005345.6"
+                     /db_xref="GeneID:3303"
+                     /db_xref="HGNC:HGNC:5232"
+                     /db_xref="MIM:140550"
+     CDS             complement(2377..4302)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="heat shock 70kD protein 1A; epididymis secretory
+                     protein Li 103; heat shock 70 kDa protein 1; heat
+                     shock-induced protein; dnaK-type molecular chaperone
+                     HSP70-1; heat shock 70 kDa protein 1A/1B; HSP70-1/HSP70-2;
+                     HSP70.1/HSP70.2; heat shock 70 kDa protein 1/2; epididymis
+                     secretory sperm binding protein; heat shock 70kDa protein
+                     1A; Heat shock 70 kDa protein 1B; Heat shock 70 kDa
+                     protein 2; heat shock protein family A member 1A"
+                     /codon_start=1
+                     /product="heat shock 70 kDa protein 1A"
+                     /protein_id="NP_005336.3"
+                     /db_xref="CCDS:CCDS34414.1"
+                     /db_xref="GeneID:3303"
+                     /db_xref="HGNC:HGNC:5232"
+                     /db_xref="MIM:140550"
+                     /translation="MAKAAAIGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAF
+                     TDTERLIGDAAKNQVALNPQNTVFDAKRLIGRKFGDPVVQSDMKHWPFQVINDGDKPK
+                     VQVSYKGETKAFYPEEISSMVLTKMKEIAEAYLGYPVTNAVITVPAYFNDSQRQATKD
+                     AGVIAGLNVLRIINEPTAAAIAYGLDRTGKGERNVLIFDLGGGTFDVSILTIDDGIFE
+                     VKATAGDTHLGGEDFDNRLVNHFVEEFKRKHKKDISQNKRAVRRLRTACERAKRTLSS
+                     STQASLEIDSLFEGIDFYTSITRARFEELCSDLFRSTLEPVEKALRDAKLDKAQIHDL
+                     VLVGGSTRIPKVQKLLQDFFNGRDLNKSINPDEAVAYGAAVQAAILMGDKSENVQDLL
+                     LLDVAPLSLGLETAGGVMTALIKRNSTIPTKQTQIFTTYSDNQPGVLIQVYEGERAMT
+                     KDNNLLGRFELSGIPPAPRGVPQIEVTFDIDANGILNVTATDKSTGKANKITITNDKG
+                     RLSKEEIERMVQEAEKYKAEDEVQRERVSAKNALESYAFNMKSAVEDEGLKGKISEAD
+                     KKKVLDKCQEVISWLDANTLAEKDEFEHKRKELEQVCNPIISGLYQGAGGPGPGGFGA
+                     QGPKGGSGSGPTIEEVD"
+     misc_feature    complement(3145..4299)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0DMV8.1);
+                     Region: Nucleotide-binding domain (NBD).
+                     /evidence=ECO:0000250|UniProtKB:P11142"
+     misc_feature    complement(4297..4299)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="N-acetylalanine.
+                     /evidence=ECO:0007744|PubMed:19413330; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); acetylation site"
+     misc_feature    complement(4072..4074)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000269|PubMed:27708256; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); acetylation site"
+     misc_feature    complement(3979..3981)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); acetylation site"
+     misc_feature    complement(3565..3567)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); acetylation site"
+     misc_feature    complement(3259..3261)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); acetylation site"
+     misc_feature    complement(2776..3123)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0DMV8.1);
+                     Region: Substrate-binding domain (SBD).
+                     /evidence=ECO:0000250|UniProtKB:P11142"
+     misc_feature    complement(2896..2898)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="Omega-N-methylarginine.
+                     /evidence=ECO:0007744|PubMed:24129315; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); methylation site"
+     misc_feature    complement(2620..2622)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="N6,N6,N6-trimethyllysine, by METTL21A, alternate.
+                     /evidence=ECO:0000269|PubMed:23349634,
+                     ECO:0000269|PubMed:23921388, ECO:0007744|PubMed:24129315;
+                     N6,N6-dimethyllysine, alternate.
+                     /evidence=ECO:0007744|PubMed:24129315; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); methylation site"
+     misc_feature    complement(2380..2463)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="propagated from UniProtKB/Swiss-Prot (P0DMV8.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    complement(2410..2412)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:20068231; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); phosphorylation site"
+     misc_feature    complement(2404..2406)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:20068231; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); phosphorylation site"
+     misc_feature    complement(2395..2397)
+                     /gene="HSPA1A"
+                     /gene_synonym="HEL-S-103; HSP70; HSP70-1; HSP70-1A;
+                     HSP70-2; HSP70.1; HSP70.2; HSP70I; HSP72; HSPA1"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:20068231; propagated from
+                     UniProtKB/Swiss-Prot (P0DMV8.1); phosphorylation site"
+     gene            4776..10440
+                     /gene="HSPA1L"
+                     /gene_synonym="HSP70-1L; HSP70-HOM; HSP70T; hum70t"
+                     /note="heat shock protein family A (Hsp70) member 1 like"
+                     /db_xref="GeneID:3305"
+                     /db_xref="HGNC:HGNC:5234"
+                     /db_xref="MIM:140559"
+     mRNA            join(4776..5170,8074..10440)
+                     /gene="HSPA1L"
+                     /gene_synonym="HSP70-1L; HSP70-HOM; HSP70T; hum70t"
+                     /product="heat shock protein family A (Hsp70) member 1
+                     like"
+                     /transcript_id="NM_005527.4"
+                     /db_xref="GeneID:3305"
+                     /db_xref="HGNC:HGNC:5234"
+                     /db_xref="MIM:140559"
+     exon            4776..5170
+                     /gene="HSPA1L"
+                     /gene_synonym="HSP70-1L; HSP70-HOM; HSP70T; hum70t"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=1
+     exon            8074..10440
+                     /gene="HSPA1L"
+                     /gene_synonym="HSP70-1L; HSP70-HOM; HSP70T; hum70t"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=2
+     CDS             8087..10012
+                     /gene="HSPA1L"
+                     /gene_synonym="HSP70-1L; HSP70-HOM; HSP70T; hum70t"
+                     /note="heat shock 70kD protein-like 1; heat shock 10kDa
+                     protein 1-like; epididymis secretory sperm binding
+                     protein; heat shock 70 kDa protein 1L; heat shock 70 kDa
+                     protein 1-Hom; heat shock 70kDa protein 1-like; heat shock
+                     protein family A member 1L"
+                     /codon_start=1
+                     /product="heat shock 70 kDa protein 1-like"
+                     /protein_id="NP_005518.3"
+                     /db_xref="CCDS:CCDS34413.1"
+                     /db_xref="GeneID:3305"
+                     /db_xref="HGNC:HGNC:5234"
+                     /db_xref="MIM:140559"
+                     /translation="MATAKGIAIGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYV
+                     AFTDTERLIGDAAKNQVAMNPQNTVFDAKRLIGRKFNDPVVQADMKLWPFQVINEGGK
+                     PKVLVSYKGENKAFYPEEISSMVLTKLKETAEAFLGHPVTNAVITVPAYFNDSQRQAT
+                     KDAGVIAGLNVLRIINEPTAAAIAYGLDKGGQGERHVLIFDLGGGTFDVSILTIDDGI
+                     FEVKATAGDTHLGGEDFDNRLVSHFVEEFKRKHKKDISQNKRAVRRLRTACERAKRTL
+                     SSSTQANLEIDSLYEGIDFYTSITRARFEELCADLFRGTLEPVEKALRDAKMDKAKIH
+                     DIVLVGGSTRIPKVQRLLQDYFNGRDLNKSINPDEAVAYGAAVQAAILMGDKSEKVQD
+                     LLLLDVAPLSLGLETAGGVMTALIKRNSTIPTKQTQIFTTYSDNQPGVLIQVYEGERA
+                     MTKDNNLLGRFDLTGIPPAPRGVPQIEVTFDIDANGILNVTATDKSTGKVNKITITND
+                     KGRLSKEEIERMVLDAEKYKAEDEVQREKIAAKNALESYAFNMKSVVSDEGLKGKISE
+                     SDKNKILDKCNELLSWLEVNQLAEKDEFDHKRKELEQMCNPIITKLYQGGCTGPACGT
+                     GYVPGRPATGPTIEEVD"
+     misc_feature    8093..9250
+                     /gene="HSPA1L"
+                     /gene_synonym="HSP70-1L; HSP70-HOM; HSP70T; hum70t"
+                     /note="propagated from UniProtKB/Swiss-Prot (P34931.2);
+                     Region: Nucleotide-binding domain (NBD).
+                     /evidence=ECO:0000250|UniProtKB:P11142"
+     misc_feature    9272..9619
+                     /gene="HSPA1L"
+                     /gene_synonym="HSP70-1L; HSP70-HOM; HSP70T; hum70t"
+                     /note="propagated from UniProtKB/Swiss-Prot (P34931.2);
+                     Region: Substrate-binding domain (SBD).
+                     /evidence=ECO:0000250|UniProtKB:P11142"
+ORIGIN      
+        1 tttacattgt ggccagagtc cacagtacta cagtttaact accataagag ataaatgttc
+       61 ctctgtagac tggcctggaa acctaagcat ttcatattta ttttctattt tcaaacttcc
+      121 aaagcaaggt ctacctttat gtatcatttc ccataacact ggattttctt cattaacaag
+      181 tatttagtga atggtttgat gggctttgag gtacacataa gctcataaag tgctttaatg
+      241 taatattgat acaattgatt tttttttctt tttttttttt ttagagacag ggtctcactc
+      301 tgttgctcag gctggagtgc agtggtacag tcatggctca ctgcagcctt gacctttaca
+      361 atgttatgca accgtcaact ctggttccaa aacattttca tcgcccttag atactattta
+      421 tttatttatt cactgagaca gaatttcact cattgttcag gctggagtgc aatggcacga
+      481 tcttggctca ctgcaacatc cacctcctgg gttcaaccga ttcttctgcc tcagcctccc
+      541 aagttgctgg gattataggt gcccgccacc acgcccagct aattttttgt atttttagta
+      601 gagatggggt ttcaccctgt tggccaggct ggtcttgaac tcctgacctc aggtgatcca
+      661 cccacctcgg cctcccaaag tgctgggatt acaggcatga gccactgcgc ctggccgaca
+      721 caatttttat tttttgagat ggagtctcgc tctgtcacct aggctggagt gcagtggcgc
+      781 aatctcggct cactgaaacc tctgcctttg agttcaaacg attcgcctgc ctcagcctcc
+      841 cgaatagctg ggattacagg cgcacaccat cgcgcctggc tgatttttgt acttttagtg
+      901 caggaggtgg gtggtggggg gggtcctcac catgttggcc aggctggtct cgaactcctg
+      961 acctcaggtg atccgcctgc ctcagcctcc caaagtgctg ggattacagg catgagccag
+     1021 cacgcccggc cagatacaat tcatttttaa aagggctcac tccgggagct ttaaggattg
+     1081 tagtgggcgt tttccaagga ggagggaatt acttctagga tgctagcggc tggggcatga
+     1141 agcatctcca agggaaagtg catgggagtg aagtctgtag gtcttcctgg cccgggtgct
+     1201 cactggcgta cttaaattgt aggtgataac tgctaagaat gtgacatttc tatttcagta
+     1261 tgctttcagt catgagagag gcatcgagcc aaacccttcc attttaaaag atgacaacta
+     1321 aagcacatgt gtataactca gcaagccagt gaatgtaccc gttttttcac tttgaaattt
+     1381 aggacactcc ttccattcca tgttgaatct agattaagta tcaagtccat gagcatatca
+     1441 ggtgtaccta caggaggtag gagcgctggc ctcccatcta actgcattct ttttgaccac
+     1501 ttttgcagaa acatccccgc ccccctccca cctcttttga gaccaatctt acacaaacat
+     1561 cactttaagg ctaccctccc aggtgttaaa ctttttctgt accctcaggc taaacccaat
+     1621 cagcatcaac aaactttact tttttgtgtg tgtgtgtgag acggagtctt gctgtgatgc
+     1681 ccaggctaga gtgcaatggc gtgatctcgg ctcactgcta ccactgcttc ctgggttcac
+     1741 acgattctcc tgcctcagcc tccctgggac tacaggcacg caccaccacg cccagctaat
+     1801 ttttgtgttt ttagtagaga cagggtttca ccacattggc caggttggtc tggaactcct
+     1861 gacctcaagt gatccgccca cctcagcctc ccaaagtgct gggattacag gcttgagcca
+     1921 ccactcctgg ccagaatcaa gaagctttac tggaggatac catttgtcta acacaaatgg
+     1981 atcacattac aatagtcaca cctctgcaaa atctgccctt actggaagca aaaatgccat
+     2041 tccattttag acgctatggg aaaaacaacc tatgcagacc ctactgaccc ccaaataaag
+     2101 gaataaaagg catcacttga attttaaagt ttatttactt tgaagtaacc aacttaaaaa
+     2161 atggcctgag ttaagtgtat taaaaagaag aaatagtcgt aagatggcag tataaattca
+     2221 tctctgcatg tagaaaccgg aaaaaaagca agttcagtac ttcaccaaaa aatttcaaca
+     2281 ttgcaaacac aggaaattga gaactgacaa acagaaatac taggaaatgc aaagtcttga
+     2341 agctccaaaa caaaaacagc aatcttggaa aggcccctaa tctacctcct caatggtggg
+     2401 gcctgaccca gaccctccct tgggaccctg agccccgaag cccccaggcc cgggaccacc
+     2461 ggcaccctgg tacagtccgc tgatgatggg gttacacacc tgctccagct ccttcctctt
+     2521 gtgctcaaac tcgtccttct cggccaaggt gttggcgtcc agccacgaga tgacctcttg
+     2581 acacttgtcc agcaccttct tcttgtccgc ctcgctgatc ttgcccttga gcccctcatc
+     2641 ctccacggcg ctcttcatgt tgaaggcgta ggactccagg gcgttcttgg ctgacaccct
+     2701 ctcgcgctgc acctcgtcct ccgctttgta cttctccgcc tcctgcacca tgcgctcgat
+     2761 ctcctccttg ctcaggcggc ccttgtcgtt ggtgatggtg atcttgttgg ccttgccggt
+     2821 gctcttgtcc gtggccgtga cgttcaggat gccgttggca tcgatgtcga aggtcacctc
+     2881 gatctggggc acgcccctgg gggccggagg gatgccgctc agctcgaagc gccccaacag
+     2941 attgttgtct ttcgtcatgg ccctctcgcc ctcgtacacc tggatcagca ccccgggttg
+     3001 gttgtcggag taggtggtga agatctgcgt ctgcttggtg gggatggtgg agttgcgctt
+     3061 gatcagggca gtcatcacgc ctccggccgt ctccagcccc agcgacaggg gagccacgtc
+     3121 cagcagcagc aggtcctgca cgttctcgga cttgtccccc atcaggatgg ccgcctgcac
+     3181 cgccgccccg taggccacag cctcgtcggg gttgatgctc ttgttcaggt cgcgcccgtt
+     3241 gaagaagtcc tgcagcagct tctgcacctt ggggatgcgg gtggagcccc cgaccaggac
+     3301 caggtcgtga atctgggcct tgtccagctt ggcgtcgcgc agagccttct ccacgggctc
+     3361 cagggtgctt cggaacaggt cggagcacag ctcctcgaac ctcgccctgg tgatggacgt
+     3421 gtagaagtcg atgccctcaa acagggagtc gatctccagg ctggcctggg tgctggacga
+     3481 cagggtcctc ttggccctct cgcaggcggt gcgcagccgc ctcacggctc gcttgttctg
+     3541 gctgatgtcc ttcttgtgtt ttctcttgaa ctcctccacg aagtggttca ccagcctgtt
+     3601 gtcaaagtcc tccccaccca ggtgggtgtc cccggccgtg gccttcacct cgaagatgcc
+     3661 gtcgtcgatc gtcaggatgg acacgtcgaa ggtgcccccg cccaggtcaa agatgagcac
+     3721 gttgcgctcc cccttgcccg ttctgtccag gccgtaggcg atggcggcgg ccgtgggctc
+     3781 gttgatgatc cgcagcacgt tgagccccgc gatcacaccc gcatccttgg tggcctggcg
+     3841 ctgcgagtcg ttgaagtagg ccggcacggt gatcaccgcg ttggtcaccg ggtagcccag
+     3901 gtacgcctcg gcgatctcct tcatcttggt cagcaccatg gacgagatct cctcggggta
+     3961 gaatgccttg gtctccccct tgtagctcac ctgcaccttg ggcttgtctc cgtcgttgat
+     4021 cacctggaaa ggccagtgct tcatgtccga ctgcaccacc gggtcgccga acttgcggcc
+     4081 aatcagccgc ttcgcgtcaa acacggtgtt ctgcgggttc agcgccacct ggttcttggc
+     4141 cgcatccccg atgagccgct cggtgtccgt gaaggccacg tagctggggg tggtgcggtt
+     4201 gccctggtcg ttggcgatga tctccacctt gccgtgttgg aacaccccca cgcaggagta
+     4261 ggtggtgccc aggtcgatgc cgatcgccgc ggctttggcc atgccggttc cctgctctct
+     4321 gtcggctccg ctctgagatt gggggctgga aacggaacac tggatccgcg agaagagctc
+     4381 ggtccttccg gacgccggaa actcgacgcg ccggtgcctg cagccgcaca ggttcgctct
+     4441 gggaagcctt gggacaacgg gagtcactct cgaaaaaggt agtggactgt cgcagcagct
+     4501 cctcaggcta gccgttatcc ggaccgcttg cccctgggct tttataagtc gtcacggaga
+     4561 cccgcctttt cccttctgag ccaatcaccg agctcgatga ggctgccagg tcgggaatat
+     4621 tccagggttt tcgcctcccg tcctgccccc cagccttcct tggaccaatc agaggccaga
+     4681 gtgccgcccc ctgctcagaa ctctccagag tcttctggga ttcactggag gggacaggga
+     4741 ccctgagagg aagggggagt ggcggtggga agggtgttgg tctccatggc gatgctgacc
+     4801 gcctgcgctt cagcgcctaa ttgacaggaa gggtcggcgc tgggctttta attgtggggg
+     4861 cttgctgggc ctgcgcagtt gtgggcaggg ggctggtgcg gggagcgggt tacgcgcgtc
+     4921 caggggaggg tgggggcgtt tgtgttgaca ccgcccggcc acgttacaat ggagatactg
+     4981 tctctgacct catgggccag tttggaaaaa gattactgag ttggagccgt ctcaaatttg
+     5041 cagggaggga cggggtgggg ggtgggggga ccccggttgt gcagtttgat attgagggag
+     5101 cccccaccta ctcgctgggg ctgcgtaatc tggacgtttc caaactgaag cgaaggcgtc
+     5161 gggagactag gtgagccagt agggatctga ttgattgtga acctgaaagg ctcagtaggt
+     5221 ccttgtttgg gaaagtactg gaaagttccc tagttggttt aagcctgagg tatgtgggcg
+     5281 ttggctgatc cgggtaggag gagcacttgg ggaaagctaa gatggcttca gattgattgg
+     5341 tcggagcagc cagaatgggg gaggcggggg aagggagtgc ggcctgtcgg ggaaatgggg
+     5401 aggcggggaa ggcggggtaa gggggaggcg gggtaactgg gaagcggggg aaagggagtg
+     5461 cggcctagga atctgcggtg tggagaggga tagacactaa accctttatt ttatttttat
+     5521 ttatttattt ttaatttttt tttttttttt gagacggagt ctcgctctgt cgcccagggt
+     5581 ggagtgcagt ggcacgatct tggctcactg caagctctgc ctcccgagtt caggccattc
+     5641 tcctgcctca gccttccgag tagcagggac tgcaggcgcc cgccaccgcg cccggctaat
+     5701 tgctccacct cccgggttca agctattctc ctgcctcagc catccgagta gctggaacta
+     5761 ctggcgcccg ccaccacgcc cagctaattt tttctatttt ttagtagaga cgaggtttca
+     5821 ccgtgttagc caggatggta gccaggatgg tctcgttctc ctgaccccgt gatccgcccg
+     5881 cctcggcctc tcaaagtgct gggattacag gcgtgagcca ccgccccccg cccttaaacc
+     5941 ctttattgat cagttattgg ctccagaaaa caggagtttt atttaggaga aggatacaga
+     6001 tactgtctgg agtgccatgt cgtttgagaa aactggaagg cttgtggttt tctagcagtc
+     6061 atcttcagcc tgactggaat ttactgccgg tgaaccccta atagagaata ttatcccagg
+     6121 aaggcagcag aactcaagtg tggaggctga tgtctcttga agagaccaga atgtacacta
+     6181 ctcttgggtc ataaagagac agaatcccac agtaaaatat ataggaacag gacagtagaa
+     6241 ttaggtcact tgggaaattg aaaacaatat acagctactt gcttcccaac ttctttgagt
+     6301 agctgagaat acttttgtct accctgtcca aaaagcagtc tgccatgaca gtagcgtctc
+     6361 catgtatttg tataggcttg ctcatagcaa cattattctg taaattctgt aatctgtatc
+     6421 catcgagaga tagataagca aaatgtatat aggccgggtg cggtggtggc tcatgcctgc
+     6481 catcccagaa cttagggaga ccgaggcggg cggatcactt aaggttagga gtttgagacc
+     6541 atcctggtca acatggtgaa actctgtttt tactaaaaat acaaaaatta tctgggcgtg
+     6601 gcagtgcacg cctgtagtcc cagctcctcg ggaggctgag gctggagaat tagcttgaac
+     6661 ccaggaggtg gaggttgcag tgagccaaga tcatgccact gcactccagc ctgggtaaca
+     6721 gagtgagact ctgtctcaaa acaaaatcaa aaacagtggt atataaatat gaatattact
+     6781 cagccttagg aaggaaattg tgacatgtta caacatggat gaaacctgtg cacataagct
+     6841 aagtgacata agcaaagtca caaaaggata aatactgtat aattccactt atatgaagtt
+     6901 acaagagtag tcaaattcat agagatagaa aaaagaggtc gggcgccttg gctcaagcct
+     6961 ataatcctaa cacttggtga cttggaggtg ggaggaggtt tccttgagct caggagtgag
+     7021 aaactagctt gggcaacagg gagacctggt ctctacaaaa aaataaaaaa ttagctgggt
+     7081 gtggtggcat tcacctgtgg tccaagctac ttgggaggct gagacaaaag gatcctatga
+     7141 gcctgggagg tcaagactgc agtgagccat gattacacca ctgcagtgca gcctgcgtga
+     7201 caaaacgaga ccctgtctct aaaaaatgag aaaaaaaaat ggttgttacc aggcgataaa
+     7261 gggaggggaa aacgggagtt acttaatgag tatacagttt cagttttgcg agatgaacag
+     7321 aattctggaa attggttgaa caccgctgtg attgaactca ctaccaaact ctacacttaa
+     7381 aaatggttaa gatggtacaa tttgtatgta ttttaccaca ataaaaaata aaaaataggc
+     7441 tgggcgagat gttcactcct gtaatcccag tacttgggga ggctggggct gaaggatcgt
+     7501 ttgagccctg aaggagtttg agaccagcct gagcaacata aggagacccc atctgtacac
+     7561 aaaattaaaa cattagccag gcagagagct ggtcacggtg gctcacgtat gtaatcccag
+     7621 cactttggga ggccgaggcg ggcggatcac ctgaggtcag gagtttgaga ccagcctggc
+     7681 caacatagtg aaaccgtgaa accccatctc tactaaaaat acaaaaatta gctgggcgtg
+     7741 gtggtgccct cataatccca gccactcggg aggctgagac aggagaatcg cttgaactca
+     7801 ggaggtggag gttgcagtga gcctagatca caccactgca gtccaaagca agactccgtc
+     7861 tcaaaaaaaa aaaaaattag ccgggcatgt tgtctccagt tattctggag gctaaggcag
+     7921 gaagattgct ggagcctagg agatcaaagc tgcagtgagc tatgactgcg cctctgcact
+     7981 ccaacctggg tgacagagga agaccctgtc tcaaaaaaat aaataacatt gaaaagcact
+     8041 ctcccaaaac agtatcttat tctttctcca taggcctcag agaaccatgg ctactgccaa
+     8101 gggaatcgcc ataggcatcg acctgggcac cacctactcc tgtgtggggg tgttccagca
+     8161 cggcaaggtg gagatcatcg ccaacgacca gggcaaccgc accaccccca gctacgtggc
+     8221 cttcacagac accgagcggc tcattgggga tgcggccaag aaccaggtag caatgaatcc
+     8281 ccagaacact gtttttgatg ctaaacgtct gatcggcagg aaatttaatg atcctgttgt
+     8341 acaagcagat atgaaacttt ggccttttca agtgattaat gaaggaggca agcccaaagt
+     8401 ccttgtgtcc tacaaagggg agaataaagc tttctaccct gaggaaatct cttcgatggt
+     8461 attgactaag ttgaaggaga ctgctgaggc ctttttgggc caccctgtca ccaatgcagt
+     8521 gattaccgtg ccagcctatt tcaatgactc tcaacgtcag gctactaagg atgcaggtgt
+     8581 gattgctgga cttaatgtgc taagaatcat caatgagccc acggctgctg ccattgccta
+     8641 tggtttagat aaaggaggtc aaggagaacg acatgtcctg atttttgatc tgggtggagg
+     8701 cacatttgat gtgtcaattc tgaccataga tgatgggatt tttgaggtaa aggccactgc
+     8761 tggggacact cacctgggtg gggaggactt tgacaacagg cttgtgagcc acttcgtgga
+     8821 ggagttcaag aggaaacaca aaaaggacat cagccagaac aagcgagccg tgaggcggct
+     8881 gcgcaccgcc tgcgagaggg ccaagaggac cctgtcgtcc agcacccagg ccaacctaga
+     8941 aattgattca ctttatgaag gcattgactt ctatacatcc atcaccagag ctcgatttga
+     9001 agagttgtgt gcagacctgt ttaggggtac cctggagcct gtagaaaaag cgcttcggga
+     9061 tgccaagatg gataaggcta aaatccatga cattgtttta gtagggggct ccacccgcat
+     9121 ccccaaggtg cagcggctgc ttcaggacta cttcaatgga cgtgatctca acaagagcat
+     9181 caaccctgat gaggccgtag catatggggc tgcggtacaa gcagccatcc tgatggggga
+     9241 caagtctgag aaggtacagg acctgctgct gctggacgtg gctcccctgt ccctggggct
+     9301 ggagacggct gggggcgtga tgactgccct gataaagcgc aactccacca tccccaccaa
+     9361 gcagacacag attttcacca cctactctga caaccaaccc ggggtgctga tccaggtgta
+     9421 tgagggcgag agggccatga caaaggacaa caacctgctg gggcggtttg acctgactgg
+     9481 aatccctcca gcacccaggg gagttcctca gatcgaggtg acgtttgaca ttgatgccaa
+     9541 tggtattctc aatgtcacag ccacggacaa gagcaccggc aaggtgaaca agatcaccat
+     9601 caccaatgac aagggccgcc tgagcaagga ggagattgag cgcatggttc tggatgctga
+     9661 gaaatataaa gctgaagatg aggtccagag ggagaaaatt gctgcaaaga atgccttaga
+     9721 atcctatgct tttaacatga agagtgttgt gagtgatgaa ggtttgaagg gcaagattag
+     9781 tgagtctgat aaaaataaaa tattggataa atgcaacgag ctcctttcgt ggctggaggt
+     9841 caatcaactg gcagagaaag atgagtttga tcataagaga aaggaattgg agcagatgtg
+     9901 taaccctatc atcacaaaac tctaccaagg aggatgcact gggcctgcct gcggaacagg
+     9961 gtatgtgcct ggaaggcctg ccacaggccc cacaattgaa gaagtagatt aattcttttt
+    10021 agaactgaag catcctagga tgcctctaca tgtatttcat tcccctcatc ttcaaacatc
+    10081 attattattc ttgaccagac ctgaatctaa gttaccatcc cttggaaatt ctggagaagg
+    10141 agtctcatgc accacctatc acactccctc acatcctgtt tctgactttg gaatggactc
+    10201 aggaaaacta ggcccctctt taaaccgtgt gatgtatttg aatgtctgtt atttccagcc
+    10261 accctaacat tcttcttcct gtgtggatgc ttatttgtca atcagtaaat ttgttcgtaa
+    10321 agaaaattac ttctggtatt taggctgtga atgtaccttg aaggggagag ttcatggaga
+    10381 gagcatgtgt tctctgattg tgaggtcact gtgaatgatt aaattggtaa gggtaaagta
+    10441 tttgaatttt catgaactca ttttgtgtgt gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt
+    10501 gttttgagag acagtctcgc cctgtcaccc aggctggagt gcagtggcac aatctcagct
+    10561 tactgcaagc tctgcctcct gggttcacgc cattctcctg cctcagcctc ccgagtagct
+    10621 gggactgcag gtgcccccca ccatgcccgg ctaatttttt gtattgtttt agtagagacg
+    10681 gggtttcact gtgttagcca ggatggtctc gatctcctga cctcgtgatc cgcccgcctc
+    10741 ggcctcccaa agtgctggga ttacaggcgt gagccaccgt gcccggccca tgaactcatt
+    10801 gtttcaatca gccacataat ttttgatcct cagacacctt tagcacagat ggaacagatg
+    10861 gcaaactata actgctttta atcagttaca agctggtttt ggagtttagg actcaactgg
+    10921 gggtggaggg acaaatcctg cttgatgtcc tgatgtcact tataggtaag gtccaggaga
+    10981 ttcagcatct atgcactcac agagttcatt gtttacatcc attacatgga gaaaatattt
+    11041 cttttctttt tttttttttt tggaaacagt ttcgctcttg tcgcccaagc tggagtgcaa
+    11101 tggcacgatc tcggctcact gcaaactttg cctcccagat tcaagcgatt ctcctgcctc
+    11161 agcctcatga gtagctggga ttacaggcgc tcaccaccat gcccggctaa tgtttgtgtt
+    11221 tttagtagag acgggatttc accatgttga ccaggctgtt ctgaactcct gacctcaggt
+    11281 gatccaccca cctcagcctc ccaaagtgct ggaattatag gcgtgagcca ccgtgcccag
+    11341 ccccagaaaa tatttctata acaaactctt gacaaataag tatgtctatg caagatgaca
+    11401 aatacaagtt ttatgaagtc tcagtccatg aaaaaatatt tttaccagct gggcacagtg
+    11461 gctcacgcct gtaatcccag cactttggga ggccgaggcg ggcggatcat gaggtcaaga
+    11521 gattgagacc atcctgccca acatggtgaa accccgtctc tactaaaaat acaaaaatta
+    11581 gctgaggacg gtgatgcgtg cctgtagtcc cagctactca ggagggtgag gcagaggaat
+    11641 cgcttgaacc cgggacgtgg aggttgcagt gagctgagat cgtggcacca cactccagcc
+    11701 tggtgataga gcgagactcc atctcaaaaa catttttttc ttttacctgt gtcctaatac
+    11761 atatttataa aaacctgggg gatatgagtt agaataatat gtaactgcat ttctgtctgt
+    11821 ttgtgtttga aacatttaac agtgaaatgt tagactgggt tatttgtatc tgtgagccac
+    11881 agtctcttta gttttacaca gtcctttaca ggacagtctt ggcaaaagtg tgtaagaaat
+    11941 gcggagattg aggttggctc ctttggagaa atgtatttat tggtaacctt tgataaaatc
+    12001 aaaatttgtg ctccagctcc tccttatctc tgggactgct caacgttgtt tgtttataat
+    12061 tttctttttt ctagagagag tctcgctctg tcacccaggc tggaatgcag tggggagatt
+    12121 gtagctcact gtaactcttg ggttcaaatg atcctcctgc ctcagcctcc ccaaatgctg
+    12181 ggatttacag gcctcaacat tttttgtttt ttgggatgga gttttgctct tgttgcccag
+    12241 gctggagtgc aatggcaaga tctccactca ctgcaaccta tgcctcctgg atttacaggc
+    12301 gcgtgccacc acacccggct aatttttggg tttttagtag agacagaatt tcgccatgtt
+    12361 gaccaggctg gtctcgaact cctgacctca ggcgatccac ttgccttggc cgcccaaagt
+    12421 gctgggatta caggtgtgag
+//
+
