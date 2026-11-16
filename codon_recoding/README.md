@@ -4,19 +4,19 @@ These scripts reproduce the 20-gene pilot presented in November 2026. They are s
 
 ## Inputs
 
-Place these three files together in an input directory:
+The three pilot input files are in this directory:
 
 - `new20_cds.fasta`: nucleotide coding sequences, with IDs matching the protein FASTA.
 - `new20_protein.fasta`: translated protein sequences, same IDs.
 - `foldx_20_ddg.csv`: columns `gene,mutation,ddg`; `mutation` is an amino-acid change such as `A12V`, using one-based residue positions. Include every position-specific amino-acid substitution reachable by one nucleotide change from **any** synonymous codon. FoldX scores were computed separately and are not recalculated by these scripts.
 
-The pilot input files and FoldX predictions are not included in this repository. Both scripts require Python with `numpy`, `biopython`, and `matplotlib` (the first script does not use matplotlib).
+The CDS and protein FASTA files were selected from the earlier 40-protein AlphaFold3 batch, originally recorded in `genes_info_seq.csv.gz`. Each FASTA header includes the Ensembl gene ID and transcript ID. The FoldX table contains 81,175 position-specific substitutions for these 20 proteins, calculated with FoldX 5.1 from sequence-validated AlphaFold3 structures. Both scripts require Python with `numpy`, `biopython`, and `matplotlib` (the first script does not use matplotlib).
 
 ## Run
 
 ```bash
-python3 codon_recoding/run_recoding_pilot.py --recodings 1000 --mutations 5000 --input-dir /path/to/inputs --output-dir /path/to/results
-python3 codon_recoding/score_recoding_weighted_exact.py --input-dir /path/to/inputs --data-dir /path/to/results
+python3 codon_recoding/run_recoding_pilot.py --recodings 1000 --mutations 5000 --input-dir codon_recoding --output-dir /path/to/results
+python3 codon_recoding/score_recoding_weighted_exact.py --input-dir codon_recoding --data-dir /path/to/results
 ```
 
 The first script samples 5,000 nucleotide changes per sequence, using the same nucleotide positions and alternative-base ranks across the natural sequence and 1,000 recodings. The alternative base and resulting amino-acid change can differ because the codons can differ. Each actual amino-acid substitution is looked up in the precomputed FoldX table. The first output is a Monte Carlo pilot; its per-gene choices and draws are saved in NPZ files.
