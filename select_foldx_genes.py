@@ -13,6 +13,9 @@ Steps
 4. Within each bin, take single-polypeptide entries first (homo-oligomers count
    as single), then fill with multi-chain entries, up to PER_BIN genes.
 5. Always add the existing genes (our 10 + Jiarui's list, if present).
+6. Split the sampled genes into FoldX halves A and B (column foldx_half):
+   half of each expression bin each, balanced by total protein length.
+   Existing genes already have FoldX tables and get no half.
 
 Outputs
   data/foldx_gene_selection.csv   one row per selected gene, with the reason
@@ -178,9 +181,26 @@ def main():
         b = bin_of(g["median_tpm"]) if g["median_tpm"] is not None else ""
         selected.append((g, h, n, b, reason))
 
+    # Split the sampled genes into FoldX halves A and B. Within each expression
+    # bin, go from longest to shortest protein and give each gene to the half
+    # with fewer residues so far (each half gets PER_BIN // 2 per bin).
+    # Existing genes already have FoldX tables, so they get no half.
+    half = {}
+    for b in ("low", "mid", "high"):
+        genes = sorted((g for g, _, _, gb, r in selected if r == "sampled" and gb == b),
+                       key=lambda g: (-g["aa_length"], g["uniprotswissprot"]))
+        res, cnt = {"A": 0, "B": 0}, {"A": 0, "B": 0}
+        for g in genes:
+            h = min("AB", key=lambda k: (cnt[k] >= PER_BIN // 2, res[k]))
+            half[g["uniprotswissprot"]] = h
+            res[h] += g["aa_length"]
+            cnt[h] += 1
+        print(f"{b}: half A {cnt['A']} genes / {res['A']} aa, half B {cnt['B']} genes / {res['B']} aa")
+
     fields = ["uniprot", "gene_label", "ensembl_gene_id", "ensembl_transcript_id",
               "aa_length", "median_tpm", "expr_bin", "pdb_id", "chain_id",
-              "method", "resolution", "coverage", "n_protein_entities", "reason"]
+              "method", "resolution", "coverage", "n_protein_entities", "reason",
+              "foldx_half"]
     with open(OUT, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
@@ -201,8 +221,20 @@ def main():
                 "coverage": h["coverage"] if h else "",
                 "n_protein_entities": n if n is not None else "",
                 "reason": reason,
+                "foldx_half": half.get(uid, ""),
             })
     print(f"wrote {len(selected)} genes to {OUT}")
+
+    with open(OUT, newline="") as f:
+        rows_out = list(csv.DictReader(f))
+    for h in "AB":
+        path = OUT.replace(".csv", "").replace("foldx_gene_selection", f"foldx_half_{h}") + ".csv"
+        part = [r for r in rows_out if r["foldx_half"] == h]
+        with open(path, "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=fields)
+            w.writeheader()
+            w.writerows(part)
+        print(f"wrote {len(part)} genes to {path}")
 
 
 if __name__ == "__main__":
